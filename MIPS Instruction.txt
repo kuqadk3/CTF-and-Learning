@@ -1,0 +1,29 @@
+You can use
+
+Rebuild C file : 
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+using namespace std;
+int main() {
+	printf("Password:");
+	int32_t str;
+	scanf("%1023s", &str);
+	int number = atoi((char*)&str);
+	if (atoi((char *)&str) == 0x2c2319) {
+		// 0x400970
+		printf("FLAG-ak3j3ka%s\n", &str);
+		// branch -> 0x4009c4
+	} else {
+		// 0x4009a4
+		puts("Wrong password");
+		// branch -> 0x4009c4
+	}
+	// 0x4009c4
+	return 0;
+}
+
+Put the debug at if statement (i am using visual studio 2010) and change int number value to 0x2c2319 -> we got 2892569
+re-run the program,submit 2892569 -> got the FLAG:
+FLAG-ak3j3ka2892569
