@@ -1,4 +1,4 @@
-You can use
+Vứt vô IDA,đọc code assembly,viết lại code C :v
 
 Rebuild C file : 
 #include <stdint.h>
