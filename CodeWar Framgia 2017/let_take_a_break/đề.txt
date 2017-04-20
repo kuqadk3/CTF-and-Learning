@@ -1,0 +1,10 @@
+Đề : 
+The flag has the format of CodeWar{AAAAAA_BBBBBBBB_CCCCC}, where:
+AAAAAA is the anagram of the name of a street in Hanoi. AAAAAA contains only letters.
+BBBBBBBB can be found here using the regular expression (3[@](.{8})[å][~]) where:
+@ is the cracked md5 hash 578F7ADED41B684CB09D33CA23A57AB1,
+å is the cracked whirlpool hash 0bb51f486a79de40bc1cb61b4dfb4c5af4a4f4f82c30cfeb465677468a05416f8a1a9a2e8a90534542f4d1fea26e1790bde241762f7d3c3e046e70c9ba330cb8,
+~ is the cracked SHA1 hash bbbd558a572a105c718e04894e9ffa8756ef8402.
+@, å and ~ are animals.
+CCCCC is the screenname of a Twitter user with ID 380710??.
+The SHA256 hash of the whole string AAAAAA_BBBBBBBB_CCCCC (all letters are in uppercase) is: 753053aeae0d1a3fe33bd2cb31a901069873b8c37127b0d3757dd3a90313b526.
