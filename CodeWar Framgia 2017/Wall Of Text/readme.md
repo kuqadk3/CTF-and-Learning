@@ -2,7 +2,7 @@
 
 ![alt tag](https://github.com/kuqadk3/CTF-and-Learning/blob/master/CodeWar%20Framgia%202017/Wall%20Of%20Text/wall.png)
 
-- Check it with http://fotoforensics.com - Let see what changes : 
+- Check it with http://fotoforensics.com - Let see what changes (the blue one) : 
 
 ![alt tag](https://github.com/kuqadk3/CTF-and-Learning/blob/master/CodeWar%20Framgia%202017/Wall%20Of%20Text/flag.png)
 
