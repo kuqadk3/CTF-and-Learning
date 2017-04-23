@@ -7,3 +7,5 @@
 - Just highlight the hex value, press "R" to change from hex -> char and got flag :
 
 ![alt tag](https://github.com/kuqadk3/CTF-and-Learning/blob/master/YUBITSEC%202017/Reverse%20Engineering/225%20-%20Reverse101/easy.PNG)
+
+Flag : YUBITSEC{USE_GDB_PEDA_SRSLY}
