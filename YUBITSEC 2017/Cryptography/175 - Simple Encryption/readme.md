@@ -8,13 +8,11 @@ It give us
  
  - So ,to reverse this , we need : encrypted number -> xor with 62 -> ascii number -> char . Because
  
-b=0011 (3)            a=0101 (5)
+a xor b = c 
 
-c=0110 (6) XOR   or   c=0110 (6) XOR
+a xor c = b
 
-----------            ----------
-
-a=0101 (5)            b=0011 (3)
+c xor b = a
 
 - You can just use their encrypt.py to decode or here i coded the decoder in c++ [Decoder C++](https://github.com/kuqadk3/CTF-and-Learning/blob/master/YUBITSEC%202017/Cryptography/175%20-%20Simple%20Encryption/decode.cpp)
 
