@@ -1,0 +1,51 @@
+import java.io.PrintStream;
+
+public class Wtf {
+  public Wtf() {}
+  
+  public static void main(String[] paramArrayOfString) { System.out.println("Tonight, as we mark the conclusion of our celebration of Black History Month, we are remindedof our Nation's path toward civil rights and the work that still remains. Recent threats targeting Jewish Community Centers and vandalism of Jewish cemeteries, as well as last week's shooting in Kansas City, remind us that while we may be a Nation divided on policies, we are a country that stands united in condemning hate and evil in all its forms.");
+    
+
+
+
+
+
+
+
+    String str = "0YUBITSEC{BUSH_DID_9_11}0";
+    if (str == "BUSH DID 9.11") {
+      flag();
+    }
+  }
+  
+  public static void flag()
+  {
+    String str1 = null;
+    int i = 3;
+    int j = 3;
+    String str2 = null;
+    j = 0 + j;
+    
+    if (j % 2 == 0) {
+      String str3 = str2 + "error";
+      String str4 = "Flag is not here actually...";
+      String str5 = "59554249545345437B5730575F4D5543485F50524F4752414D4D494E475F4A4156417D";
+    }
+    else {
+      int k = 59;
+      int m = 554;
+      int n = 249;
+      int i1 = 545;
+      int i2 = 345;
+      int i3 = 437;
+      
+      String str6 = "B77";
+      int i4 = 686;
+      String str7 = "F5F757";
+      
+      str1 = Integer.toString(k) + Integer.toString(m) + Integer.toString(n) + Integer.toString(i1) + Integer.toString(i2) + Integer.toString(i3) + str6 + Integer.toString(i4) + str7 + "365735F6A6176615F696E5F323031377D";
+    }
+    
+    System.out.println(str1);
+  }
+}
