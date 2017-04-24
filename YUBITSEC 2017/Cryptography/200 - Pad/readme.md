@@ -4,9 +4,11 @@
 
 - To decrypt it,we use this formula :
 
-[code]
+
+
 int formula = int(encrypted_message[i]) - int(start_char) + n x modular + 2 x int(start_char) - int(key[i])
-[/code]
+
+
 
 With i = 0 and n = 1, we have :
 
