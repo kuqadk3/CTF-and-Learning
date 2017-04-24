@@ -12,6 +12,6 @@ int formula = int(encrypted_message[i]) - int(start_char) + n x modular + 2 x in
 
 With i = 0 and n = 1, we have :
 
-int formula = 36 - 32 + 1 x 95 + 2 x 32 - 74 = 89 -> "S"
+int formula = 36 - 32 + 1 x 95 + 2 x 32 - 74 = 89 -> "Y"
 
 After decrypt it all, we got flag : YUBITSEC{going_through}
