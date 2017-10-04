@@ -22,7 +22,10 @@ cat
 
 - Sau một hồi google thì tìm ra cách dùng echo */* (thực ra toàn quen cat với ls, giờ mới biết cái này) -> hiển thị tất cả các file/folder :
 
-- Flag
 ![Alt tag](https://github.com/kuqadk3/CTF-and-Learning/blob/master/SQUARECTF/password-checker/flag.PNG)
+
+- Flag : cat /sbin/wipefs /secrets/flag /
+
+![Alt tag](https://github.com/kuqadk3/CTF-and-Learning/blob/master/SQUARECTF/password-checker/final.PNG)
 
 - flag-rytez-cesev-feheb-fures-dakyd
