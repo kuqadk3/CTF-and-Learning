@@ -20,11 +20,13 @@ cat
 
 ![Alt tag](https://github.com/kuqadk3/CTF-and-Learning/blob/master/SQUARECTF/password-checker/fake.PNG)
 
+-> Lúc này thực sự khá nản cơ mà lúc nhập cái flag này vào thì đưa tới link một bài hát [!Never Gonna Give You Up
+](https://www.youtube.com/watch?v=dQw4w9WgXcQ) =]] Nhạc khá hay nên vừa nghe vừa ngồi nghĩ tiếp
 - Sau một hồi google thì tìm ra cách dùng echo */* (thực ra toàn quen cat với ls, giờ mới biết cái này) -> hiển thị tất cả các file/folder :
 
 ![Alt tag](https://github.com/kuqadk3/CTF-and-Learning/blob/master/SQUARECTF/password-checker/flag.PNG)
 
-- Flag : cat /sbin/wipefs /secrets/flag /
+- Flag : cat /sbin/wipefs/secrets/flag /
 
 ![Alt tag](https://github.com/kuqadk3/CTF-and-Learning/blob/master/SQUARECTF/password-checker/final.PNG)
 
