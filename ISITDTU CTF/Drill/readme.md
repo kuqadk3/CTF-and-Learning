@@ -1,6 +1,6 @@
 # Creds : Dutchen18, TuanLinh, Ariana
 
-# 1. Fix the zip file :
+# 1. Fix the zip file : (Ubuntu 16.04)
 ![image](https://github.com/kuqadk3/CTF-and-Learning/blob/master/ISITDTU%20CTF/Drill/fix_zip.PNG)
 
 # 2. Extract and brute force password of all zip :
