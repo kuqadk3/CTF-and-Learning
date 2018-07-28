@@ -21,7 +21,7 @@ Inside the box.zip, there is flag.txt
 
 Key is inside key.png, the red dots in picture is morse code, i wrote python code to read it :
 
-![image](https://github.com/kuqadk3/CTF-and-Learning/blob/master/ISITDTU%20CTF/Drill/morse.png)
+![image](https://github.com/kuqadk3/CTF-and-Learning/blob/master/ISITDTU%20CTF/Drill/morse.PNG)
 
 Extract box.zip with decoded morse, we got final flags :
 
