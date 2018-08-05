@@ -7,7 +7,7 @@
 ![alt text](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/VNPT_Secathon_2018.jpg)
 
 # Summer (second year), internship at VNPT :
-![](https://github.com/kuqadk3/CTF-and-Learning/blob/master/vnpt.jpg)
+![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/vnpt.jpg)
 
 # Summer (second year), play with OpenToAll in ISIDTU CTF :
 
