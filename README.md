@@ -13,6 +13,8 @@
 
 ![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/ISITDTU%20CTF/isitdtu.jpg)
 
-Hope next year things gone well :) So exciting... :)
+Hope next year things gone well :) 
+
+So exciting... :)
 
 
