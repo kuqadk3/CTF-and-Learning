@@ -17,4 +17,5 @@ Hope next year things gone well :)
 
 So exciting... :)
 
+Currently i am interested in math, and things related to it like Cryptography, Data Science, Machine Learning, not sure how it will go but it's fun now so...
 
