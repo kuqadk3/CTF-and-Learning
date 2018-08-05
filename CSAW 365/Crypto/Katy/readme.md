@@ -26,5 +26,7 @@ It works! So our job is to find the seed that be used to generate 1364650861 :
 
 ![image](https://github.com/kuqadk3/CTF-and-Learning/blob/master/CSAW%20365/Crypto/Katy/flag.PNG)
 
+Submit and done !
 
+My script : [Solver.c](https://github.com/kuqadk3/CTF-and-Learning/blob/master/CSAW%20365/Crypto/Katy/solver.c)
 
