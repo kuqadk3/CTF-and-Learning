@@ -1,7 +1,7 @@
 # CTF-and-Learning
 
 # First Year at College :
-![](https://github.com/kuqadk3/CTF-and-Learning/blob/master/first%20year.jpg)
+![](https://github.com/kuqadk3/CTF-and-Learning/blob/master/first_year.jpg)
 
 # Second Year At College:
 ![alt text](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/VNPT_Secathon_2018.jpg)
