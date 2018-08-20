@@ -1,0 +1,60 @@
+using System;
+using System.Text;
+					
+public class Program
+{
+	public static int mod(int m, int e, int n)
+		{
+			int[] array = new int[100];
+			int num = 0;
+			do
+			{
+				array[num] = e % 2;
+				num++;
+				e /= 2;
+			}
+			while (e != 0);
+			int num2 = 1;
+			for (int i = num - 1; i >= 0; i--)
+			{
+				num2 = num2 * num2 % n;
+				bool flag = array[i] == 1;
+				if (flag)
+				{
+					num2 = num2 * m % n;
+				}
+			}
+			return num2;
+		}
+	public static string Enc(string s, int e, int n)
+		{
+			int[] array = new int[s.Length];
+			for (int i = 0; i < s.Length; i++)
+			{
+				array[i] = (int)s[i];
+			}
+			int[] array2 = new int[array.Length];
+			for (int i = 0; i < array.Length; i++)
+			{
+				array2[i] = mod(array[i], e, n);
+			}
+			string text = "";
+			for (int i = 0; i < array.Length; i++)
+			{
+				text += (char)array2[i];
+			}
+			return Convert.ToBase64String(Encoding.Unicode.GetBytes(text));
+		}
+	public static void Main()
+	{
+		string enc_flag = "iB6WcuCG3nq+fZkoGgneegMtA5SRRL9yH0vUeN56FgbikZFE1HhTM9R4tZPghhYGFgbUeHB4tEKRRNR4Ymu0OwljQwmRRNR4jWBweOKRRyCRRAljLGQ";
+		string alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!_{}";
+		for(int i = 0; i < alphabet.Length; i++){
+			Console.WriteLine(alphabet[i]);
+			string output = Enc("WhiteHat{N3x" + alphabet[i], 9157, 41117);
+			if(enc_flag.Contains(output))
+				Console.WriteLine("This => " + alphabet[i]);
+				Console.WriteLine(output);
+	}
+	}
+}
