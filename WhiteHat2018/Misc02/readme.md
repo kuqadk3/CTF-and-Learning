@@ -27,3 +27,5 @@ We found it at 11 A.M, 2 hours after contest open, i was submit the flag : WHITE
 I was asked the Organizer but they told me i was wrong :lol: , lost next 5 hours trying to figure out and they just tell me sorry, they are wrong lol
 
 Was tire and angry after that :)
+
+I know this write up is not good but i was not intended to write a write up about this, so just copy & paste what our team discuss in slack :)
