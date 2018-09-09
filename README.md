@@ -9,9 +9,12 @@
 # Summer (second year), internship at VNPT :
 ![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/vnpt.jpg)
 
-# Summer (second year), play with OpenToAll in ISIDTU CTF :
+# Summer (second year), play with OpenToAll in ISITDTU CTF :
 
 ![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/ISITDTU%20CTF/isitdtu.jpg)
+
+# Autumn (second year), play with OpenToAll in ISITDTU CTF Final :
+![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/41482271_553445888443961_4902107068418228224_n.jpg)
 
 Hope next year things gone well :) 
 
