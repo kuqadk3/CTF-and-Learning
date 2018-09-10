@@ -1,5 +1,3 @@
-# Credits : Ariana
-
 Archive
 
 stage1:Small mag, cuberoot
