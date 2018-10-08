@@ -1,5 +1,5 @@
 ## Set 1 :
-- [ ] Convert hex to base64
+- [x] Convert hex to base64
 - [ ] Fixed XOR
 - [ ] Single-byte XOR cipher
 - [ ] Detect single-character XOR
