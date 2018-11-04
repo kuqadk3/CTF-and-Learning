@@ -34,16 +34,22 @@
 ret_value = ((~(s[v679] + s[v1297 + 2] + s[v1297 + 1] + s[v1297]) & *(&v1300 + v1297) | ~*(&v1300 + v1297) & (s[v679] + s[v1297 + 2] + s[v1297 + 1] + s[v1297])) & 0xFEC351C9 | ~(~(s[v679] + s[v1297 + 2] + s[v1297 + 1] + s[v1297]) & *(&v1300 + v1297) | ~*(&v1300 + v1297) & (s[v679] + s[v1297 + 2] + s[v1297 + 1] + s[v1297])) & 0x13CAE36) ^ (ret_value & 0xFEC351C9 | ~ret_value & 0x13CAE36);
 
 - Tiếp tục trace v679, v1297, v1300 được write ở đâu, sau một lúc mình figure ra là :
+
 v1297 = 0
+
 v679 = v1297 + 3 = 3
+
 ret_value = 0
 ...
 
 - Tiếp tục tìm các biến cần, thay số vào và clean cái hàm này, bạn sẽ nhận ra : 
 
 argv[0] + argv[1] + argv[2] + argv[3] == hard_coded_num_arr[0]
+
 argv[1] + argv[2] + argv[3] + argv[4] == hard_coded_num_arr[1]
+
 argv[2] + argv[3] + argv[4] + argv[5] == hard_coded_num_arr[2]
+
 ...
 
 - Quá rõ ràng, tới đây chỉ cần z3 solve hệ phương trình 28 equations và 28 variables, trong đó đã biết "SVATTT2018{}" là flag format.
