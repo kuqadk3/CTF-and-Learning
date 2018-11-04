@@ -52,7 +52,7 @@ argv[2] + argv[3] + argv[4] + argv[5] == hard_coded_num_arr[2]
 
 ...
 
-- Quá rõ ràng, tới đây chỉ cần z3 solve hệ phương trình 28 equations và 28 variables, trong đó đã biết "SVATTT2018{}" là flag format.
+- Quá rõ ràng, tới đây chỉ cần z3 solve hệ phương trình 28 equations và 28 variables, trong đó đã biết "SVATTT2018{}" là flag format. Nhân tiện mình thực sự quá mệt mỏi và buồn nôn (nghĩa đen) khi phải RE file obfuscation 50k lines decompile code mà phải deal với cái của nợ bên dưới ảnh,...có lẽ bạn sẽ nhìn cái hiểu ra ngay nếu bạn từng bỏ thời gian ra thật sự đọc đống này trong thời gian thi như mình...
 
 ![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/SVATTT2018/giaolong/blank.png)
 
