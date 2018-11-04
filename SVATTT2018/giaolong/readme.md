@@ -56,4 +56,8 @@ argv[2] + argv[3] + argv[4] + argv[5] == hard_coded_num_arr[2]
 
 # Flag : SVATTT2018{0bfu5c4ti0n_m33t_VM}
 
+![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/SVATTT2018/giaolong/moment_1.png)
+
+![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/SVATTT2018/giaolong/moment_2.png)
+
 
