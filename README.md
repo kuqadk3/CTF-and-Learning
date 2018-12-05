@@ -1,23 +1,33 @@
-# Initial page
+CTF-and-Learning
+First Year at College :
+first year
 
-## Getting Super Powers
+Second Year At College:
+alt text
 
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
+Summer (second year), internship at VNPT :
 
 
+Summer (second year), play with OpenToAll in ISITDTU CTF :
+
+
+Autumn (second year), play with OpenToAll in ISITDTU CTF Final :
+
+
+Winter (third year), play with OpenToAll in Realworld CTF Quals :
+(I was choked since WhiteHat quals, if i can do just one more RE chall, i can get the flight tickets for our team to come to Hanoi, but…Thanksfully, this time we did good and #otagoasia dream come true.)
+
+
+
+Winter (third year), play with UET - Just Fucking Do It in SVATTT2018 Quals :
+
+
+My first scholarship :) One small step…
+
+
+Hope next year things gone well :)
+
+So exciting… :)
+
+Currently i am interested in math, and things related to it like Cryptography, Data Science, Machine Learning, not sure how it will go but it’s fun now so…
 
