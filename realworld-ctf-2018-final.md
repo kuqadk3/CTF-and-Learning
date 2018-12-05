@@ -44,3 +44,7 @@ Máy bay nội địa khá xịn, có cả sạc điện thoại, tuy nhiên ch�
 
 ![](.gitbook/assets/image%20%287%29.png)
 
+Do hành lý tới chậm, nên mình phải chờ gần 1 tiếng, nhân tiện cũng xin lỗi mấy bạn nữ ban tổ chức đã phải đợi mình. Mình có gặp đội CyKor lúc ở sân bay, họ cũng tới cùng lúc với mình,...tuy nhiên ban tổ chức lại xếp mình một xe riêng về khách sạn, không được ngồi cùng với họ...bỏ lỡ cơ hội làm quen với những người bạn mới.
+
+
+
