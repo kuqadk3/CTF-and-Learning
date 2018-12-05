@@ -1,10 +1,3 @@
----
-description: >-
-  Realworld CTF là một cuộc thi về an toàn thông tin nhỏ tại Trung Quốc do
-  Chaitin Tech tổ chức. Mình may mắn được tham dự...Và đây không phải là một bài
-  write up.
----
-
 # Realworld CTF 2018 - Final
 
 ## Lời cám ơn
