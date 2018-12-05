@@ -6,6 +6,8 @@ description: >-
 
 # Realworld CTF 2018 - Final
 
+## Lời cám ơn
+
 Lời đầu, mình xin được dành tặng những người đồng đội tuyệt vời đã cùng mình tham gia cuộc thi này. Cám ơn @auxy, @nearxxff, @drtychai, @fibonacci cũng như toàn thể thành viên @opentoall
 
 Lời tiếp theo, mình xin phép cám ơn ban tổ chức \(Chaitin tech\) đã tổ chức cuộc thi tuyệt vời này, cám ơn Baidu vì bữa tiệc tuyệt vời, nhờ đó mình gặp những người bạn mới.
@@ -67,4 +69,10 @@ Do một người trong nhóm không đi được vì bị trễ visa, và mình
 Khi mình tới thì ban tổ chức có tặng cho player một vài món quà nhỏ làm kỉ niệm, có cả áo \(mình sẽ post sau\) nhưng do mình tới muộn, không tham dự được event buổi sáng nên đồng đội đã cầm hộ\)
 
 ![](.gitbook/assets/image%20%281%29.png)
+
+Sau khi cất đồ đạc, mình và đồng đội có xuống Lobby Bar của hotel uống một chút và bàn chiến thuật cho ngày hôm sau. Nhưng bằng cách nào đó, chúng mình chỉ toàn nói về mấy bạn nữ trong ban tổ chức, rip...
+
+
+
+
 
