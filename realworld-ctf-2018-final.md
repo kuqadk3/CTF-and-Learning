@@ -26,11 +26,21 @@ Lên máy bay, các bạn tiếp viên cũng khá dễ thương, nhất là gi�
 
 Nhiều chữ quá, thêm vào vài tấm ảnh trên máy bay cho các bạn đọc đỡ ngán vậy :
 
-![C&#x1A1;m g&#xE0; rim thu&#x1ED1;c b&#x1EAF;c](.gitbook/assets/image%20%283%29.png)
+![C&#x1A1;m g&#xE0; rim thu&#x1ED1;c b&#x1EAF;c](.gitbook/assets/image.png)
 
-![B&#x1EA7;u tr&#x1EDD;i Guangzhou...b&#x1EE5;i qu&#xE1;](.gitbook/assets/image%20%285%29.png)
+![B&#x1EA7;u tr&#x1EDD;i Guangzhou...b&#x1EE5;i qu&#xE1;](.gitbook/assets/image%20%281%29.png)
 
 Thời gian transit của mình ở Guangzhou là hơn 2 tiếng, tuy nhiên do ở chỗ Nhập Cảnh đứng xếp hàng đã mất hơn 1 tiếng rồi nên khi mình chạy tới quầy ra sân bay thì chỉ còn đúng 20 phút là máy bay cất cánh \(phew\). Có lẽ do mình khá may mắn, đáng lý ra là sẽ bị chậm rồi, nhưng máy bay tới sớm 10 phút, thêm vào đó chú cảnh sát ở chỗ Nhập Cảnh cũng không hỏi gì mình, thấy đưa visa ra cứ lẩm bẩm cái gì rồi cho qua luôn, cũng chả hỏi một câu nào...lý do tới cũng không hỏi luôn. Mình thấy mấy người đằng trước, có cả người Việt bị hỏi khá kỹ và mất khoảng tầm 5-10 phút mới được qua. Vậy nên nếu bạn có transit thì mình khuyên nên chọn các chuyến transit từ ít nhất 3 tiếng trở lên để không bị lỡ chuyến bay.
 
 
+
+![X&#x1EBF;p h&#xE0;ng ra m&#xE1;y bay &#x1EDF; s&#xE2;n bay Guangzhou](.gitbook/assets/image%20%283%29.png)
+
+Trên máy bay...
+
+![](.gitbook/assets/image%20%288%29.png)
+
+Máy bay nội địa khá xịn, có cả sạc điện thoại, tuy nhiên chỉ sử dụng được khi máy bay chưa cất cánh
+
+![](.gitbook/assets/image%20%287%29.png)
 
