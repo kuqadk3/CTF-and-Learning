@@ -332,3 +332,11 @@ matesctf{Br1ng_m0r3_Curv3_Plz}
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+## Final Scoreboard
+
+![](.gitbook/assets/image%20%284%29.png)
+
+## Our Team
+
+![](.gitbook/assets/image%20%2820%29.png)
+
