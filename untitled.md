@@ -242,7 +242,7 @@ $$
 
 Where **c1**, **c2** are known
 
-From \[**Bézout's Identity**\]\([https://en.wikipedia.org/wiki/B%C3%A9zout%27s\_identity](https://en.wikipedia.org/wiki/Bézout's_identity)\) :
+From Bézout Identity :
 
 $$
 65537 * 32769 + 65539 * (-32768) = 1
