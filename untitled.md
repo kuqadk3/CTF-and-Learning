@@ -1,5 +1,5 @@
 ---
-description: I dont use IDA this round...
+description: 'I dont use IDA this round...and write up is cheap, read the code.'
 ---
 
 # Matesctf - 2018 - Round 2
