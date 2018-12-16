@@ -12,7 +12,6 @@ description: >-
 Rotate to find the flag:
 
 kc1{sm}htscaX3y4ttXc_nfe
-
 ```
 
 {% code-tabs %}
@@ -22,12 +21,12 @@ s = "kc1{sm}htscaX3y4ttXc_nfe"
 out = ""
 pos = 0
 for i in range(0, len(s)):
-	if i % 4 == 0 and i != 0:
-		p = 5
-	else:
-		p = 6
-	pos += p
-	out += s[pos%len(s)]
+    if i % 4 == 0 and i != 0:
+        p = 5
+    else:
+        p = 6
+    pos += p
+    out += s[pos%len(s)]
 print out
 ```
 {% endcode-tabs-item %}
@@ -53,29 +52,28 @@ import sys
 flag = ''
 
 def PoW():
-	r = random.getrandbits(1024)
-	p = gmpy2.next_prime(r)
-	print 'Give me a triple that a^2 + b^2 = c^2 mod p (a,b,c > 1)'
-	print 'which r < c < p, r =', r, 'and p =', p
-	try:
-		a,b,c = [int(i) for i in raw_input().split(' ')]
-		if a < 2 or b < 2 or c < r or a > p or b > p or c > p:
-			return False
-		if (a*a + b*b) % p == (c*c) % p:
-			return True
-		return False
-	except:
-		return False
+    r = random.getrandbits(1024)
+    p = gmpy2.next_prime(r)
+    print 'Give me a triple that a^2 + b^2 = c^2 mod p (a,b,c > 1)'
+    print 'which r < c < p, r =', r, 'and p =', p
+    try:
+        a,b,c = [int(i) for i in raw_input().split(' ')]
+        if a < 2 or b < 2 or c < r or a > p or b > p or c > p:
+            return False
+        if (a*a + b*b) % p == (c*c) % p:
+            return True
+        return False
+    except:
+        return False
 
 if __name__ == '__main__':
-	print 'We have a new proof of work system. Hope you can pass it'
-	if not PoW():
-		sys.exit(0)
-	'''
-		Do some thing in here
-	'''
-	print flag
-
+    print 'We have a new proof of work system. Hope you can pass it'
+    if not PoW():
+        sys.exit(0)
+    '''
+        Do some thing in here
+    '''
+    print flag
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -100,8 +98,6 @@ matesctf{w0w!_y0u_4r3_th3_tru3_m4st3r}
 Find the flag
 
 https://pastebin.com/pEH3xMmi
-
-
 ```
 
 Deobfuscate and beautify the js code, we have :
@@ -133,11 +129,11 @@ var res = ["28147733412126416143356431805908788848700221138704543049914240750210
 "4851890390156174270135015984067408628443606400167912403797688925806912120242318647460426393207026321666262379026053686013574664475317152408144154745390289512723808744249055757655231288588261603032037978960629407963317577071005529207550710551649520103710842971763164677843537776551079122571097576939749759108109841488895365934592210991209564188234383045302346014616009"];
 const BigNumber = require("bignumber.js")
 BigNumber.config({
-	POW_PRECISION: 0
+    POW_PRECISION: 0
 })
 const readline = require("readline").createInterface({
-	input: process.stdin,
-	output: process.stdout
+    input: process.stdin,
+    output: process.stdout
 })
 readline.question('What is the flag?', c => {
     for (var d = 0; d < c.length; d = d + 2) {
@@ -176,8 +172,6 @@ matesctf{OMG_I'm_s0_t1r3d_0f_m4k1ng_l0ng_fl4g}
 telnet 35.247.166.229 1337
 
 https://drive.google.com/file/d/1pQQTrpqqDPzYXEOQFAkYACSaBruHO2Wt/view
-
-
 ```
 
 It was simple format string attack. Just input
@@ -186,7 +180,7 @@ It was simple format string attack. Just input
 %x %x %x %x %x %x
 ```
 
-The number you need to find is the 6th 
+The number you need to find is the 6th
 
 ## Web - Warm up
 
@@ -196,11 +190,9 @@ Warm up
 http://35.187.239.167:8080
 
 http://125.235.240.167:8080
-
-
 ```
 
-We just need bruteforce the password since if substr\(input\_password, flag\) == True, it will log you in 
+We just need bruteforce the password since if substr\(input\_password, flag\) == True, it will log you in
 
 ```python
 import requests
@@ -220,7 +212,6 @@ while found != '}':
             flag += c
             found = c
             pass
-
 ```
 
 {% code-tabs %}
@@ -251,7 +242,7 @@ $$
 
 Where **c1**, **c2** are known
 
-From \[**Bézout's Identity**\]\([https://en.wikipedia.org/wiki/B%C3%A9zout%27s\_identity](https://en.wikipedia.org/wiki/B%C3%A9zout%27s_identity)\) :
+From \[**Bézout's Identity**\]\([https://en.wikipedia.org/wiki/B%C3%A9zout%27s\_identity](https://en.wikipedia.org/wiki/Bézout's_identity)\) :
 
 $$
 65537 * 32769 + 65539 * (-32768) = 1
@@ -268,8 +259,6 @@ It will look like this
 ```text
 pow(m1,32769,N) * pow(invert(m2,N),32768,N) % N
 ```
-
-
 
 ## Crypto - Cookie Generator
 
@@ -339,4 +328,8 @@ matesctf{Br1ng_m0r3_Curv3_Plz}
 ## Our Team
 
 ![](.gitbook/assets/image%20%2820%29.png)
+
+
+
+> Nice ctf, nice organizer, kudos to all players!
 
