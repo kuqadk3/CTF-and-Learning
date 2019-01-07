@@ -127,7 +127,7 @@ Found flag, now i chdir\(\) to parent directory :
 
 ![](.gitbook/assets/image%20%2820%29.png)
 
-chdir\(\) successed, now i need create  '.' từ 1. Here i use some math functions in php like sqrt\(\), exp\(\), sin\(\), cos\(\),...
+chdir\(\) successed, now i need create  '.' from 1. Here i use some math functions in php like sqrt\(\), exp\(\), sin\(\), cos\(\),...
 
 ### I love calculatin! &lt;3
 
