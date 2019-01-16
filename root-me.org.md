@@ -59,3 +59,19 @@ function get(name){
 
 ![pow](.gitbook/assets/image%20%2867%29.png)
 
+## Steganography
+
+### Some Noise
+
+Reverse it + Slow it down using Audacity
+
+{% file src=".gitbook/assets/out\_flag.mp3" %}
+
+{% code-tabs %}
+{% code-tabs-item title="flag" %}
+```text
+3b27641fc5h0
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
