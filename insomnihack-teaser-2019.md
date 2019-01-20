@@ -121,7 +121,9 @@ It's quite trivial, reading on php documentation page, we know that
 exif_imagetype() reads the first bytes of an image and checks its signature
 ```
 
-So, it means that we only need our file start with an magic number. We choose "0x00" which mean WBMP because .htaccess will skip through the line that start with "0x00" 
+So, it means that we only need our file start with an magic number.  After trial and error, we know that line start with Null Byte will be skipped and .htaccess works well
+
+We choose "0x00" which mean WBMP because .htaccess will skip through the line that start with "0x00" 
 
 From PHP Interpreter C source code, we know that
 
