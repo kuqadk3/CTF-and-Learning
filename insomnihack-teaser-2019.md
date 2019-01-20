@@ -6,7 +6,7 @@ description: Weboo
 
 ## Credits 
 
-Most work was done by corb, our captain, i am just taking note of this funny challenge
+Most work was done by corb, our captain, and idea from @ulas, with a big help from other @opentoall members, i am just taking note of this funny challenge
 
 ![](.gitbook/assets/image%20%2865%29.png)
 
