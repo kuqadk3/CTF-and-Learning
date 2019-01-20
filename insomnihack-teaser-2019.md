@@ -210,7 +210,7 @@ https://github.com/php/php-src/blob/e219ec144ef6682b71e135fd18654ee1bb4676b4/ext
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-With a little bit math help, we can get it done
+With a little bit math calculation, we can get it done
 
 ![](.gitbook/assets/image%20%2886%29.png)
 
