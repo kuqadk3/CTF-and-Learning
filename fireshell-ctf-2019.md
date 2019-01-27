@@ -130,6 +130,7 @@ From @Thach works, we finally can craft the payload and read file base on php un
 
 
 ```php
+//Credit : Thach Nguyen Hoang
 <?php
 //require_once 'config.php';
 
