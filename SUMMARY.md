@@ -7,4 +7,5 @@
 * [Root-me.org](root-me.org.md)
 * [Insomni'hack teaser 2019](insomnihack-teaser-2019.md)
 * [Codegate CTF 2019 Preliminary](codegate-ctf-2019-preliminary.md)
+* [FireShell CTF 2019](fireshell-ctf-2019.md)
 
