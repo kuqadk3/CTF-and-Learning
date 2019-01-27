@@ -27,9 +27,6 @@ def parse_matrix(s):
 		arr.append([int(tmp[i]), int(tmp[i+1]), int(tmp[i+2]), int(tmp[i+3]), int(tmp[i+4]), int(tmp[i+5]), int(tmp[i+6])])
 	return arr
 
-def parse(matfile):
-    return [[int(n) for n in row.split(',')] for row in matfile]
-
 def distance(a, b):
     return sum(abs(a[i] - b[i]) for i in range(len(a)))
 
