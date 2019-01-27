@@ -121,7 +121,7 @@ $fl0wer="Flag not here! go to directory's parent directory";
 
 Checking parent folder ".." :
 
-![](.gitbook/assets/image%20%2854%29.png)
+![](.gitbook/assets/image%20%2855%29.png)
 
 Found flag, now i chdir\(\) to parent directory :
 
@@ -137,7 +137,7 @@ I use e^1 = 2.7x
 
 I use ord\('2'\) = 50
 
-![](.gitbook/assets/image%20%2856%29.png)
+![](.gitbook/assets/image%20%2857%29.png)
 
 I use sqrt\(50\) = 7.x
 
@@ -145,7 +145,7 @@ I use sqrt\(50\) = 7.x
 
 I use ceil\(7.x\) = 8
 
-![](.gitbook/assets/image%20%2891%29.png)
+![](.gitbook/assets/image%20%2892%29.png)
 
 ord\('8'\) = 56
 
@@ -226,11 +226,11 @@ saved: c2VlZD10cnVlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAmb
 
 Now i have hash, have saved, so i created request with Burpsuite 
 
-![](.gitbook/assets/image%20%2863%29.png)
+![](.gitbook/assets/image%20%2864%29.png)
 
 Finally
 
-![](.gitbook/assets/image%20%2875%29.png)
+![](.gitbook/assets/image%20%2876%29.png)
 
 ```text
 TetCTF{__Happy_new_Y3aR__!!_H3re_Your_Flower_}
@@ -250,11 +250,11 @@ Extract file /.DS\_Store with this tool
 https://github.com/lijiejie/ds_store_exp
 ```
 
-![](.gitbook/assets/image%20%2880%29.png)
+![](.gitbook/assets/image%20%2881%29.png)
 
 Check h1ddenn
 
-![](.gitbook/assets/image%20%2878%29.png)
+![](.gitbook/assets/image%20%2879%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="flag" %}
@@ -272,7 +272,7 @@ My dream team! &lt;3
 
 
 
-![](.gitbook/assets/image%20%2873%29.png)
+![](.gitbook/assets/image%20%2874%29.png)
 
-![](.gitbook/assets/image%20%2885%29.png)
+![](.gitbook/assets/image%20%2886%29.png)
 
