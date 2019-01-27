@@ -91,7 +91,6 @@ def main():
     print output_flag
     print base64.b64decode(output_flag)
 if __name__ == "__main__": main()
-p
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
