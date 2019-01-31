@@ -57,7 +57,7 @@ function get(name){
 
 ```
 
-![pow](.gitbook/assets/image%20%2876%29.png)
+![pow](.gitbook/assets/image%20%2879%29.png)
 
 ## Steganography
 
@@ -74,4 +74,76 @@ Reverse it + Slow it down using Audacity
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+## Reverse Engineering
+
+### ELF MIPS - BASIC CRACKME
+
+This challenge is quite easy but seems like people hate MIPS, so there are not much solves. It's actually the easiest assembly to read/write so far as i knew and tried.
+
+![](.gitbook/assets/image%20%2881%29.png)
+
+First, program read input from stdin through fgets\(\), and check to see if input string length is equal 19 or not
+
+![](.gitbook/assets/image%20%2813%29.png)
+
+If len\(input\_string\) != 19, then it will lead to bad boy, otherwise, it keep running program
+
+![](.gitbook/assets/image%20%2864%29.png)
+
+Next part is an for loop, where it check to see if \($fp + -0x58 + 4 + i\) == 'i' where i from range\(8, 17\)
+
+Which mean 
+
+```text
+>>> hex(-0x58+4+8)
+'-0x4c'
+>>> hex(-0x58+4+9)
+'-0x4b'
+>>> hex(-0x58+4+10)
+'-0x4a'
+>>> hex(-0x58+4+11)
+'-0x49'
+>>> hex(-0x58+4+12)
+'-0x48'
+>>> hex(-0x58+4+13)
+'-0x47'
+>>> hex(-0x58+4+14)
+'-0x46'
+>>> hex(-0x58+4+15)
+'-0x45'
+>>> hex(-0x58+4+16)
+'-0x44'
+>>> hex(-0x58+4+17)
+'-0x43'
+```
+
+Those memory offset will hold value that equal to "i"
+
+Next is an if statement that check whether an fixed address hold an char it want
+
+![](.gitbook/assets/image%20%2861%29.png)
+
+Which mean
+
+```text
+var_4F = var_50 + 3 = "u"
+var_50 = "r"
+var_51 = "t"
+var_53 = "a"
+var_54 = "c"
+var_4E = "n"
+var_52 = "n"
+var_4D = "m"
+var_43 = "p"
+var_42 = "s"
+```
+
+Now we can build an string from array from -0x54 to -0x42, which is also flag:
+
+```text
+cantrunmiiiiiiiiips
+```
+
+
 
