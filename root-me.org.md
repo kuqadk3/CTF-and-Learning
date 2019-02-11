@@ -4,6 +4,8 @@ description: 'Goal is simple : Solve all the challs.'
 
 # Root-me.org
 
+
+
 I decided to start getting habit of taking note after this tragedy happens \(Thanks @reznok!!!!\)
 
 Again, this is a note so that incase root-me be fucked up again, i can easily got all my flag and solution back, **THIS IS NOT A WRITE UP**.
@@ -57,7 +59,7 @@ function get(name){
 
 ```
 
-![pow](.gitbook/assets/image%20%2879%29.png)
+![pow](.gitbook/assets/image%20%2881%29.png)
 
 ## Steganography
 
@@ -81,7 +83,7 @@ Reverse it + Slow it down using Audacity
 
 This challenge is quite easy but seems like people hate MIPS, so there are not much solves. It's actually the easiest assembly to read/write so far as i knew and tried.
 
-![](.gitbook/assets/image%20%2881%29.png)
+![](.gitbook/assets/image%20%2883%29.png)
 
 First, program read input from stdin through fgets\(\), and check to see if input string length is equal 19 or not
 
@@ -89,7 +91,7 @@ First, program read input from stdin through fgets\(\), and check to see if inpu
 
 If len\(input\_string\) != 19, then it will lead to bad boy, otherwise, it keep running program
 
-![](.gitbook/assets/image%20%2864%29.png)
+![](.gitbook/assets/image%20%2866%29.png)
 
 Next part is an for loop, where it check to see if \($fp + -0x58 + 4 + i\) == 'i' where i from range\(8, 17\)
 
@@ -122,7 +124,7 @@ Those memory offset will hold value that equal to "i"
 
 Next is an if statement that check whether an fixed address hold an char it want
 
-![](.gitbook/assets/image%20%2861%29.png)
+![](.gitbook/assets/image%20%2863%29.png)
 
 Which mean
 
@@ -146,4 +148,49 @@ cantrunmiiiiiiiiips
 ```
 
 
+
+### ELF x64 - Golang basic
+
+Config IDA :
+
+![](.gitbook/assets/image%20%2893%29.png)
+
+Thanks god this is not stripped binary :
+
+![](.gitbook/assets/image%20%2855%29.png)
+
+Find main\_main\(\) : 
+
+![](.gitbook/assets/image%20%28100%29.png)
+
+First, that's why loop where it xor your input\_string with "rootme" than compares with an hardcoded byte array
+
+Debug to find which byte array it compares with :
+
+![](.gitbook/assets/image%20%28108%29.png)
+
+{% code-tabs %}
+{% code-tabs-item title="solver.py" %}
+```python
+ida_chars =[
+  0x3B, 0x02, 0x23, 0x1B, 0x1B, 0x0C, 0x1C, 0x08, 0x28, 0x1B, 
+  0x21, 0x04, 0x1C, 0x0B
+]
+key = 'rootme'
+out = ""
+for i in range(0, len(ida_chars)):
+	out += chr(ord(key[i%len(key)]) ^ (ida_chars[i]))
+print out
+print len(out)
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+{% code-tabs %}
+{% code-tabs-item title="flag" %}
+```text
+ImLovingGoLand
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
