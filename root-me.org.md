@@ -202,7 +202,7 @@ For debugging GameBoy ROM, i chose BGB \([http://bgb.bircd.org/](http://bgb.birc
 
 ![](.gitbook/assets/image%20%2873%29.png)
 
-Basically, this is the game where you can move : RIGHT, LEFT, UP, DOWN. And hit enter to check, if you miss some what requirements, it will print flag.
+Basically, this is the game where you can move : RIGHT, LEFT, UP, DOWN. And hit enter to check, if you satisfy some requirements, it will print flag.
 
 Let's load it into IDA \(IDA &gt; CPU = Zilog Z80 &gt; Press C to force disassemble\) :
 
