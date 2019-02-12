@@ -1,7 +1,3 @@
----
-description: 'Goal is simple : Solve all the challs.'
----
-
 # Root-me.org
 
 
@@ -10,7 +6,7 @@ I decided to start getting habit of taking note after this tragedy happens \(Tha
 
 Again, this is a note so that incase root-me be fucked up again, i can easily got all my flag and solution back, **THIS IS NOT A WRITE UP**.
 
-![sad.png](.gitbook/assets/image%20%284%29.png)
+![sad.png](.gitbook/assets/image%20%285%29.png)
 
 ## Web - Client
 
@@ -59,7 +55,7 @@ function get(name){
 
 ```
 
-![pow](.gitbook/assets/image%20%2881%29.png)
+![pow](.gitbook/assets/image%20%2891%29.png)
 
 ## Steganography
 
@@ -83,15 +79,15 @@ Reverse it + Slow it down using Audacity
 
 This challenge is quite easy but seems like people hate MIPS, so there are not much solves. It's actually the easiest assembly to read/write so far as i knew and tried.
 
-![](.gitbook/assets/image%20%2883%29.png)
+![](.gitbook/assets/image%20%2893%29.png)
 
 First, program read input from stdin through fgets\(\), and check to see if input string length is equal 19 or not
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 If len\(input\_string\) != 19, then it will lead to bad boy, otherwise, it keep running program
 
-![](.gitbook/assets/image%20%2866%29.png)
+![](.gitbook/assets/image%20%2875%29.png)
 
 Next part is an for loop, where it check to see if \($fp + -0x58 + 4 + i\) == 'i' where i from range\(8, 17\)
 
@@ -124,7 +120,7 @@ Those memory offset will hold value that equal to "i"
 
 Next is an if statement that check whether an fixed address hold an char it want
 
-![](.gitbook/assets/image%20%2863%29.png)
+![](.gitbook/assets/image%20%2871%29.png)
 
 Which mean
 
@@ -153,21 +149,21 @@ cantrunmiiiiiiiiips
 
 Config IDA :
 
-![](.gitbook/assets/image%20%2893%29.png)
+![](.gitbook/assets/image%20%28103%29.png)
 
 Thanks god this is not stripped binary :
 
-![](.gitbook/assets/image%20%2855%29.png)
+![](.gitbook/assets/image%20%2861%29.png)
 
 Find main\_main\(\) : 
 
-![](.gitbook/assets/image%20%28100%29.png)
+![](.gitbook/assets/image%20%28111%29.png)
 
 First, that's why loop where it xor your input\_string with "rootme" than compares with an hardcoded byte array
 
 Debug to find which byte array it compares with :
 
-![](.gitbook/assets/image%20%28108%29.png)
+![](.gitbook/assets/image%20%28119%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="solver.py" %}
@@ -190,6 +186,102 @@ print len(out)
 {% code-tabs-item title="flag" %}
 ```text
 ImLovingGoLand
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+### GB - Basic GameBoy Crackme
+
+First thing first
+
+![](.gitbook/assets/image%20%2863%29.png)
+
+This file is GameBoy ROM file, and there is some interesting strings
+
+For debugging GameBoy ROM, i chose BGB \([http://bgb.bircd.org/](http://bgb.bircd.org/)\)
+
+![](.gitbook/assets/image%20%2873%29.png)
+
+Basically, this is the game where you can move : RIGHT, LEFT, UP, DOWN. And hit enter to check, if you miss some what requirements, it will print flag.
+
+Let's load it into IDA \(IDA &gt; CPU = Zilog Z80 &gt; Press C to force disassemble\) :
+
+![](.gitbook/assets/image%20%28106%29.png)
+
+Since i dont know where to start, so i start with string, trying to find its xref
+
+```text
+0x042d = Right
+0x0434 = Left
+0x043E = Down
+0x0444 = Yeah!
+0x044C = Flag is
+0x0459 = Nope
+```
+
+From 44C, we can find good\_boy
+
+![](.gitbook/assets/image%20%2815%29.png)
+
+![](.gitbook/assets/image%20%289%29.png)
+
+From good\_boy, trace back, we realize there is 4 check\_point :
+
+![](.gitbook/assets/image%20%284%29.png)
+
+So it take a value at memory \[0x0C0B0\] and compare with 0x32 , if equal then jump to next good\_boy
+
+Trace from 0x0C0B0, we found :
+
+ 
+
+![](.gitbook/assets/image%20%2850%29.png)
+
+![](.gitbook/assets/image%20%2847%29.png)
+
+So, we already know that 0x42D is "RIGHT". Basically these asm lines just print "RIGHT", decrease value at \[0x0C0B0\] by 1 and do something with value at \[0x0C0B4\] which i believe is FLAG \(looks up at good\_boy\)
+
+Doing the samething with others check point, we know that, when you press a key :
+
+```text
+RIGHT => [0x0C0B0h] - 1
+LEFT => [0x0C0B1h] - 1
+UP => [0x0C0B2h] - 1
+DOWN => [0x0C0B3h] - 1
+
+and then it do something with value at [0x0C0B4] (flag)
+```
+
+Then it check to see if we satisfy all below constraints then print flag
+
+```text
+[0x0C0B0h] == 0x32
+[0x0C0B1h] == 0x30
+[0x0C0B2h] == 0x37
+[0x0C0B3h] == 0x38
+```
+
+Now we need to know what's its initial value, time to use bgb to debug :
+
+![](.gitbook/assets/image%20%2864%29.png)
+
+So initial value is :
+
+```text
+[0x0C0B0h] == 0x39
+[0x0C0B1h] == 0x39
+[0x0C0B2h] == 0x39
+[0x0C0B3h] == 0x39
+```
+
+Time to get flag :
+
+![](.gitbook/assets/image%20%2822%29.png)
+
+{% code-tabs %}
+{% code-tabs-item title="flag" %}
+```text
+rom1
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
