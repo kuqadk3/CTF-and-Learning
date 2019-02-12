@@ -1,4 +1,4 @@
-# Initial page
+# My Blog : https://tuanlinh.gitbook.io/ctf/
 
 ## CTF-and-Learning <a id="ctf-and-learning"></a>
 
