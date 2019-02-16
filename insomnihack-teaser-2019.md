@@ -4,7 +4,7 @@
 
 Most work was done by corb, our captain, and idea from @ulas, with a big help from other @opentoall members, i am just taking note of this funny challenge
 
-![](.gitbook/assets/image%20%2884%29.png)
+![](.gitbook/assets/image%20%2889%29.png)
 
 ## Upload an .htaccess
 
@@ -210,7 +210,7 @@ https://github.com/php/php-src/blob/e219ec144ef6682b71e135fd18654ee1bb4676b4/ext
 
 With a little bit math calculation, we can get it done
 
-![](.gitbook/assets/image%20%28113%29.png)
+![](.gitbook/assets/image%20%28118%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="poc.py" %}
@@ -415,5 +415,5 @@ print(response.text)
 
 ## It's funny
 
-![lol.png](.gitbook/assets/image%20%2855%29.png)
+![lol.png](.gitbook/assets/image%20%2858%29.png)
 
