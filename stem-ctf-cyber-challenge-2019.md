@@ -6,7 +6,7 @@ description: Golang ransomware sucks!
 
 ## Foreword
 
-After solved re50, i jump directly to re300 because i was re Golang binary once before in root-me.org and pretty confident with it. But, it turns out i was falling to rabbit hole later...and lost 14 hours to fucking around...even though i was got everything in hand at first few hours...
+After solved re50, i jump directly to re300 because i was re Golang binary once before in root-me.org and pretty confident with it. But, it turns out i was falling to rabbit hole later...and lost 14 hours just fucking around...even though i was got everything in hand at first few hours...
 
 
 
