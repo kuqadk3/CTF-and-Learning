@@ -240,7 +240,15 @@ for key in s:
 
 ![](.gitbook/assets/image%20%2891%29.png)
 
-No luck...At that moment, i thought that i was missing something when read code, so next 7-8 hours, i was trying to find the IV in code...but no one got any progress...
+No luck...At that moment, i thought that i was missing something when read code, so next 7-8 hours, i was trying to find the IV in code...but no one got any progress...the Go code is really sucks, flow, calling convention...was too much for my little brain...i was even tried something like :
+
+```text
+s = 'abc124209eu390wuer' //random shit
+iv = s[:8]
+fmt.Println(iv)
+```
+
+Even with that simple code, i couldnt find an iv after spend pretty much time on it.
 
 So i was came back with my python script, double check, and i realize that python was fucked up the decryption
 
