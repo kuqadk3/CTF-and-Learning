@@ -4,15 +4,15 @@
 
 Task :
 
-![](.gitbook/assets/image%20%28101%29.png)
+![](.gitbook/assets/image%20%28120%29.png)
 
 It's .Net file so we put it in dnspy
 
-![](.gitbook/assets/image%20%28110%29.png)
+![](.gitbook/assets/image%20%28131%29.png)
 
 Oops...obfuscated, try to clean it with de4dot
 
-![](.gitbook/assets/image%20%2886%29.png)
+![](.gitbook/assets/image%20%28100%29.png)
 
 Better, but still fucking so heavy. It's quite easy to know that the file work/obfuscated like this :
 
@@ -26,7 +26,7 @@ So i trying to run the binary, dump it and search for string in memory.
 
 But where to stop to dump? Well, there is no other way around, you must debug the application to see where it generate the crypted flag.
 
-![](.gitbook/assets/image%20%28126%29.png)
+![](.gitbook/assets/image%20%28150%29.png)
 
 As you can see, after navigate through the code for a while, i realize the result is my encoded flag, where it's only assigned at
 
@@ -48,7 +48,7 @@ Both work well,  i checked after ctf end, but when the ctf is running, i choose 
 
 After 15 minutes of pressing F11, i finally got
 
-![](.gitbook/assets/image%20%28128%29.png)
+![](.gitbook/assets/image%20%28154%29.png)
 
 Base64 decode it, we got flag
 
@@ -119,7 +119,7 @@ if(isset($_GET["gg"])) {
 
 I was trying to solve Boring Check, but then our team rank is down quickly to 3rd, and we must solve one more chall to keep our rank, compete with @bi0s for 3rd place. Time to call help from home.
 
-![](.gitbook/assets/image%20%2826%29.png)
+![](.gitbook/assets/image%20%2829%29.png)
 
 From @Thach works, we finally can craft the payload and read file base on php unserialize bug
 
@@ -213,5 +213,5 @@ F#{wtf_5trp0s_}
 
 We end up at 3rd place. Time to practice more...
 
-![](.gitbook/assets/image%20%28105%29.png)
+![](.gitbook/assets/image%20%28124%29.png)
 
