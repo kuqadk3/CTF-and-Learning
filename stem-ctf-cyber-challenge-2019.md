@@ -74,7 +74,7 @@ So, firstly, the ransomware generate 24 random bytes from an hard coded bytes ar
 
 ![](.gitbook/assets/image%20%28143%29.png)
 
-This base64 string later become your key, which as submitted to the C&C via POST request
+This base64 string later become your key, which will be submitted to the C&C via POST request
 
 ![](.gitbook/assets/image%20%2871%29.png)
 
@@ -246,7 +246,7 @@ So i was came back with my python script, double check, and i realize that pytho
 
 ![](.gitbook/assets/giphy-1.gif)
 
-More information about this bullshit can be found here
+More information about that bullshit can be found here
 
 ```text
 https://stackoverflow.com/questions/40004858/encrypt-in-python-and-decrypt-in-java-with-aes-cfb
