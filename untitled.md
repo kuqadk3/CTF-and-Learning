@@ -335,11 +335,11 @@ https://github.com/kungfulon/matesctf-s3/tree/master/round2/re/MiniFactory
 
 ## Final Scoreboard
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 
 ## Our Team
 
-![](.gitbook/assets/image%20%2845%29.png)
+![](.gitbook/assets/image%20%2846%29.png)
 
 
 
