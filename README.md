@@ -1,6 +1,15 @@
+---
+description: >-
+  “If people do not believe that mathematics is simple, it is only because they
+  do not realize how complicated life is.” ― John von Neumann
+---
+
 # About me
 
-## CTF-and-Learning  <a id="ctf-and-learning"></a>
+## Contact information <a id="first-year-at-college-"></a>
+
+* Email : kuqadk3@gmail.com
+* Twitter : [https://twitter.com/Tuan\_Linh\_98](https://twitter.com/Tuan_Linh_98)
 
 ## First Year at College :  <a id="first-year-at-college-"></a>
 
@@ -41,4 +50,6 @@ Hope next year things gone well :\)
 So exciting… :\)
 
 Currently i am interested in math, and things related to it like Cryptography, Data Science, Machine Learning, not sure how it will go but it’s fun now so…
+
+SMT and Symbolic execution is some nice topic that i am focusing on...
 
