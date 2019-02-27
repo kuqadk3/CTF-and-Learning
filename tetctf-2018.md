@@ -117,7 +117,7 @@ $fl0wer="Flag not here! go to directory's parent directory";
 
 Checking parent folder ".." :
 
-![](.gitbook/assets/image%20%2888%29.png)
+![](.gitbook/assets/image%20%2889%29.png)
 
 Found flag, now i chdir\(\) to parent directory :
 
@@ -129,11 +129,11 @@ chdir\(\) successed, now i need create  '.' from 1. Here i use some math functio
 
 I use e^1 = 2.7x
 
-![](.gitbook/assets/image%20%2878%29.png)
+![](.gitbook/assets/image%20%2879%29.png)
 
 I use ord\('2'\) = 50
 
-![](.gitbook/assets/image%20%2891%29.png)
+![](.gitbook/assets/image%20%2892%29.png)
 
 I use sqrt\(50\) = 7.x
 
@@ -141,7 +141,7 @@ I use sqrt\(50\) = 7.x
 
 I use ceil\(7.x\) = 8
 
-![](.gitbook/assets/image%20%28150%29.png)
+![](.gitbook/assets/image%20%28151%29.png)
 
 ord\('8'\) = 56
 
@@ -222,11 +222,11 @@ saved: c2VlZD10cnVlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAmb
 
 Now i have hash, have saved, so i created request with Burpsuite 
 
-![](.gitbook/assets/image%20%28102%29.png)
+![](.gitbook/assets/image%20%28103%29.png)
 
 Finally
 
-![](.gitbook/assets/image%20%28124%29.png)
+![](.gitbook/assets/image%20%28125%29.png)
 
 ```text
 TetCTF{__Happy_new_Y3aR__!!_H3re_Your_Flower_}
@@ -238,7 +238,7 @@ I already meet this kind of challenge before in Matesctf 2018 round 2
 
 Tried dirsearch :
 
-![](.gitbook/assets/image%20%2864%29.png)
+![](.gitbook/assets/image%20%2865%29.png)
 
 Extract file /.DS\_Store with this tool
 
@@ -246,11 +246,11 @@ Extract file /.DS\_Store with this tool
 https://github.com/lijiejie/ds_store_exp
 ```
 
-![](.gitbook/assets/image%20%28134%29.png)
+![](.gitbook/assets/image%20%28135%29.png)
 
 Check h1ddenn
 
-![](.gitbook/assets/image%20%28129%29.png)
+![](.gitbook/assets/image%20%28130%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="flag" %}
@@ -268,7 +268,7 @@ My dream team! &lt;3
 
 
 
-![](.gitbook/assets/image%20%28121%29.png)
+![](.gitbook/assets/image%20%28122%29.png)
 
-![](.gitbook/assets/image%20%28142%29.png)
+![](.gitbook/assets/image%20%28143%29.png)
 
