@@ -63,3 +63,36 @@ First, i need to wrote an algorithm to generate palindrome numbers
 
 > But it turns out that generate palindrome numbers in mathematical way is no faster than string one
 
+
+
+## Problem 5
+
+```python
+import math
+def check_prime(n):
+	for i in range(2, int(math.sqrt(n)) + 1):
+		if n % i == 0:
+			return False
+	return True
+
+def generate_prime_array(limit):
+	arr = []
+	for i in range(2, limit):
+		if check_prime(i) == True:
+			arr.append(i)
+	return arr
+
+primes = generate_prime_array(20)
+
+k = 20
+sum = 1
+for p in primes:
+	exp = math.floor(math.log(k)/math.log(p))
+	sum *= p**exp
+print sum
+```
+
+```text
+232792560
+```
+
