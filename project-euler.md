@@ -61,5 +61,5 @@ First, i need to wrote an algorithm to generate palindrome numbers
 
 {% embed url="http://rhyscitlema.com/algorithms/generating-palindromic-numbers/" %}
 
-
+> But it turns out that generate palindrome numbers in mathematical way is no faster than string one
 
