@@ -1,5 +1,5 @@
 ---
-description: Try something new...and solve all the dividable by 4 challenges...
+description: Try something new...and solve all the challenges...
 ---
 
 # Project Euler
