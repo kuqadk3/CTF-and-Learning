@@ -10,6 +10,7 @@ description: >-
 
 * Email : kuqadk3@gmail.com
 * Twitter : [https://twitter.com/Tuan\_Linh\_98](https://twitter.com/Tuan_Linh_98)
+* Ping me if you need a teammate in any onsite ctf and if it's free :P
 
 ## First Year at College :  <a id="first-year-at-college-"></a>
 
