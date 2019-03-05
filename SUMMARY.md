@@ -10,5 +10,6 @@
 * [FireShell CTF 2019](fireshell-ctf-2019.md)
 * [Matesctf - 2019 - Round 3](matesctf-2018-round-3.md)
 * [STEM CTF: Cyber Challenge 2019](stem-ctf-cyber-challenge-2019.md)
+* [BSidesSF 2019 CTF](bsidessf-2019-ctf.md)
 * [Project Euler](project-euler.md)
 
