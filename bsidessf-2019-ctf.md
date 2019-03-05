@@ -167,6 +167,8 @@ I have no progress, so i need to come back and look again all step i did, then i
 
 ![](.gitbook/assets/tenor.gif)
 
+Extract it properly again, i found an 162kb \(if i recall it right\) image instead of 121kb. Then just do pixel subtract.
+
 ![](.gitbook/assets/image%20%2814%29.png)
 
 {% file src=".gitbook/assets/solved.bmp" %}
