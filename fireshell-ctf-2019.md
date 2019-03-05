@@ -48,7 +48,7 @@ Both work well,  i checked after ctf end, but when the ctf is running, i choose 
 
 After 15 minutes of pressing F11, i finally got
 
-![](.gitbook/assets/image%20%28167%29.png)
+![](.gitbook/assets/image%20%28168%29.png)
 
 Base64 decode it, we got flag
 

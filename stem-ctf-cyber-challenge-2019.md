@@ -80,7 +80,7 @@ This base64 string later become your key, which will be submitted to the C&C via
 
 So,  i just debug it to get the C&C url :
 
-![](.gitbook/assets/image%20%28165%29.png)
+![](.gitbook/assets/image%20%28166%29.png)
 
 ```text
 https://docs.google.com/forms/d/e/1FAIpQLSd4VFZA8Cw7ednO-FzLqqesH6wd2z_bxs8-gg6L87kdVvKzkw/formResponse

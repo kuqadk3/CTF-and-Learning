@@ -34,7 +34,7 @@ Thời gian transit của mình ở Guangzhou là hơn 2 tiếng, tuy nhiên do 
 
 Trên máy bay...
 
-![](.gitbook/assets/image%20%28171%29.png)
+![](.gitbook/assets/image%20%28172%29.png)
 
 Máy bay nội địa khá xịn, có cả sạc điện thoại, tuy nhiên chỉ sử dụng được khi máy bay chưa cất cánh
 
@@ -112,7 +112,7 @@ Các công ty cũng tranh thủ thời gian cuộc thi quảng cáo sản phẩm
 
 Vài phút trước khi cuộc thi bắt đầu, các đội đang chuẩn bị,mình đã chuẩn bị máy móc xong nên cũng nhìn quanh chụp ảnh chút, khá bất ngờ khi một trong những thử thách lần này có cả việc phải hack vào một chiếc xe...dù rằng qua ảnh render trước khi cuộc thi bắt đầu mình đã đoán được phần nào. Rất may là những ký hiệu nhận dạng hãng xe đã bị ban tổ chức loại bỏ.
 
-![](.gitbook/assets/image%20%28169%29.png)
+![](.gitbook/assets/image%20%28170%29.png)
 
 Ban tổ chức lên giới thiệu một chút về cuộc thi và tuyên bố khai mạc
 
@@ -184,7 +184,7 @@ R3kapig giải được bài flaglab, đây là một bài 0day về RCE trong g
 
 Tiếp đó là RPISEC trình diễn màn hắc Safari \(bản mới nhất\), demo khởi chạy calculator. 
 
-![](.gitbook/assets/image%20%28170%29.png)
+![](.gitbook/assets/image%20%28171%29.png)
 
 
 
