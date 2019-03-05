@@ -97,7 +97,7 @@ un7m73MZ9lMlItql0EFWrlzQs/605/WBYqV7WxnhwEs/drA7qBtm4IBu7tk=
 
 Where hack.pgp is encrypted data
 
-Later we found the QR code
+Later we found the QR code in sender profile
 
 ![](.gitbook/assets/image%20%28168%29.png)
 
