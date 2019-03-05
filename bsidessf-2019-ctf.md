@@ -149,7 +149,7 @@ Analze the pdf stream, deflated it and we got junk, bad image .\_. I was thought
 
 ![](.gitbook/assets/image%20%2836%29.png)
 
-If good pair of eyes, you can see there is QR code hidden in this image
+With good pair of eyes, you can see there is QR code hidden in this image
 
 By using StegSolver subtract, and found the original image online 
 
