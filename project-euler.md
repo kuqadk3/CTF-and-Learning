@@ -53,7 +53,7 @@ print max, max_i, max_j
 
 
 
-![](.gitbook/assets/image%20%28123%29.png)
+![](.gitbook/assets/image%20%28126%29.png)
 
 But this is practice, so i will do it in more proper way
 

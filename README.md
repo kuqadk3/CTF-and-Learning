@@ -38,6 +38,8 @@ description: >-
 
 ![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/ota_rw_final.jpg)
 
+![](.gitbook/assets/image%20%2813%29.png)
+
 ## Winter \(third year\), play with UET - Just Fucking Do It in SVATTT2018 Quals :  <a id="winter-third-year-play-with-uet---just-fucking-do-it-in-svattt2018-quals-"></a>
 
 ![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/UET-SVATTT2018.jpg)
@@ -45,6 +47,12 @@ description: >-
 ## My first scholarship :\) One small step…  <a id="my-first-scholarship--one-small-step"></a>
 
 ![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/cattt_scholarship.jpg)
+
+##  Insomni hack Final 2019, Geneva, Switzerland with ISITDTU
+
+![](.gitbook/assets/image%20%2875%29.png)
+
+![](.gitbook/assets/image%20%2836%29.png)
 
 Hope next year things gone well :\)
 
