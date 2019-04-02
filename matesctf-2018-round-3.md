@@ -57,7 +57,7 @@ matesctf{0ld_sch00l_w1r3t4pp1n9}
 
 You just need to choose first 4 numbers, and spam with 3-4 tabs
 
-![](.gitbook/assets/image%20%28119%29.png)
+![](.gitbook/assets/image%20%28120%29.png)
 
 The generated numbers array will be the same
 

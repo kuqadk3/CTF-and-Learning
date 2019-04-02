@@ -18,7 +18,7 @@ After solved re50, i jump directly to re300 because i was re Golang binary once 
 
 So, basically, the challenges give us two files 
 
-![](.gitbook/assets/image%20%28130%29.png)
+![](.gitbook/assets/image%20%28131%29.png)
 
 One file is encrypted
 
@@ -37,7 +37,7 @@ goldfish-ransomware-sample.exe: ELF 64-bit LSB executable, x86-64, version 1 (SY
 
 So it's stripped binary, which means : 
 
-![](.gitbook/assets/image%20%28147%29.png)
+![](.gitbook/assets/image%20%28148%29.png)
 
 And golang binary contains tons of functions from tons of library, which now we dont even know any of thoses name
 
@@ -62,7 +62,7 @@ Install, run and choose "Rename Functions" :
 
 Result is pretty neat :
 
-![](.gitbook/assets/image%20%28157%29.png)
+![](.gitbook/assets/image%20%28158%29.png)
 
 ## Analysis
 
@@ -72,7 +72,7 @@ So, if you havent analyse an golang binary before, then, main\(\) function is in
 
 So, firstly, the ransomware generate 24 random bytes from an hard coded bytes array and encode it by base64
 
-![](.gitbook/assets/image%20%28168%29.png)
+![](.gitbook/assets/image%20%28169%29.png)
 
 This base64 string later become your key, which will be submitted to the C&C via POST request
 
@@ -80,7 +80,7 @@ This base64 string later become your key, which will be submitted to the C&C via
 
 So,  i just debug it to get the C&C url :
 
-![](.gitbook/assets/image%20%28181%29.png)
+![](.gitbook/assets/image%20%28182%29.png)
 
 ```text
 https://docs.google.com/forms/d/e/1FAIpQLSd4VFZA8Cw7ednO-FzLqqesH6wd2z_bxs8-gg6L87kdVvKzkw/formResponse
@@ -104,7 +104,7 @@ So, we can assume that one of those key is the key that encrypted our file, next
 
 The ransomware after sent an key to C&C, it will scan the directory
 
-![](.gitbook/assets/image%20%28120%29.png)
+![](.gitbook/assets/image%20%28121%29.png)
 
 Where
 
@@ -124,7 +124,7 @@ Then it check extension of file
 
 By clicking to a1, we can see something like this
 
-![](.gitbook/assets/image%20%28127%29.png)
+![](.gitbook/assets/image%20%28128%29.png)
 
 But it's actually an memory address, which is 0x68255b, which is lstat :
 
@@ -136,7 +136,7 @@ And check to see if the file is one of these extensions :
 
 So i just create an folder with some file to test to see if it works
 
-![](.gitbook/assets/image%20%28179%29.png)
+![](.gitbook/assets/image%20%28180%29.png)
 
 ![](.gitbook/assets/image%20%2865%29.png)
 
@@ -158,11 +158,11 @@ Me and some friends in @ota was tried but no luck...golang sucks!
 
 This is all in my notes that time
 
-![](.gitbook/assets/image%20%28167%29.png)
+![](.gitbook/assets/image%20%28168%29.png)
 
 So i was trying to connect the dots, and this idea just pop out
 
-![](.gitbook/assets/image%20%28151%29.png)
+![](.gitbook/assets/image%20%28152%29.png)
 
 By playing around with some triple des code above, i have an sense that the key will be first 8 chars of key
 
