@@ -13,4 +13,5 @@
 * [BSidesSF 2019 CTF](bsidessf-2019-ctf.md)
 * [VolgaCTF 2019 Qualifier](volgactf-2019-qualifier.md)
 * [Project Euler](project-euler.md)
+* [HITB Amsterdam 2019](hitb-amsterdam-2019.md)
 
