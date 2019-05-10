@@ -22,7 +22,7 @@ Pfftt..!
 Anyway, grab a joypad and show us some speed running!
 ```
 
-From challenge description and name, i can know that it's Nintendo Entertainment System \([https://en.wikipedia.org/wiki/Nintendo\_Entertainment\_System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System)\) which is basically application that running on 8-bit \( 😅 \) nintendo gaming.
+From challenge description and name, i can know that it's Nintendo Entertainment System \([https://en.wikipedia.org/wiki/Nintendo\_Entertainment\_System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System)\) which is basically application that running on 8-bit \( 😅 \) nintendo gaming machine.
 
 I was used FCEUX debugger to debug this file. The challenge is quite trivial once you know how Sprite, Joypad input, A, X, Y register,... in 6052 works. So, I wont waste your time and move directly to where the program calculate flag :
 
@@ -43,7 +43,7 @@ for i in range(0, 0x20):
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-So @Unblvr realize that the output must be printable so the input key must be the number that will make the char of output, separate to 2 lines, each have 16 chars, that in the same index in these two lines both printable \( Basically, we input input\[i\] that somehow must make flag\[i\] and flag\[i+16\] printable\) \(Dude realize that even before i gave him the code, pretty sure his IQ is 200+, no doubt why he kick ass all forensic challs\)
+So @Unblvr realize that the output must be printable so the input key must be the number that will make the char of output, separate to 2 lines, each have 16 chars, that in the same index in these two lines both printable \( Basically, we input input\[i\] that somehow must make flag\[i\] and flag\[i+16\] printable\) \(Dude realize that even before i gave him the code, pretty sure his IQ is 200+, no wonder why he kick ass all forensic challs\)
 
 ![](.gitbook/assets/image%20%28131%29.png)
 
