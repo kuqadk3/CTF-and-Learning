@@ -30,7 +30,7 @@ But if you took a deeper look by clicking at those names, and read the blog abou
 https://github.com/sibears/IDAGolangHelper
 ```
 
-With tool like IDAGolangHelper, you can easily recover all the function names. Basically, the malware \(even those APT28 things\) that should take more time to reverse now can be done with just 1 click and all the function's name is "on the table". I will tell you later how this "magic" tool work, but now we should get back to those golang malware samples.
+With tool like IDAGolangHelper, you can easily recover all the function names. Basically, the malware \(even those [APT28](https://www.vkremez.com/2018/12/lets-learn-dissecting-apt28sofacy.html) things\) that should take more time to reverse now can be done with just 1 click and all the function's name is "on the table". I will tell you later how this "magic" tool work, but now we should get back to those golang malware samples.
 
 I will use a new Golang Stealer malware as an example \(thanks @VK\_Intel for providing hash of the sample\)
 
