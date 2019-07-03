@@ -16,7 +16,7 @@ https://t.co/ITaYx2kIVP
 
 And a cute picture too
 
-![](.gitbook/assets/image%20%28191%29.png)
+![](.gitbook/assets/image%20%28193%29.png)
 
 ## Problems
 
@@ -46,7 +46,7 @@ But then i clicked "Rename functions" on IDAGoLangHelper :
 
 And magic happened :
 
-![](.gitbook/assets/image%20%28117%29.png)
+![](.gitbook/assets/image%20%28118%29.png)
 
 So the question is : **How can i fool these tools ?**
 
@@ -92,7 +92,7 @@ fmt.Println -> not.Println
 
 And IDA will show you wrong function's name 😉 
 
-![](.gitbook/assets/image%20%28187%29.png)
+![](.gitbook/assets/image%20%28189%29.png)
 
 This is old trick though, but problem is that tool like IDAGolangHelper can still easily recover the function's name even if we modified .STRTAB. To answer why, we need to look deeper at the tool's code.
 
@@ -199,7 +199,7 @@ type _func struct {
 
 So from my point of view, the function's name seems like it only be used to show user about the name of function where crash happened. And it's exactly where tools like IDAGolangHelper got function's name from. Then, it was came to my mind that why dont we modify this name if it may not cause any trouble in program :
 
-![what\_gopclntab\_looks\_like.png](.gitbook/assets/image%20%28196%29.png)
+![what\_gopclntab\_looks\_like.png](.gitbook/assets/image%20%28198%29.png)
 
 I modified :
 
@@ -213,9 +213,17 @@ And after recovering function's name by IDAGolangHelper :
 
 ![](.gitbook/assets/image%20%2859%29.png)
 
+And the program run smoothly as expected
+
+![](.gitbook/assets/image%20%28117%29.png)
+
 You can use this technique to obfuscate function's name, or just basically remove it, so your program is not easily reversed like those malware and AyPeeTea \(APT\). And by above struct, you can easily wrote a script to parse the .GOPCLNTAB section.
 
 ## Final
 
-Finally, this post have come to its end \(phew\) 😅 . This post is not for supporting those malware coder, just my personal joy from researching and blogging. I hope it only be used by those who want to protect their golang source code, legally. That's also why i wrote this post based on ELF file but not Windows EXE \(though, it's not much different, on windows, it just store things on .text\). Anyway, it's just for educational purpose. Cheers! 
+Finally, this post have come to its end \(phew\) 😅 . This post is not for supporting those malware coder, just my personal joy from researching and blogging. I hope it only be used by those who want to protect their golang source code, legally. That's also why i wrote this post based on ELF file but not Windows EXE \(though, it's not much different, on windows, it just store things on .text\). Anyway, it's just for educational purpose.
+
+Also, sorry fellow malware researcher for making your life harder \(and my life too 🥺 \) but...
+
+![](.gitbook/assets/image%20%28147%29.png)
 
