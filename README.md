@@ -38,7 +38,7 @@ description: >-
 
 ![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/ota_rw_final.jpg)
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%2815%29.png)
 
 ## Winter \(third year\), play with UET - Just Fucking Do It in SVATTT2018 Quals :  <a id="winter-third-year-play-with-uet---just-fucking-do-it-in-svattt2018-quals-"></a>
 
@@ -50,9 +50,9 @@ description: >-
 
 ##  Insomni hack Final 2019, Geneva, Switzerland with ISITDTU
 
-![](.gitbook/assets/image%20%2880%29.png)
+![](.gitbook/assets/image%20%2885%29.png)
 
-![](.gitbook/assets/image%20%2839%29.png)
+![](.gitbook/assets/image%20%2840%29.png)
 
 Hope next year things gone well :\)
 

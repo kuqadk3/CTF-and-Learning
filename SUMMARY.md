@@ -14,4 +14,5 @@
 * [VolgaCTF 2019 Qualifier](volgactf-2019-qualifier.md)
 * [Project Euler](project-euler.md)
 * [HITB Amsterdam 2019](hitb-amsterdam-2019.md)
+* [Golang function's name obfuscation : How to fool analysis tools?](golang-function-name-obfuscation-how-to-fool-analysis-tools.md)
 
