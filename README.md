@@ -54,11 +54,9 @@ description: >-
 
 ![](.gitbook/assets/image%20%2840%29.png)
 
-Hope next year things gone well :\)
 
-So exciting… :\)
 
-Currently i am interested in math, and things related to it like Cryptography, Data Science, Machine Learning, not sure how it will go but it’s fun now so…
+## MatesCTF 2019, Hanoi, Vietnam
 
-SMT and Symbolic execution is some nice topic that i am focusing on...
+![](.gitbook/assets/image%20%28130%29.png)
 
