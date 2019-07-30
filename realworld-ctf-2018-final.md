@@ -16,7 +16,7 @@ Okay, không dông dài nữa, bật headphone lên nghe nhạc và đọc thôi
 
 Mình tới sân bay Nội Bài, Hà Nội vào khoảng 10 giờ sáng. Đầu tiên mình vào làm thủ tục check-in tại quầy của China Southern Airline, bạn nhân viên khá xinh và dễ thương, thực ra quầy đó chỉ dành cho khách hạng Business, mình đi hạng Economy thì không có đặc quyền đó nhưng do quầy đó đang trống nên bạn ý gọi mình qua làm giúp luôn cho nhanh. Trước khi đi thì mình cũng rất lo lắng về vấn đề hành lý, quá cân rồi hoặc là xách 2 túi lên máy bay có làm sao không \(vì mình có vài "kỉ niệm" không được tốt lắm với Vietjet\), nhưng hóa ra bay quốc tế lại khá dễ dãi với vấn đề hành lý. Mình cũng khá bất ngờ với dịch vụ của hãng, trước khi bay mình có email hỏi về vấn đề lấy hành lý ra khi transit ở Guangzhou, hãng đã trả lời rất chu đáo, tuy nhiên khi mình ra tới quầy check-in thì hãng lại báo lại lần nữa. Vì tới tận 11h45 mới bay, nên mình phải ngồi chờ khoảng hơn nửa tiếng ở sân bay, trong lúc chờ cũng có mấy bạn nhân viên ra đưa cho Coca uống và xin lỗi vì phải để mình chờ \(mà thực ra do mình tới sớm mà :P\).
 
-![S&#xE2;n bay N&#x1ED9;i B&#xE0;i](.gitbook/assets/image%20%28130%29.png)
+![S&#xE2;n bay N&#x1ED9;i B&#xE0;i](.gitbook/assets/image%20%28131%29.png)
 
 Lên máy bay, các bạn tiếp viên cũng khá dễ thương, nhất là giọng trung quốc con gái dễ thương cực :P Đáng nhẽ hãng này mình sẽ rate 10/10, nhưng vì một lý do nhỏ, **họ tưởng mình là người Trung Quốc** \(thực sự trong suốt chuyến đi đây là điều làm mình bối rối nhất...\) nên không có phát Arrival Card \(một cái thẻ màu vàng, khai báo thông tin của bạn và nộp lại cho cơ quan Nhập Cảnh khi bạn tới sân bay, chỉ chuyến bay quốc tế thôi nhé, nội địa không cần\). Vậy nên bạn nên chủ động hỏi họ trước khi máy bay hạ cánh, vì nhìn người Việt rất giống người Trung Quốc, ngoài ra, bạn cũng có thể lấy một tờ ở chỗ Nhập Cảnh, nhưng sẽ khá bất tiện.
 
@@ -34,11 +34,11 @@ Thời gian transit của mình ở Guangzhou là hơn 2 tiếng, tuy nhiên do 
 
 Trên máy bay...
 
-![](.gitbook/assets/image%20%28208%29.png)
+![](.gitbook/assets/image%20%28209%29.png)
 
 Máy bay nội địa khá xịn, có cả sạc điện thoại, tuy nhiên chỉ sử dụng được khi máy bay chưa cất cánh
 
-![](.gitbook/assets/image%20%28199%29.png)
+![](.gitbook/assets/image%20%28200%29.png)
 
 Do hành lý tới chậm, nên mình phải chờ gần 1 tiếng, nhân tiện cũng xin lỗi mấy bạn nữ ban tổ chức đã phải đợi mình. Mình có gặp đội CyKor lúc ở sân bay, họ cũng tới cùng lúc với mình,...tuy nhiên ban tổ chức lại xếp mình một xe riêng về khách sạn, không được ngồi cùng với họ...bỏ lỡ cơ hội làm quen với những người bạn mới.
 
@@ -54,11 +54,11 @@ Do một người trong nhóm không đi được vì bị trễ visa, và mình
 
 ![](.gitbook/assets/image%20%2854%29.png)
 
-![](.gitbook/assets/image%20%28136%29.png)
+![](.gitbook/assets/image%20%28137%29.png)
 
 ![](.gitbook/assets/image%20%2856%29.png)
 
-![](.gitbook/assets/image%20%28187%29.png)
+![](.gitbook/assets/image%20%28188%29.png)
 
 Khi mình tới thì ban tổ chức có tặng cho player một vài món quà nhỏ làm kỉ niệm, có cả áo \(mình sẽ post sau\) nhưng do mình tới muộn, không tham dự được event buổi sáng nên đồng đội đã cầm hộ\)
 
@@ -90,15 +90,15 @@ Hội trường thi khá fancy, lúc đầu mình còn tưởng vào nhầm phò
 
 ![](.gitbook/assets/image%20%282%29.png)
 
-![](.gitbook/assets/image%20%28179%29.png)
+![](.gitbook/assets/image%20%28180%29.png)
 
 ![](.gitbook/assets/image%20%2829%29.png)
 
 ![](.gitbook/assets/image%20%28128%29.png)
 
-![](.gitbook/assets/image%20%28191%29.png)
+![](.gitbook/assets/image%20%28192%29.png)
 
-![](.gitbook/assets/image%20%28138%29.png)
+![](.gitbook/assets/image%20%28139%29.png)
 
 Các công ty cũng tranh thủ thời gian cuộc thi quảng cáo sản phẩm của mình
 
@@ -108,15 +108,15 @@ Các công ty cũng tranh thủ thời gian cuộc thi quảng cáo sản phẩm
 
 ![](.gitbook/assets/image%20%2857%29.png)
 
-![](.gitbook/assets/image%20%28166%29.png)
+![](.gitbook/assets/image%20%28167%29.png)
 
 Vài phút trước khi cuộc thi bắt đầu, các đội đang chuẩn bị,mình đã chuẩn bị máy móc xong nên cũng nhìn quanh chụp ảnh chút, khá bất ngờ khi một trong những thử thách lần này có cả việc phải hack vào một chiếc xe...dù rằng qua ảnh render trước khi cuộc thi bắt đầu mình đã đoán được phần nào. Rất may là những ký hiệu nhận dạng hãng xe đã bị ban tổ chức loại bỏ.
 
-![](.gitbook/assets/image%20%28206%29.png)
+![](.gitbook/assets/image%20%28207%29.png)
 
 Ban tổ chức lên giới thiệu một chút về cuộc thi và tuyên bố khai mạc
 
-![](.gitbook/assets/image%20%28148%29.png)
+![](.gitbook/assets/image%20%28149%29.png)
 
 ![](.gitbook/assets/image%20%283%29.png)
 
@@ -128,7 +128,7 @@ Cuộc thi cuối cùng cũng bắt đầu, mình và đồng đội bắt đầ
 
 ![](.gitbook/assets/image%20%2893%29.png)
 
-![](.gitbook/assets/image%20%28151%29.png)
+![](.gitbook/assets/image%20%28152%29.png)
 
 R3kapig là đội đầu tiên lên trình diễn, họ demo bài Java RCE, theo mình biết được là họ sử dụng real 0day, tuy nhiên không thành công do vấn đề environment.
 
@@ -154,7 +154,7 @@ Lúc này tự dưng ở đâu ra mấy ông police hay quân đội, full armed
 
 Các CEO giới thiệu sản phẩm của mình với lãnh đạo...
 
-![](.gitbook/assets/image%20%28158%29.png)
+![](.gitbook/assets/image%20%28159%29.png)
 
 Lãnh đạo đi xem các đội thi đấu
 
@@ -170,13 +170,13 @@ Sau một lúc lãnh đạo thứ 2 mới chịu lộ diện
 
 Swag gang
 
-![](.gitbook/assets/image%20%28163%29.png)
+![](.gitbook/assets/image%20%28164%29.png)
 
-![](.gitbook/assets/image%20%28178%29.png)
+![](.gitbook/assets/image%20%28179%29.png)
 
 Hai lãnh đạo bàn đại sự
 
-![](.gitbook/assets/image%20%28154%29.png)
+![](.gitbook/assets/image%20%28155%29.png)
 
 R3kapig giải được bài flaglab, đây là một bài 0day về RCE trong gitlab. Bài này không phải bản mới nhất của gitlab mà đã được vá 10 ngày trước đây, bản xuất hiện trong cuộc thi là của 10 ngày trước. Demo lỗi  này đã được biểu diễn trong một conferrence khoảng 1 tháng trước ở Trung Quốc, đồng đội mình đã tham dự nên vội pm bạn hắn \(là diễn giả\) để xin payload...Tuy nhiên sau cuộc thi thì mình nhớ là @stypr bảo mình là đội họ sài 0day thật, khác với của BTC.
 
@@ -184,7 +184,7 @@ R3kapig giải được bài flaglab, đây là một bài 0day về RCE trong g
 
 Tiếp đó là RPISEC trình diễn màn hắc Safari \(bản mới nhất\), demo khởi chạy calculator. 
 
-![](.gitbook/assets/image%20%28207%29.png)
+![](.gitbook/assets/image%20%28208%29.png)
 
 
 
@@ -196,11 +196,11 @@ Cho tới khi PPP giải được bài này...từ lúc này mọi thứ đều 
 
 ![](.gitbook/assets/image%20%2879%29.png)
 
-![](.gitbook/assets/image%20%28173%29.png)
+![](.gitbook/assets/image%20%28174%29.png)
 
 Phew...kết thúc ngày thứ nhất
 
-![](.gitbook/assets/image%20%28140%29.png)
+![](.gitbook/assets/image%20%28141%29.png)
 
 Mọi thứ đều ổn, ngoại trừ đồ ăn có hơi nguội...
 
