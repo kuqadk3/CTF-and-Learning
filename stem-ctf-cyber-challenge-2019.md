@@ -386,7 +386,7 @@ MCA{stop_ransomware_save_cats}
 
 ## Update
 
-AES CFB mode use first block as IV
+DES CFB mode use first block as IV
 
 ![](.gitbook/assets/image%20%2881%29.png)
 
