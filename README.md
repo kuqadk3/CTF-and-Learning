@@ -1,10 +1,18 @@
 ---
-description: >-
-  “If people do not believe that mathematics is simple, it is only because they
-  do not realize how complicated life is.” ― John von Neumann
+description: Everything on this blog is personal.
 ---
 
 # About me
+
+## My promises to CTF
+
+1. I expect not to get the answer on first try
+2. I can tolerate ungodly amounts of frustation
+3. I attack problems from multiple angles
+4. I check my goddamn work
+5. I practice persistence
+
+Got inspired by this article : [https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe)
 
 ## Contact information <a id="first-year-at-college-"></a>
 
