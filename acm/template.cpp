@@ -8,5 +8,6 @@ using namespace std;
 #define debug(x) cout << x << endl;
 
 int main(){
+  IOS
   return 0;
 }
