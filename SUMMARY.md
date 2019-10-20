@@ -15,4 +15,6 @@
 * [Project Euler](project-euler.md)
 * [HITB Amsterdam 2019](hitb-amsterdam-2019.md)
 * [Golang function's name obfuscation : How to fool analysis tools?](golang-function-name-obfuscation-how-to-fool-analysis-tools.md)
+* [Flare-On 2019](flare-on-2019.md)
+* [SECCON 2019 - Qualification](seccon-2019-qualification.md)
 

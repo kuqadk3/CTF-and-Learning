@@ -55,7 +55,7 @@ function get(name){
 
 ```
 
-![pow](.gitbook/assets/image%20%28154%29.png)
+![pow](.gitbook/assets/image%20%28164%29.png)
 
 ## Steganography
 
@@ -79,7 +79,7 @@ Reverse it + Slow it down using Audacity
 
 This challenge is quite easy but seems like people hate MIPS, so there are not much solves. It's actually the easiest assembly to read/write so far as i knew and tried.
 
-![](.gitbook/assets/image%20%28156%29.png)
+![](.gitbook/assets/image%20%28166%29.png)
 
 First, program read input from stdin through fgets\(\), and check to see if input string length is equal 19 or not
 
@@ -87,7 +87,7 @@ First, program read input from stdin through fgets\(\), and check to see if inpu
 
 If len\(input\_string\) != 19, then it will lead to bad boy, otherwise, it keep running program
 
-![](.gitbook/assets/image%20%28125%29.png)
+![](.gitbook/assets/image%20%28133%29.png)
 
 Next part is an for loop, where it check to see if \($fp + -0x58 + 4 + i\) == 'i' where i from range\(8, 17\)
 
@@ -120,7 +120,7 @@ Those memory offset will hold value that equal to "i"
 
 Next is an if statement that check whether an fixed address hold an char it want
 
-![](.gitbook/assets/image%20%28120%29.png)
+![](.gitbook/assets/image%20%28128%29.png)
 
 Which mean
 
@@ -149,21 +149,21 @@ cantrunmiiiiiiiiips
 
 Config IDA :
 
-![](.gitbook/assets/image%20%28168%29.png)
+![](.gitbook/assets/image%20%28179%29.png)
 
 Thanks god this is not stripped binary :
 
-![](.gitbook/assets/image%20%2899%29.png)
+![](.gitbook/assets/image%20%28104%29.png)
 
 Find main\_main\(\) : 
 
-![](.gitbook/assets/image%20%28182%29.png)
+![](.gitbook/assets/image%20%28194%29.png)
 
 First, that's why loop where it xor your input\_string with "rootme" than compares with an hardcoded byte array
 
 Debug to find which byte array it compares with :
 
-![](.gitbook/assets/image%20%28197%29.png)
+![](.gitbook/assets/image%20%28210%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="solver.py" %}
@@ -194,19 +194,19 @@ ImLovingGoLand
 
 First thing first
 
-![](.gitbook/assets/image%20%28102%29.png)
+![](.gitbook/assets/image%20%28107%29.png)
 
 This file is GameBoy ROM file, and there is some interesting strings
 
 For debugging GameBoy ROM, i chose BGB \([http://bgb.bircd.org/](http://bgb.bircd.org/)\)
 
-![](.gitbook/assets/image%20%28123%29.png)
+![](.gitbook/assets/image%20%28131%29.png)
 
 Basically, this is the game where you can move : RIGHT, LEFT, UP, DOWN. And hit enter to check, if you satisfy some requirements, it will print flag.
 
 Let's load it into IDA \(IDA &gt; CPU = Zilog Z80 &gt; Press C to force disassemble\) :
 
-![](.gitbook/assets/image%20%28173%29.png)
+![](.gitbook/assets/image%20%28185%29.png)
 
 Since i dont know where to start, so i start with string, trying to find its xref
 
@@ -235,9 +235,9 @@ Trace from 0x0C0B0, we found :
 
  
 
-![](.gitbook/assets/image%20%2883%29.png)
+![](.gitbook/assets/image%20%2885%29.png)
 
-![](.gitbook/assets/image%20%2876%29.png)
+![](.gitbook/assets/image%20%2878%29.png)
 
 So, we already know that 0x42D is "RIGHT". Basically these asm lines just print "RIGHT", decrease value at \[0x0C0B0\] by 1 and do something with value at \[0x0C0B4\] which i believe is FLAG \(looks up at good\_boy\)
 
@@ -263,7 +263,7 @@ Then it check to see if we satisfy all below constraints then print flag
 
 Now we need to know what's its initial value, time to use bgb to debug :
 
-![](.gitbook/assets/image%20%28104%29.png)
+![](.gitbook/assets/image%20%28109%29.png)
 
 So initial value is :
 

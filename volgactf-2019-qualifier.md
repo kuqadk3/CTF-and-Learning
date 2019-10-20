@@ -155,7 +155,7 @@ f.close()
 
 Decrypt the data.enc, we got a PNG image :
 
-![](.gitbook/assets/image%20%28161%29.png)
+![](.gitbook/assets/image%20%28171%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="flag" %}
@@ -233,7 +233,7 @@ The name "Higher" is a hint, basically load it in to Audacity -&gt; Effect -&gt;
 
 And convert to Spectrogram with maximum is 20k  :
 
-![](.gitbook/assets/image%20%28196%29.png)
+![](.gitbook/assets/image%20%28209%29.png)
 
 You can see a thin line \(represent 0\) and thick line \(represent 1\)
 
@@ -247,25 +247,25 @@ VolgaCTF{N0t_4ll_c4n_b3_h34rd}
 
 Check the robots.txt, we found :
 
-![](.gitbook/assets/image%20%28114%29.png)
+![](.gitbook/assets/image%20%28120%29.png)
 
 Download .war file and decompile it with JD-GUI :
 
-![](.gitbook/assets/image%20%28146%29.png)
+![](.gitbook/assets/image%20%28156%29.png)
 
 We found an .sql file, and it's quite interesting that someone/admin was actually use that test/test account to exploit, increase the balance to 100000000 . Though they fix it later, but my teammate and 30 team other already solved the challenge, and it gave me some ideas to solve shop 1 myself \(in intended way\) and shop 2 later
 
 It's quite trivial that this is AutoBinding vuln, and we can pass param "Balance" as Object and control its value :
 
-![](.gitbook/assets/image%20%28172%29.png)
+![](.gitbook/assets/image%20%28184%29.png)
 
 And we need a POST request to change the Balance and buy Flag at the same time, using Burp Suite, we have : 
 
-![](.gitbook/assets/image%20%2861%29.png)
+![](.gitbook/assets/image%20%2862%29.png)
 
 Huehuehuehue :
 
-![](.gitbook/assets/image%20%28178%29.png)
+![](.gitbook/assets/image%20%28190%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="flag" %}
@@ -281,7 +281,7 @@ VolgaCTF{c6bc0c68f0d0dac189aa9031f8607dba}
 
 It's pretty much same though, we can find the .war file by checking robots.txt :
 
-![](.gitbook/assets/image%20%28185%29.png)
+![](.gitbook/assets/image%20%28197%29.png)
 
 Download and decompile .war file, we realize that no matter how much money we have, we just cant buy flag :
 
@@ -338,7 +338,7 @@ But Autobind uses functions of classes too, so :
 
 And we got flag :
 
-![](.gitbook/assets/image%20%28140%29.png)
+![](.gitbook/assets/image%20%28150%29.png)
 
 Flag :
 

@@ -4,7 +4,7 @@
 
 Task is quite trivial
 
-![](.gitbook/assets/image%20%2844%29.png)
+![](.gitbook/assets/image%20%2845%29.png)
 
 It turns out this challenge is project euler 82 :\)
 
@@ -94,5 +94,5 @@ if __name__ == "__main__": main()
 
 The task is quite trivial, after done all stage, you just need to convert all your answers to chr\(\) and decode base64.
 
-![pof.png](.gitbook/assets/image%20%28108%29.png)
+![pof.png](.gitbook/assets/image%20%28114%29.png)
 

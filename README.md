@@ -1,5 +1,5 @@
 ---
-description: Everything on this blog is personal.
+description: Everything on this blog are personal opinions.
 ---
 
 # About me
@@ -58,7 +58,7 @@ Got inspired by this article : [https://medium.com/s/story/6-life-lessons-from-m
 
 ##  Insomni hack Final 2019, Geneva, Switzerland with ISITDTU
 
-![](.gitbook/assets/image%20%2885%29.png)
+![](.gitbook/assets/image%20%2888%29.png)
 
 ![](.gitbook/assets/image%20%2840%29.png)
 
@@ -66,5 +66,5 @@ Got inspired by this article : [https://medium.com/s/story/6-life-lessons-from-m
 
 ## MatesCTF 2019, Hanoi, Vietnam
 
-![](.gitbook/assets/image%20%28130%29.png)
+![](.gitbook/assets/image%20%28139%29.png)
 
