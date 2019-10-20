@@ -10,7 +10,7 @@ Take a quick look at **packets.pcapng**, we realize there is device connected an
 
 ![](.gitbook/assets/image%20%2844%29.png)
 
-Since the exe file's name is **PPKeyboard.exe**, we can guess it's a keyboard. Actually, it's MIDI keyboard. Actually, it's Electronic Piano keyboard.
+Since the exe file's name is **PPKeyboard.exe**, we can guess it's a keyboard. Actually, it's MIDI keyboard. Actually, it's Electronic Piano keyboard. \(If you curious why, take a look at MIDI's message/protocol here [http://www.music-software-development.com/midi-tutorial.html](http://www.music-software-development.com/midi-tutorial.html) , though knowledge about MIDI message/protocol is not required to solve this challenge\)
 
 The **PPKeyboard.exe** first check if there is any available MIDI devices. If there is any, it will try to open the device
 
