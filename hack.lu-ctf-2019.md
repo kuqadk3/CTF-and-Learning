@@ -10,7 +10,7 @@ We were still in 3rd place \(eligible for prize\) 30 minutes before the contest 
 
 ![](.gitbook/assets/image%20%28155%29.png)
 
-But life sucks, WE\_0WN\_YOU surpass us with like 300pts.  Fuck it. If I can solve this challenge \(482pts\) then we would have the prize.
+But life sucks, WE\_0WN\_YOU surpassed us with 300pts.  Fuck it. If I could solve this challenge \(482pts\) then we would have the prize.
 
 ![](.gitbook/assets/image%20%28187%29.png)
 
