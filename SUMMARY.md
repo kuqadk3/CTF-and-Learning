@@ -17,4 +17,5 @@
 * [Golang function's name obfuscation : How to fool analysis tools?](golang-function-name-obfuscation-how-to-fool-analysis-tools.md)
 * [Flare-On 2019](flare-on-2019.md)
 * [SECCON 2019 - Qualification](seccon-2019-qualification.md)
+* [Hack.lu CTF 2019](hack.lu-ctf-2019.md)
 
