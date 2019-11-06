@@ -46,7 +46,7 @@ Got inspired by this article : [https://medium.com/s/story/6-life-lessons-from-m
 
 ![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/ota_rw_final.jpg)
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 ## Winter \(third year\), play with UET - Just Fucking Do It in SVATTT2018 Quals :  <a id="winter-third-year-play-with-uet---just-fucking-do-it-in-svattt2018-quals-"></a>
 
@@ -58,13 +58,23 @@ Got inspired by this article : [https://medium.com/s/story/6-life-lessons-from-m
 
 ##  Insomni hack Final 2019, Geneva, Switzerland with ISITDTU
 
-![](.gitbook/assets/image%20%2893%29.png)
+![](.gitbook/assets/image%20%2894%29.png)
 
-![](.gitbook/assets/image%20%2843%29.png)
+![](.gitbook/assets/image%20%2844%29.png)
 
 
 
 ## MatesCTF 2019, Hanoi, Vietnam
 
-![](.gitbook/assets/image%20%28147%29.png)
+![](.gitbook/assets/image%20%28150%29.png)
+
+
+
+## VolgaCTF 2019, Xamara, Russia
+
+![](.gitbook/assets/image%20%2814%29.png)
+
+## SVATTT 2019, Hanoi, Vietnam
+
+![](.gitbook/assets/image%20%28142%29.png)
 
