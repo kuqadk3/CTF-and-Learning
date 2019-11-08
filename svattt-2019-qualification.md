@@ -246,5 +246,19 @@ f.write(decd)
 f.close()
 ```
 
+Finally, the flag is 
+
+```text
+SVATTT{In_Wiener_we_trust}
+```
+
+## End game
+
+Playing CTF is fun, playing CTF with friends is even better
+
+![](.gitbook/assets/image%20%28136%29.png)
+
+![](.gitbook/assets/image%20%28183%29.png)
+
 
 

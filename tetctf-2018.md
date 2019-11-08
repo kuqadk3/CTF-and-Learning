@@ -133,7 +133,7 @@ I use e^1 = 2.7x
 
 I use ord\('2'\) = 50
 
-![](.gitbook/assets/image%20%28138%29.png)
+![](.gitbook/assets/image%20%28139%29.png)
 
 I use sqrt\(50\) = 7.x
 
@@ -141,7 +141,7 @@ I use sqrt\(50\) = 7.x
 
 I use ceil\(7.x\) = 8
 
-![](.gitbook/assets/image%20%28229%29.png)
+![](.gitbook/assets/image%20%28231%29.png)
 
 ord\('8'\) = 56
 
@@ -222,11 +222,11 @@ saved: c2VlZD10cnVlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAmb
 
 Now i have hash, have saved, so i created request with Burpsuite 
 
-![](.gitbook/assets/image%20%28155%29.png)
+![](.gitbook/assets/image%20%28156%29.png)
 
 Finally
 
-![](.gitbook/assets/image%20%28187%29.png)
+![](.gitbook/assets/image%20%28189%29.png)
 
 ```text
 TetCTF{__Happy_new_Y3aR__!!_H3re_Your_Flower_}
@@ -246,11 +246,11 @@ Extract file /.DS\_Store with this tool
 https://github.com/lijiejie/ds_store_exp
 ```
 
-![](.gitbook/assets/image%20%28201%29.png)
+![](.gitbook/assets/image%20%28203%29.png)
 
 Check h1ddenn
 
-![](.gitbook/assets/image%20%28195%29.png)
+![](.gitbook/assets/image%20%28197%29.png)
 
 {% tabs %}
 {% tab title="flag" %}
@@ -268,7 +268,7 @@ My dream team! &lt;3
 
 
 
-![](.gitbook/assets/image%20%28184%29.png)
+![](.gitbook/assets/image%20%28186%29.png)
 
-![](.gitbook/assets/image%20%28214%29.png)
+![](.gitbook/assets/image%20%28216%29.png)
 

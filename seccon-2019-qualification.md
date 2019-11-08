@@ -2,7 +2,7 @@
 
 ## PPKeyboard
 
-![](.gitbook/assets/image%20%28199%29.png)
+![](.gitbook/assets/image%20%28201%29.png)
 
 We were given two file, **PPKeyboard.exe** and **packets.pcapng**
 
@@ -30,7 +30,7 @@ MMRESULT midiInOpen(
 
 What important here is callback function **sub\_7FF792A01070**
 
-![](.gitbook/assets/image%20%28147%29.png)
+![](.gitbook/assets/image%20%28148%29.png)
 
 Take a look at **sub\_7FF792A01070**, we easily realize it's parsing somewhat data in **a4**
 

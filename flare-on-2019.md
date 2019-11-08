@@ -8,7 +8,7 @@ description: 'I ended up at 67th this year, just two more until my favorite numb
 
 This blog post actually came from :
 
-![](.gitbook/assets/image%20%28162%29.png)
+![](.gitbook/assets/image%20%28163%29.png)
 
 So this post is actually more like summary of our discussion than a write up.
 

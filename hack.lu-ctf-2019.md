@@ -8,11 +8,11 @@ description: Deutschland CTF ist hardt.
 
 We were still in 3rd place \(eligible for prize\) 30 minutes before the contest ended
 
-![](.gitbook/assets/image%20%28158%29.png)
+![](.gitbook/assets/image%20%28159%29.png)
 
 But life sucks, WE\_0WN\_YOU surpassed us with 300pts.  Fuck it. If I could solve this challenge \(482pts\) then we would have the prize.
 
-![](.gitbook/assets/image%20%28191%29.png)
+![](.gitbook/assets/image%20%28193%29.png)
 
 But there is no such thing as magic in life.
 
@@ -32,7 +32,7 @@ The link was lead us to the site where we can submit a number and the server wil
 
 ![](.gitbook/assets/image%20%2823%29.png)
 
-![](.gitbook/assets/image%20%28164%29.png)
+![](.gitbook/assets/image%20%28165%29.png)
 
 
 
@@ -40,15 +40,15 @@ So it seems that we have to find out the generated value. Now it's time to take 
 
 Firstly, the program try to bind to 127.0.0.1 at port 8080 and wait for incoming connection. If there is incoming connection, it then create a new thread to handle. So basically, this is multi-thread tcp server
 
-![](.gitbook/assets/image%20%28163%29.png)
+![](.gitbook/assets/image%20%28164%29.png)
 
 First, no matter what is your request method, it will always return an custom constant response header.
 
-![](.gitbook/assets/image%20%28221%29.png)
+![](.gitbook/assets/image%20%28223%29.png)
 
 Then it will check for request method, it only accept two method : **GET** and **POST**. If your request is a **GET** request, it will return a html page as above. If it's not **GET** method, then it gonna check if the request method is **POST.** If the method request is not **GET** or **POST**, it will return **"Error method not allowed..."** and call _begin\_panic\(\)_. If it's **POST** request, it will generate a random number by calling _rand::random\(\)_ and later on, this number will be compared with our input number 
 
-![](.gitbook/assets/image%20%28178%29.png)
+![](.gitbook/assets/image%20%28179%29.png)
 
  ****Quickly skip through hundred lines of parsing and converting, we easily realize that it will compare that randomly generated number with our input number.
 
@@ -110,7 +110,7 @@ s.close()
 And we finally got the flag  
 
 
-![](.gitbook/assets/image%20%28236%29.png)
+![](.gitbook/assets/image%20%28238%29.png)
 
 ```text
 flag{im_not_addicted_im_patient}

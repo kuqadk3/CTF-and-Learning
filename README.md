@@ -66,7 +66,7 @@ Got inspired by this article : [https://medium.com/s/story/6-life-lessons-from-m
 
 ## MatesCTF 2019, Hanoi, Vietnam
 
-![](.gitbook/assets/image%20%28150%29.png)
+![](.gitbook/assets/image%20%28151%29.png)
 
 
 
@@ -76,5 +76,5 @@ Got inspired by this article : [https://medium.com/s/story/6-life-lessons-from-m
 
 ## SVATTT 2019, Hanoi, Vietnam
 
-![](.gitbook/assets/image%20%28142%29.png)
+![](.gitbook/assets/image%20%28143%29.png)
 

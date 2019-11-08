@@ -55,7 +55,7 @@ function get(name){
 
 ```
 
-![pow](.gitbook/assets/image%20%28180%29.png)
+![pow](.gitbook/assets/image%20%28181%29.png)
 
 ## Steganography
 
@@ -79,7 +79,7 @@ Reverse it + Slow it down using Audacity
 
 This challenge is quite easy but seems like people hate MIPS, so there are not much solves. It's actually the easiest assembly to read/write so far as i knew and tried.
 
-![](.gitbook/assets/image%20%28183%29.png)
+![](.gitbook/assets/image%20%28185%29.png)
 
 First, program read input from stdin through fgets\(\), and check to see if input string length is equal 19 or not
 
@@ -87,7 +87,7 @@ First, program read input from stdin through fgets\(\), and check to see if inpu
 
 If len\(input\_string\) != 19, then it will lead to bad boy, otherwise, it keep running program
 
-![](.gitbook/assets/image%20%28144%29.png)
+![](.gitbook/assets/image%20%28145%29.png)
 
 Next part is an for loop, where it check to see if \($fp + -0x58 + 4 + i\) == 'i' where i from range\(8, 17\)
 
@@ -120,7 +120,7 @@ Those memory offset will hold value that equal to "i"
 
 Next is an if statement that check whether an fixed address hold an char it want
 
-![](.gitbook/assets/image%20%28137%29.png)
+![](.gitbook/assets/image%20%28138%29.png)
 
 Which mean
 
@@ -149,7 +149,7 @@ cantrunmiiiiiiiiips
 
 Config IDA :
 
-![](.gitbook/assets/image%20%28197%29.png)
+![](.gitbook/assets/image%20%28199%29.png)
 
 Thanks god this is not stripped binary :
 
@@ -157,13 +157,13 @@ Thanks god this is not stripped binary :
 
 Find main\_main\(\) : 
 
-![](.gitbook/assets/image%20%28213%29.png)
+![](.gitbook/assets/image%20%28215%29.png)
 
 First, that's why loop where it xor your input\_string with "rootme" than compares with an hardcoded byte array
 
 Debug to find which byte array it compares with :
 
-![](.gitbook/assets/image%20%28231%29.png)
+![](.gitbook/assets/image%20%28233%29.png)
 
 {% tabs %}
 {% tab title="solver.py" %}
@@ -200,13 +200,13 @@ This file is GameBoy ROM file, and there is some interesting strings
 
 For debugging GameBoy ROM, i chose BGB \([http://bgb.bircd.org/](http://bgb.bircd.org/)\)
 
-![](.gitbook/assets/image%20%28140%29.png)
+![](.gitbook/assets/image%20%28141%29.png)
 
 Basically, this is the game where you can move : RIGHT, LEFT, UP, DOWN. And hit enter to check, if you satisfy some requirements, it will print flag.
 
 Let's load it into IDA \(IDA &gt; CPU = Zilog Z80 &gt; Press C to force disassemble\) :
 
-![](.gitbook/assets/image%20%28203%29.png)
+![](.gitbook/assets/image%20%28205%29.png)
 
 Since i dont know where to start, so i start with string, trying to find its xref
 
