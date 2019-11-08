@@ -43,13 +43,13 @@ print max, max_i, max_j
 
 
 
-{% code-tabs %}
-{% code-tabs-item title="output" %}
+{% tabs %}
+{% tab title="output" %}
 ```text
 906609 913 993
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 
 
@@ -134,22 +134,22 @@ for a0 in xrange(t):
     print calc(n)
 ```
 
-{% code-tabs %}
-{% code-tabs-item title="input" %}
+{% tabs %}
+{% tab title="input" %}
 ```text
 1
 100
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="output" %}
+{% tabs %}
+{% tab title="output" %}
 ```text
 25164150
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Problem 9
 

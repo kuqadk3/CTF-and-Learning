@@ -58,8 +58,8 @@ But for explaining and answering **how and why?** questions, it will take a litt
 
 Let's start by compiling a HelloWorld.go program and see its sections :
 
-{% code-tabs %}
-{% code-tabs-item title="HelloWorld.go" %}
+{% tabs %}
+{% tab title="HelloWorld.go" %}
 ```go
 package main
 import "fmt"
@@ -67,8 +67,8 @@ func main() {
     fmt.Println("hello world")
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 By using pyelf, we can view those sections :
 
@@ -100,8 +100,8 @@ This is old trick though, but problem is that tool like IDAGolangHelper can stil
 
 Here is the code part of IDAGolangHelper where magic happens :
 
-{% code-tabs %}
-{% code-tabs-item title="Gopclntab.py" %}
+{% tabs %}
+{% tab title="Gopclntab.py" %}
 ```python
 import idc
 import idautils
@@ -162,8 +162,8 @@ def rename(beg, ptr, make_funcs = True):
         Utils.rename(func_addr, name)
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 So we can know that tool like IDAGolangHelper basically just extract information from .GOPCLNTAB section to rename the functions.
 

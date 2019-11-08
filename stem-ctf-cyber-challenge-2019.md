@@ -270,8 +270,8 @@ Python is not working, so easiest way is to use the language created challenge t
 
 Actually, golang is not that bad, and pretty easy to learn, like python
 
-{% code-tabs %}
-{% code-tabs-item title="solver.go" %}
+{% tabs %}
+{% tab title="solver.go" %}
 ```go
 package main
 import "os"
@@ -302,11 +302,11 @@ func main() {
 }
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="stimulate.py" %}
+{% tabs %}
+{% tab title="stimulate.py" %}
 ```python
 import os
 s =  '''d2HwMhfXlRx2Qt/0D92mRwPuHaTdfoy0
@@ -365,8 +365,8 @@ for key in s:
     count += 1
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 And finally we got flag
 
@@ -374,13 +374,13 @@ And finally we got flag
 
 ![](.gitbook/assets/out18.png)
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 MCA{stop_ransomware_save_cats}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 
 

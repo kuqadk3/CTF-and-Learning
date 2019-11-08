@@ -70,8 +70,8 @@ Few days after contest ended, I decided to take a look at it again. I decided to
 
 Basically,  the server will wait until it read exact the length defined in **Content-length**. So, we just have to define the **Content-length** to make the server wait for us to fill the request's body. But before the server stop and wait for us, it already sent us the generated number. That's the bug here.
 
-{% code-tabs %}
-{% code-tabs-item title="solver.py" %}
+{% tabs %}
+{% tab title="solver.py" %}
 ```python
 import socket
 import time
@@ -104,8 +104,8 @@ print s.recv(2048)
 
 s.close()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 And we finally got the flag  
 

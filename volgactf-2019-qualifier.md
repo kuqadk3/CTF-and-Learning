@@ -58,8 +58,8 @@ print encrypted
 
 Thanks to @7feilee for reverse the secondalgo\(\), then we have :
 
-{% code-tabs %}
-{% code-tabs-item title="solver.py" %}
+{% tabs %}
+{% tab title="solver.py" %}
 ```python
 from functools import partial
 def firstalgo(a, k):
@@ -150,20 +150,20 @@ f = open('out.png', 'wb')
 f.write(final_output)
 f.close()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Decrypt the data.enc, we got a PNG image :
 
 ![](.gitbook/assets/image%20%28188%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 VolgaCTF{y0u_ju5t_rever5ed_a_512_b1t_Virtu4l_Mach1nE}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Antifake - **Horrible Retelling**
 
@@ -215,13 +215,13 @@ theflag is we ask you to . �� make writeup for this task _
 
 Flag is quite weird though :
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 VolgaCTF{weaskyoutomakewriteupforthistask}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Forensic - Higher
 
@@ -267,13 +267,13 @@ Huehuehuehue :
 
 ![](.gitbook/assets/image%20%28208%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 VolgaCTF{c6bc0c68f0d0dac189aa9031f8607dba} 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 
 
@@ -342,13 +342,13 @@ And we got flag :
 
 Flag :
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
  VolgaCTF{e86007271413cc1ac563c6eca0e12b62}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 
 

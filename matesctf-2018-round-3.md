@@ -22,13 +22,13 @@ matesctf>�keylog>�th{s>�k}ylog>�th~t>�
 
 With a little bit guessing :
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 matesctf{keylog_th1s_k3ylog_th4t}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Forensic 02
 
@@ -43,13 +43,13 @@ Flag :
 
 ![out.gif](.gitbook/assets/image%20%2839%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 matesctf{0ld_sch00l_w1r3t4pp1n9}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 
 
@@ -71,8 +71,8 @@ Double confirmed
 
 ![](.gitbook/assets/image%20%28101%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="solver.py" %}
+{% tabs %}
+{% tab title="solver.py" %}
 ```python
 from pwn import *
 
@@ -89,16 +89,16 @@ while True:
 				if "WIN" in r.recvuntil('Your choice:'):
 					r.interactive()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 MatesCTF{YE5_Y0U_34RN3D_TRU3_FLAG}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 
 
@@ -176,13 +176,13 @@ print hex(pow(c,d,p))[2:].decode('hex')
 
 ![](.gitbook/assets/image%20%2885%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 matesctf{rsa_is_fun_cryptography}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Web 01 + 02 + 03
 

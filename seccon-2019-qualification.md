@@ -52,8 +52,8 @@ So I just dump the pcapng to csv and wrote a python script to parse and re-order
 
 {% file src=".gitbook/assets/seccon\_midi.csv" %}
 
-{% code-tabs %}
-{% code-tabs-item title="dumper\_csv.py" %}
+{% tabs %}
+{% tab title="dumper\_csv.py" %}
 ```python
 import csv
 
@@ -80,13 +80,13 @@ for i in range(0, len(arr_parsed)):
 print len(arr)
 print str(arr2).replace('\'', '')
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 So it's pretty trivial from now on, just quickly recode the callback function
 
-{% code-tabs %}
-{% code-tabs-item title="callback.cpp" %}
+{% tabs %}
+{% tab title="callback.cpp" %}
 ```cpp
 #include <iostream>
 #include <stdio.h>
@@ -106,8 +106,8 @@ int main() {
 	return 0;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 We got a hex string
 

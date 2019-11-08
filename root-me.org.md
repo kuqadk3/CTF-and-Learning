@@ -14,8 +14,8 @@ Again, this is a note so that incase root-me be fucked up again, i can easily go
 
  First, we must steal the token by using XSS
 
-{% code-tabs %}
-{% code-tabs-item title="steal\_token.js" %}
+{% tabs %}
+{% tab title="steal\_token.js" %}
 ```javascript
 <iframe id="iframe" src="/web-client/ch23/?action=profile" onload="read()"></iframe>
 <script>
@@ -25,8 +25,8 @@ function read()
 }
 </script>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Second, we create crsf form that get token and submit request
 
@@ -65,13 +65,13 @@ Reverse it + Slow it down using Audacity
 
 {% file src=".gitbook/assets/out\_flag.mp3" %}
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 3b27641fc5h0
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Reverse Engineering
 
@@ -165,8 +165,8 @@ Debug to find which byte array it compares with :
 
 ![](.gitbook/assets/image%20%28231%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="solver.py" %}
+{% tabs %}
+{% tab title="solver.py" %}
 ```python
 ida_chars =[
   0x3B, 0x02, 0x23, 0x1B, 0x1B, 0x0C, 0x1C, 0x08, 0x28, 0x1B, 
@@ -179,16 +179,16 @@ for i in range(0, len(ida_chars)):
 print out
 print len(out)
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 ImLovingGoLand
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ### GB - Basic GameBoy Crackme
 
@@ -278,11 +278,11 @@ Time to get flag :
 
 ![](.gitbook/assets/image%20%2842%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="flag" %}
+{% tabs %}
+{% tab title="flag" %}
 ```text
 rom1
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
