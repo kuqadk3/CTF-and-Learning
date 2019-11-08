@@ -140,5 +140,111 @@ io.recvline()
 io.recvline()
 ```
 
+## RE02
+
+Most of the re part was done by @kungfulon. Kudos to him.
+
+Basically, the program was worked as following :
+
+```text
+1. Generate a random 32 bytes key
+2. Encrypt the key with RSA hardcoded public key
+3. Use the genarated key, hardcoded IV "0123456789012345" with AES-256-CBC to encrypt the file data
+
+The file structure is as following :
+1. First 5 bytes is "CRYPT"
+2. Next 4 bytes is the size of rsa encrypted 32 bytes key, let call it enc_key
+3. Next is enc_key
+4. Next 4 bytes is the size of aes-256-cbc encrypted data, let call it enc_data
+5. Next is enc_data
+```
+
+Script to decrypt the file
+
+```text
+#Kudos to @kungfulon (Bien Pham)
+from Crypto.Cipher import AES
+from Crypto.PublicKey import RSA
+from Crypto.Cipher import PKCS1_OAEP
+
+import struct
+def file_parse(content):
+	str_crypt = content[0:5]
+	key_size = int(content[5:9][::-1].encode('hex'), 16)
+	key_enc = content[9:9+key_size]
+	data_enc_size = int(content[9+key_size:9+key_size+4][::-1].encode('hex'), 16)
+	data_enc = content[9+key_size+4:9+key_size+4+data_enc_size]
+	return (key_enc, data_enc)
+
+f = open('flag.txt.rsacrypted', 'rb') #put your file here
+content = f.read()
+f.close()
+
+rsa_key = RSA.importKey('''-----BEGIN RSA PRIVATE KEY-----
+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
+SvfBX0F+26VR
+-----END RSA PRIVATE KEY-----
+''')
+cipher = PKCS1_OAEP.new(rsa_key)
+
+key_enc, data_enc = file_parse(content)
+
+key = cipher.decrypt(key_enc)
+
+iv = '0123456789012345'
+aes = AES.new(key, AES.MODE_CBC, iv)
+decd = aes.decrypt(data_enc)
+
+#remember to remove padding
+f = open('out.dec', 'wb')
+f.write(decd)
+f.close()
+```
+
 
 
