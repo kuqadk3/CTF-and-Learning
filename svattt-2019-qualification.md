@@ -67,7 +67,7 @@ m = 0x63617420666c6167 + n
 Which is not 0x63617420666c6167 but after passed to sign\(\) function, it becomes as same as if we pass m itself alone to sign\(\) function
 
 $$
-(m + n)^d \bmod n = m^d \bmod n  + n^d \bmod n = m^d \bmod n
+(m + n)^d \bmod n = (m^d \bmod n  + n^d \bmod n ) \bmod n= m^d \bmod n
 $$
 
 Since we got the signature that we want, just submit it and get the flag
