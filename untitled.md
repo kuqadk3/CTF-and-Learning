@@ -13,8 +13,8 @@ kc1{sm}htscaX3y4ttXc_nfe
 
 ```
 
-{% code-tabs %}
-{% code-tabs-item title="solver.py" %}
+{% tabs %}
+{% tab title="solver.py" %}
 ```text
 s = "kc1{sm}htscaX3y4ttXc_nfe"
 out = ""
@@ -28,8 +28,8 @@ for i in range(0, len(s)):
 	out += s[pos%len(s)]
 print out
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ```text
 matesctf{s4n1ty_ch3ck}
