@@ -14,8 +14,7 @@ Again, this is a note so that incase root-me be fucked up again, i can easily go
 
  First, we must steal the token by using XSS
 
-{% tabs %}
-{% tab title="steal\_token.js" %}
+{% code title="steal\_token.js" %}
 ```javascript
 <iframe id="iframe" src="/web-client/ch23/?action=profile" onload="read()"></iframe>
 <script>
@@ -25,8 +24,7 @@ function read()
 }
 </script>
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 Second, we create crsf form that get token and submit request
 
@@ -65,13 +63,11 @@ Reverse it + Slow it down using Audacity
 
 {% file src=".gitbook/assets/out\_flag.mp3" %}
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 3b27641fc5h0
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## Reverse Engineering
 
@@ -79,7 +75,7 @@ Reverse it + Slow it down using Audacity
 
 This challenge is quite easy but seems like people hate MIPS, so there are not much solves. It's actually the easiest assembly to read/write so far as i knew and tried.
 
-![](.gitbook/assets/image%20%28185%29.png)
+![](.gitbook/assets/image%20%28186%29.png)
 
 First, program read input from stdin through fgets\(\), and check to see if input string length is equal 19 or not
 
@@ -149,7 +145,7 @@ cantrunmiiiiiiiiips
 
 Config IDA :
 
-![](.gitbook/assets/image%20%28199%29.png)
+![](.gitbook/assets/image%20%28200%29.png)
 
 Thanks god this is not stripped binary :
 
@@ -157,16 +153,15 @@ Thanks god this is not stripped binary :
 
 Find main\_main\(\) : 
 
-![](.gitbook/assets/image%20%28215%29.png)
+![](.gitbook/assets/image%20%28216%29.png)
 
 First, that's why loop where it xor your input\_string with "rootme" than compares with an hardcoded byte array
 
 Debug to find which byte array it compares with :
 
-![](.gitbook/assets/image%20%28233%29.png)
+![](.gitbook/assets/image%20%28234%29.png)
 
-{% tabs %}
-{% tab title="solver.py" %}
+{% code title="solver.py" %}
 ```python
 ida_chars =[
   0x3B, 0x02, 0x23, 0x1B, 0x1B, 0x0C, 0x1C, 0x08, 0x28, 0x1B, 
@@ -179,16 +174,13 @@ for i in range(0, len(ida_chars)):
 print out
 print len(out)
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 ImLovingGoLand
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ### GB - Basic GameBoy Crackme
 
@@ -206,7 +198,7 @@ Basically, this is the game where you can move : RIGHT, LEFT, UP, DOWN. And hit 
 
 Let's load it into IDA \(IDA &gt; CPU = Zilog Z80 &gt; Press C to force disassemble\) :
 
-![](.gitbook/assets/image%20%28205%29.png)
+![](.gitbook/assets/image%20%28206%29.png)
 
 Since i dont know where to start, so i start with string, trying to find its xref
 
@@ -278,11 +270,9 @@ Time to get flag :
 
 ![](.gitbook/assets/image%20%2842%29.png)
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 rom1
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 

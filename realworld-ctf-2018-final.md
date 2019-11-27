@@ -34,11 +34,11 @@ Thời gian transit của mình ở Guangzhou là hơn 2 tiếng, tuy nhiên do 
 
 Trên máy bay...
 
-![](.gitbook/assets/image%20%28246%29.png)
+![](.gitbook/assets/image%20%28247%29.png)
 
 Máy bay nội địa khá xịn, có cả sạc điện thoại, tuy nhiên chỉ sử dụng được khi máy bay chưa cất cánh
 
-![](.gitbook/assets/image%20%28236%29.png)
+![](.gitbook/assets/image%20%28237%29.png)
 
 Do hành lý tới chậm, nên mình phải chờ gần 1 tiếng, nhân tiện cũng xin lỗi mấy bạn nữ ban tổ chức đã phải đợi mình. Mình có gặp đội CyKor lúc ở sân bay, họ cũng tới cùng lúc với mình,...tuy nhiên ban tổ chức lại xếp mình một xe riêng về khách sạn, không được ngồi cùng với họ...bỏ lỡ cơ hội làm quen với những người bạn mới.
 
@@ -58,7 +58,7 @@ Do một người trong nhóm không đi được vì bị trễ visa, và mình
 
 ![](.gitbook/assets/image%20%2861%29.png)
 
-![](.gitbook/assets/image%20%28224%29.png)
+![](.gitbook/assets/image%20%28225%29.png)
 
 Khi mình tới thì ban tổ chức có tặng cho player một vài món quà nhỏ làm kỉ niệm, có cả áo \(mình sẽ post sau\) nhưng do mình tới muộn, không tham dự được event buổi sáng nên đồng đội đã cầm hộ\)
 
@@ -90,13 +90,13 @@ Hội trường thi khá fancy, lúc đầu mình còn tưởng vào nhầm phò
 
 ![](.gitbook/assets/image%20%283%29.png)
 
-![](.gitbook/assets/image%20%28212%29.png)
+![](.gitbook/assets/image%20%28213%29.png)
 
 ![](.gitbook/assets/image%20%2833%29.png)
 
 ![](.gitbook/assets/image%20%28149%29.png)
 
-![](.gitbook/assets/image%20%28228%29.png)
+![](.gitbook/assets/image%20%28229%29.png)
 
 ![](.gitbook/assets/image%20%28162%29.png)
 
@@ -108,11 +108,11 @@ Các công ty cũng tranh thủ thời gian cuộc thi quảng cáo sản phẩm
 
 ![](.gitbook/assets/image%20%2862%29.png)
 
-![](.gitbook/assets/image%20%28198%29.png)
+![](.gitbook/assets/image%20%28199%29.png)
 
 Vài phút trước khi cuộc thi bắt đầu, các đội đang chuẩn bị,mình đã chuẩn bị máy móc xong nên cũng nhìn quanh chụp ảnh chút, khá bất ngờ khi một trong những thử thách lần này có cả việc phải hack vào một chiếc xe...dù rằng qua ảnh render trước khi cuộc thi bắt đầu mình đã đoán được phần nào. Rất may là những ký hiệu nhận dạng hãng xe đã bị ban tổ chức loại bỏ.
 
-![](.gitbook/assets/image%20%28244%29.png)
+![](.gitbook/assets/image%20%28245%29.png)
 
 Ban tổ chức lên giới thiệu một chút về cuộc thi và tuyên bố khai mạc
 
@@ -154,7 +154,7 @@ Lúc này tự dưng ở đâu ra mấy ông police hay quân đội, full armed
 
 Các CEO giới thiệu sản phẩm của mình với lãnh đạo...
 
-![](.gitbook/assets/image%20%28188%29.png)
+![](.gitbook/assets/image%20%28189%29.png)
 
 Lãnh đạo đi xem các đội thi đấu
 
@@ -170,13 +170,13 @@ Sau một lúc lãnh đạo thứ 2 mới chịu lộ diện
 
 Swag gang
 
-![](.gitbook/assets/image%20%28194%29.png)
+![](.gitbook/assets/image%20%28195%29.png)
 
-![](.gitbook/assets/image%20%28211%29.png)
+![](.gitbook/assets/image%20%28212%29.png)
 
 Hai lãnh đạo bàn đại sự
 
-![](.gitbook/assets/image%20%28184%29.png)
+![](.gitbook/assets/image%20%28185%29.png)
 
 R3kapig giải được bài flaglab, đây là một bài 0day về RCE trong gitlab. Bài này không phải bản mới nhất của gitlab mà đã được vá 10 ngày trước đây, bản xuất hiện trong cuộc thi là của 10 ngày trước. Demo lỗi  này đã được biểu diễn trong một conferrence khoảng 1 tháng trước ở Trung Quốc, đồng đội mình đã tham dự nên vội pm bạn hắn \(là diễn giả\) để xin payload...Tuy nhiên sau cuộc thi thì mình nhớ là @stypr bảo mình là đội họ sài 0day thật, khác với của BTC.
 
@@ -184,7 +184,7 @@ R3kapig giải được bài flaglab, đây là một bài 0day về RCE trong g
 
 Tiếp đó là RPISEC trình diễn màn hắc Safari \(bản mới nhất\), demo khởi chạy calculator. 
 
-![](.gitbook/assets/image%20%28245%29.png)
+![](.gitbook/assets/image%20%28246%29.png)
 
 
 
@@ -196,7 +196,7 @@ Cho tới khi PPP giải được bài này...từ lúc này mọi thứ đều 
 
 ![](.gitbook/assets/image%20%2887%29.png)
 
-![](.gitbook/assets/image%20%28206%29.png)
+![](.gitbook/assets/image%20%28207%29.png)
 
 Phew...kết thúc ngày thứ nhất
 

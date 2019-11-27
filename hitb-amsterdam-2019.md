@@ -30,8 +30,7 @@ I was used FCEUX debugger to debug this file. The challenge is quite trivial onc
 
 Basically it's just 2 for loop xoring 0x20 bytes in \[C420\] and \[C540\] together with 0x10 bytes from \[15\] where \[15\] is our input. So we know that input key is 16 chars and output is 32 chars.
 
-{% tabs %}
-{% tab title="decode\_flag.py" %}
+{% code title="decode\_flag.py" %}
 ```python
 arr_420 = [0x70, 0x75, 0x4e, 0x2c, 0x7f, 0xe7, 0x71, 0xe3, 0x60, 0x64, 0x30, 0x13, 0xe9, 0x24, 0xf2,   0x30, 0x72, 0x12, 0x67, 0x5d, 0x58, 0x96, 0x15, 0xd0, 0x02, 0x54, 0x1e, 0x32, 0x93, 0x51, 0xfb, 0x39]
 arr_540 = [0x19, 0x13, 0x0f, 0x0a, 0x06, 0x03, 0x01, 0x00, 0x00, 0x00, 
@@ -40,8 +39,7 @@ arr_15 = [0x40] * 0x10 #change this, this is our input, 16 bit key
 for i in range(0, 0x20):
     print chr(arr_420[i] ^ arr_540[i] ^ arr_15[i%0x10])
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 So @Unblvr realize that the output must be printable so the input key must be the number that will make the char of output, separate to 2 lines, each have 16 chars, that in the same index in these two lines both printable \( Basically, we input input\[i\] that somehow must make flag\[i\] and flag\[i+16\] printable\) \(Dude realize that even before i gave him the code, pretty sure his IQ is 200+, no wonder why he kick ass all forensic challs\)
 

@@ -8,8 +8,7 @@ Task is quite trivial
 
 It turns out this challenge is project euler 82 :\)
 
-{% tabs %}
-{% tab title="solver.py" %}
+{% code title="solver.py" %}
 ```python
 import os
 import heapq
@@ -89,8 +88,7 @@ def main():
     print base64.b64decode(output_flag)
 if __name__ == "__main__": main()
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 The task is quite trivial, after done all stage, you just need to convert all your answers to chr\(\) and decode base64.
 

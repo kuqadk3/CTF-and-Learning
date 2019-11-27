@@ -12,7 +12,7 @@ We were still in 3rd place \(eligible for prize\) 30 minutes before the contest 
 
 But life sucks, WE\_0WN\_YOU surpassed us with 300pts.  Fuck it. If I could solve this challenge \(482pts\) then we would have the prize.
 
-![](.gitbook/assets/image%20%28193%29.png)
+![](.gitbook/assets/image%20%28194%29.png)
 
 But there is no such thing as magic in life.
 
@@ -44,7 +44,7 @@ Firstly, the program try to bind to 127.0.0.1 at port 8080 and wait for incoming
 
 First, no matter what is your request method, it will always return an custom constant response header.
 
-![](.gitbook/assets/image%20%28223%29.png)
+![](.gitbook/assets/image%20%28224%29.png)
 
 Then it will check for request method, it only accept two method : **GET** and **POST**. If your request is a **GET** request, it will return a html page as above. If it's not **GET** method, then it gonna check if the request method is **POST.** If the method request is not **GET** or **POST**, it will return **"Error method not allowed..."** and call _begin\_panic\(\)_. If it's **POST** request, it will generate a random number by calling _rand::random\(\)_ and later on, this number will be compared with our input number 
 
@@ -70,8 +70,7 @@ Few days after contest ended, I decided to take a look at it again. I decided to
 
 Basically,  the server will wait until it read exact the length defined in **Content-length**. So, we just have to define the **Content-length** to make the server wait for us to fill the request's body. But before the server stop and wait for us, it already sent us the generated number. That's the bug here.
 
-{% tabs %}
-{% tab title="solver.py" %}
+{% code title="solver.py" %}
 ```python
 import socket
 import time
@@ -104,13 +103,12 @@ print s.recv(2048)
 
 s.close()
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 And we finally got the flag  
 
 
-![](.gitbook/assets/image%20%28238%29.png)
+![](.gitbook/assets/image%20%28239%29.png)
 
 ```text
 flag{im_not_addicted_im_patient}

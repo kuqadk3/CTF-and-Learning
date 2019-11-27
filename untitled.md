@@ -14,8 +14,7 @@ Rotate to find the flag:
 kc1{sm}htscaX3y4ttXc_nfe
 ```
 
-{% tabs %}
-{% tab title="solver.py" %}
+{% code title="solver.py" %}
 ```python
 s = "kc1{sm}htscaX3y4ttXc_nfe"
 out = ""
@@ -29,21 +28,17 @@ for i in range(0, len(s)):
     out += s[pos%len(s)]
 print out
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 matesctf{s4n1ty_ch3ck}
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## Programming - Math Master
 
-{% tabs %}
-{% tab title="server.py" %}
+{% code title="server.py" %}
 ```python
 import random
 import gmpy2
@@ -75,8 +70,7 @@ if __name__ == '__main__':
     '''
     print flag
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 $$
 (3k)^2 + (4k)^2 = (5k)^2
@@ -84,13 +78,11 @@ $$
 
 So, just find k.
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 matesctf{w0w!_y0u_4r3_th3_tru3_m4st3r}
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## RE - Some Node
 
@@ -158,13 +150,11 @@ $$
 
 Since g, h, c is known and e, f is in string.printable =&gt; We can bruteforce it!
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 matesctf{OMG_I'm_s0_t1r3d_0f_m4k1ng_l0ng_fl4g}
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## Pwn - Exploit 101
 
@@ -214,13 +204,11 @@ while found != '}':
             pass
 ```
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 matesctf{suck_a_3cm_weath3r}
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## Crypto - CryptoX
 
@@ -292,8 +280,7 @@ We are so lucky, read this write up, everything is there...
 https://grocid.net/2016/04/14/sctf-ed25519/
 ```
 
-{% tabs %}
-{% tab title="pow" %}
+{% code title="pow" %}
 ```text
 Welcome to the admin panel
 You can choose one of these keys to sign your message
@@ -310,16 +297,13 @@ Public key: 5bfcb1cd3938f3f6f3092da5f7d7a1bdb1d694a725d0585a99208787554e110d
 Your command: tictactoe
 Your signature: 68299a51b6b592e2db83c26ca3594bdd81bdbb9f11c597a1deb823da7c8b9de82a1db6766d2bc10b4b3d570df4fa549077c125f87d9eb2b031675cc6bec91007
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 matesctf{Br1ng_m0r3_Curv3_Plz}
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## Pwn - Xmodem
 

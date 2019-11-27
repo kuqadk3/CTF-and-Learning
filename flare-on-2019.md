@@ -28,8 +28,7 @@ Just install the app on your Android phone and click and win.
 
 My friend @fevral even created a z3 script...
 
-{% tabs %}
-{% tab title="level2.py" %}
+{% code title="level2.py" %}
 ```python
 
 #!/usr/bin/env python
@@ -51,15 +50,13 @@ s.add(0*c + 10*f - 2*p == 72,
 print s.check()
 print s.model()
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## Level 4
 
 I just found out where it decode the flag. And wrote a python script to parse the pcap and decode the flag, another simple XOR.
 
-{% tabs %}
-{% tab title="level4.py" %}
+{% code title="level4.py" %}
 ```python
 from scapy.all import *
 
@@ -93,8 +90,7 @@ for i in range(0, 15):
             flag[2*i+1] = chr(tmp2 ^ encoded_flag[2*i+1])
 print ''.join(flag) + "@flare-on.com"
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## Level 5
 

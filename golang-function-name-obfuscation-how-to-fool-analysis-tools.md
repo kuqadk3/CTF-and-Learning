@@ -16,7 +16,7 @@ https://t.co/ITaYx2kIVP
 
 And a cute picture too
 
-![](.gitbook/assets/image%20%28230%29.png)
+![](.gitbook/assets/image%20%28231%29.png)
 
 ## Problems
 
@@ -58,8 +58,7 @@ But for explaining and answering **how and why?** questions, it will take a litt
 
 Let's start by compiling a HelloWorld.go program and see its sections :
 
-{% tabs %}
-{% tab title="HelloWorld.go" %}
+{% code title="HelloWorld.go" %}
 ```go
 package main
 import "fmt"
@@ -67,8 +66,7 @@ func main() {
     fmt.Println("hello world")
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 By using pyelf, we can view those sections :
 
@@ -92,7 +90,7 @@ fmt.Println -> not.Println
 
 And IDA will show you wrong function's name 😉 
 
-![](.gitbook/assets/image%20%28226%29.png)
+![](.gitbook/assets/image%20%28227%29.png)
 
 This is old trick though, but problem is that tool like IDAGolangHelper can still easily recover the function's name even if we modified .STRTAB. To answer why, we need to look deeper at the tool's code.
 
@@ -100,8 +98,7 @@ This is old trick though, but problem is that tool like IDAGolangHelper can stil
 
 Here is the code part of IDAGolangHelper where magic happens :
 
-{% tabs %}
-{% tab title="Gopclntab.py" %}
+{% code title="Gopclntab.py" %}
 ```python
 import idc
 import idautils
@@ -162,8 +159,7 @@ def rename(beg, ptr, make_funcs = True):
         Utils.rename(func_addr, name)
 
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 So we can know that tool like IDAGolangHelper basically just extract information from .GOPCLNTAB section to rename the functions.
 
@@ -199,7 +195,7 @@ type _func struct {
 
 So from my point of view, the function's name seems like it only be used to show user about the name of function where crash happened. And it's exactly where tools like IDAGolangHelper got function's name from. Then, it was came to my mind that why dont we modify this name if it may not cause any trouble in program :
 
-![what\_gopclntab\_looks\_like.png](.gitbook/assets/image%20%28235%29.png)
+![what\_gopclntab\_looks\_like.png](.gitbook/assets/image%20%28236%29.png)
 
 I modified :
 

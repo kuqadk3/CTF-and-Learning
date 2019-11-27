@@ -2,7 +2,7 @@
 
 ## PPKeyboard
 
-![](.gitbook/assets/image%20%28201%29.png)
+![](.gitbook/assets/image%20%28202%29.png)
 
 We were given two file, **PPKeyboard.exe** and **packets.pcapng**
 
@@ -52,8 +52,7 @@ So I just dump the pcapng to csv and wrote a python script to parse and re-order
 
 {% file src=".gitbook/assets/seccon\_midi.csv" %}
 
-{% tabs %}
-{% tab title="dumper\_csv.py" %}
+{% code title="dumper\_csv.py" %}
 ```python
 import csv
 
@@ -80,13 +79,11 @@ for i in range(0, len(arr_parsed)):
 print len(arr)
 print str(arr2).replace('\'', '')
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 So it's pretty trivial from now on, just quickly recode the callback function
 
-{% tabs %}
-{% tab title="callback.cpp" %}
+{% code title="callback.cpp" %}
 ```cpp
 #include <iostream>
 #include <stdio.h>
@@ -106,8 +103,7 @@ int main() {
 	return 0;
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 We got a hex string
 
