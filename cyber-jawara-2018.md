@@ -4,7 +4,7 @@ description: >-
   so maybe next time idk
 ---
 
-# Cyber Jawara 2018
+# Cyber Sea Game 2018
 
 ## Foreword
 

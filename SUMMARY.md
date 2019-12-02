@@ -19,5 +19,5 @@
 * [SECCON 2019 - Qualification](seccon-2019-qualification.md)
 * [Hack.lu CTF 2019](hack.lu-ctf-2019.md)
 * [SVATTT 2019 Qualification](svattt-2019-qualification.md)
-* [Cyber Jawara 2018](cyber-jawara-2018.md)
+* [Cyber Sea Game 2018](cyber-jawara-2018.md)
 
