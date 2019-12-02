@@ -99,37 +99,6 @@ while flag[len(flag) - 1] != "}":
 
 Later on, I realized there is tool that can convert wasm to C \([https://github.com/WebAssembly/wabt](https://github.com/WebAssembly/wabt)\). I tried some but all failed, this one worked
 
-```text
-import string
-
-def q(p0, p1):
-	i0 = p0
-	i1 = 1
-	i0 <<= (i1 & 31)
-	i1 = p1
-	i0 ^= i1
-	i1 = 24
-	i0 <<= (i1 & 31)
-	i1 = 24
-	i0 = (i0 >> (i1 & 31))
-	return i0
-
-
-encoded = [0xa0, 0xb9, 0xa5, 0xb5, 0x81, 0xdd, 0x55, 0x55, 0x04, 0x9b, 0xdf, 0xb1, 
-  0x95, 0xd5, 0x0b, 0xb8, 0xa8, 0xa1, 0xad, 0x8f, 0x11, 0xb9, 0xcd, 0xd6, 
-  0x3f, 0xd9, 0xfe, 0x50, 0x50, 0x50, 0x04, 0xb5, 0xfa]
-
-flag = "f"
-pos = 0
-while flag[len(flag) - 1] != "}":
-	for c in string.printable:
-		if q(ord(flag[pos]), ord(c)) == encoded[pos]:
-			flag += c
-			print flag
-			pos += 1
-			break
-```
-
 ![](.gitbook/assets/image%20%2889%29.png)
 
 ```text
