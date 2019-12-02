@@ -43,7 +43,7 @@ for i in range(0, 0x20):
 
 So @Unblvr realize that the output must be printable so the input key must be the number that will make the char of output, separate to 2 lines, each have 16 chars, that in the same index in these two lines both printable \( Basically, we input input\[i\] that somehow must make flag\[i\] and flag\[i+16\] printable\) \(Dude realize that even before i gave him the code, pretty sure his IQ is 200+, no wonder why he kick ass all forensic challs\)
 
-![](.gitbook/assets/image%20%28170%29.png)
+![](.gitbook/assets/image%20%28175%29.png)
 
 So we just brute force and have this results 
 
@@ -63,11 +63,11 @@ I then realize there is some intermediate check
 
 But @Unblvr was faster then me, he just try all 72 keys and found the right keys 😅 
 
-![](.gitbook/assets/image%20%2877%29.png)
+![](.gitbook/assets/image%20%2878%29.png)
 
 And finally here is flag
 
-![](.gitbook/assets/image%20%2826%29.png)
+![](.gitbook/assets/image%20%2827%29.png)
 
 
 

@@ -4,7 +4,7 @@
 
 Most work was done by corb, our captain, and idea from @ulas, with a big help from other @opentoall members, i am just taking note of this funny challenge
 
-![](.gitbook/assets/image%20%28161%29.png)
+![](.gitbook/assets/image%20%28166%29.png)
 
 ## Upload an .htaccess
 
@@ -206,7 +206,7 @@ https://github.com/php/php-src/blob/e219ec144ef6682b71e135fd18654ee1bb4676b4/ext
 
 With a little bit math calculation, we can get it done
 
-![](.gitbook/assets/image%20%28218%29.png)
+![](.gitbook/assets/image%20%28223%29.png)
 
 {% code title="poc.py" %}
 ```text
@@ -277,7 +277,7 @@ Even though we can execute php command, but system\(\) and some function is disa
 
 get\_flag is an captcha that read data from urandom and made a sum, ask for answer, quite easy. But problem is that we dont have interactive shell to solve that captcha, FUCK IT!
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 At that moment, it was 8 AM and i feels a bit tire, my brain is not in good condition and functioning enough to keep working, so i decided to go to sleep. Well, i should go sleep at 7 AM already but i know if i did so, my teammate will get it done before i wake up...
 
@@ -405,5 +405,5 @@ print(response.text)
 
 ## It's funny
 
-![lol.png](.gitbook/assets/image%20%28100%29.png)
+![lol.png](.gitbook/assets/image%20%28102%29.png)
 

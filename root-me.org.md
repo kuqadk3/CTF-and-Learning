@@ -6,7 +6,7 @@ I decided to start getting habit of taking note after this tragedy happens \(Tha
 
 Again, this is a note so that incase root-me be fucked up again, i can easily got all my flag and solution back, **THIS IS NOT A WRITE UP**.
 
-![sad.png](.gitbook/assets/image%20%289%29.png)
+![sad.png](.gitbook/assets/image%20%2810%29.png)
 
 ## Web - Client
 
@@ -53,7 +53,7 @@ function get(name){
 
 ```
 
-![pow](.gitbook/assets/image%20%28181%29.png)
+![pow](.gitbook/assets/image%20%28186%29.png)
 
 ## Steganography
 
@@ -75,15 +75,15 @@ Reverse it + Slow it down using Audacity
 
 This challenge is quite easy but seems like people hate MIPS, so there are not much solves. It's actually the easiest assembly to read/write so far as i knew and tried.
 
-![](.gitbook/assets/image%20%28186%29.png)
+![](.gitbook/assets/image%20%28191%29.png)
 
 First, program read input from stdin through fgets\(\), and check to see if input string length is equal 19 or not
 
-![](.gitbook/assets/image%20%2829%29.png)
+![](.gitbook/assets/image%20%2830%29.png)
 
 If len\(input\_string\) != 19, then it will lead to bad boy, otherwise, it keep running program
 
-![](.gitbook/assets/image%20%28145%29.png)
+![](.gitbook/assets/image%20%28149%29.png)
 
 Next part is an for loop, where it check to see if \($fp + -0x58 + 4 + i\) == 'i' where i from range\(8, 17\)
 
@@ -116,7 +116,7 @@ Those memory offset will hold value that equal to "i"
 
 Next is an if statement that check whether an fixed address hold an char it want
 
-![](.gitbook/assets/image%20%28138%29.png)
+![](.gitbook/assets/image%20%28142%29.png)
 
 Which mean
 
@@ -145,21 +145,21 @@ cantrunmiiiiiiiiips
 
 Config IDA :
 
-![](.gitbook/assets/image%20%28200%29.png)
+![](.gitbook/assets/image%20%28205%29.png)
 
 Thanks god this is not stripped binary :
 
-![](.gitbook/assets/image%20%28110%29.png)
+![](.gitbook/assets/image%20%28112%29.png)
 
 Find main\_main\(\) : 
 
-![](.gitbook/assets/image%20%28216%29.png)
+![](.gitbook/assets/image%20%28221%29.png)
 
 First, that's why loop where it xor your input\_string with "rootme" than compares with an hardcoded byte array
 
 Debug to find which byte array it compares with :
 
-![](.gitbook/assets/image%20%28234%29.png)
+![](.gitbook/assets/image%20%28239%29.png)
 
 {% code title="solver.py" %}
 ```python
@@ -186,19 +186,19 @@ ImLovingGoLand
 
 First thing first
 
-![](.gitbook/assets/image%20%28113%29.png)
+![](.gitbook/assets/image%20%28115%29.png)
 
 This file is GameBoy ROM file, and there is some interesting strings
 
 For debugging GameBoy ROM, i chose BGB \([http://bgb.bircd.org/](http://bgb.bircd.org/)\)
 
-![](.gitbook/assets/image%20%28141%29.png)
+![](.gitbook/assets/image%20%28145%29.png)
 
 Basically, this is the game where you can move : RIGHT, LEFT, UP, DOWN. And hit enter to check, if you satisfy some requirements, it will print flag.
 
 Let's load it into IDA \(IDA &gt; CPU = Zilog Z80 &gt; Press C to force disassemble\) :
 
-![](.gitbook/assets/image%20%28206%29.png)
+![](.gitbook/assets/image%20%28211%29.png)
 
 Since i dont know where to start, so i start with string, trying to find its xref
 
@@ -213,13 +213,13 @@ Since i dont know where to start, so i start with string, trying to find its xre
 
 From 44C, we can find good\_boy
 
-![](.gitbook/assets/image%20%2828%29.png)
+![](.gitbook/assets/image%20%2829%29.png)
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 From good\_boy, trace back, we realize there is 4 check\_point :
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 So it take a value at memory \[0x0C0B0\] and compare with 0x32 , if equal then jump to next good\_boy
 
@@ -227,9 +227,9 @@ Trace from 0x0C0B0, we found :
 
  
 
-![](.gitbook/assets/image%20%2891%29.png)
+![](.gitbook/assets/image%20%2893%29.png)
 
-![](.gitbook/assets/image%20%2884%29.png)
+![](.gitbook/assets/image%20%2885%29.png)
 
 So, we already know that 0x42D is "RIGHT". Basically these asm lines just print "RIGHT", decrease value at \[0x0C0B0\] by 1 and do something with value at \[0x0C0B4\] which i believe is FLAG \(looks up at good\_boy\)
 
@@ -255,7 +255,7 @@ Then it check to see if we satisfy all below constraints then print flag
 
 Now we need to know what's its initial value, time to use bgb to debug :
 
-![](.gitbook/assets/image%20%28115%29.png)
+![](.gitbook/assets/image%20%28117%29.png)
 
 So initial value is :
 
@@ -268,7 +268,7 @@ So initial value is :
 
 Time to get flag :
 
-![](.gitbook/assets/image%20%2842%29.png)
+![](.gitbook/assets/image%20%2843%29.png)
 
 {% code title="flag" %}
 ```text
