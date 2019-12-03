@@ -45,7 +45,7 @@ I also notice there are other exploit that was used by other team, format string
 
 ![](.gitbook/assets/image%20%28187%29.png)
 
-I also captured that someone have dropped backdoor on our service, and it's like dead end for us because if you have a backdoor on the service, you dont have to go through the proxy \(firewall\). I was freak out but then @hung told me that it's him...phew. Kudos to @hung
+I also found out that someone have dropped backdoor on our service, and it's like dead end for us because if you have a backdoor on the service, you dont have to go through the proxy \(firewall\). I was freak out but then @hung told me that it's him...phew. Kudos to @hung
 
 ![](.gitbook/assets/image%20%28248%29.png)
 
