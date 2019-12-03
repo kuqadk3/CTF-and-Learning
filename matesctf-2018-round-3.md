@@ -39,7 +39,7 @@ root@HACK_THE_PLANET:/home/tuanlinh/Desktop/all_stuff# minimodem -r -f d0bstep.w
 
 Flag :
 
-![out.gif](.gitbook/assets/image%20%2840%29.png)
+![out.gif](.gitbook/assets/image%20%2847%29.png)
 
 {% code title="flag" %}
 ```text
@@ -53,19 +53,19 @@ matesctf{0ld_sch00l_w1r3t4pp1n9}
 
 You just need to choose first 4 numbers, and spam with 3-4 tabs
 
-![](.gitbook/assets/image%20%28162%29.png)
+![](.gitbook/assets/image%20%28181%29.png)
 
 The generated numbers array will be the same
 
-![](.gitbook/assets/image%20%2899%29.png)
+![](.gitbook/assets/image%20%28113%29.png)
 
 And you will get flag with a little bit luck
 
-![](.gitbook/assets/image%20%2887%29.png)
+![](.gitbook/assets/image%20%28101%29.png)
 
 Double confirmed
 
-![](.gitbook/assets/image%20%28103%29.png)
+![](.gitbook/assets/image%20%28118%29.png)
 
 {% code title="solver.py" %}
 ```python
@@ -166,7 +166,7 @@ print hex(pow(c,d,p))[2:].decode('hex')
 
 ```
 
-![](.gitbook/assets/image%20%2886%29.png)
+![](.gitbook/assets/image%20%28100%29.png)
 
 {% code title="flag" %}
 ```text

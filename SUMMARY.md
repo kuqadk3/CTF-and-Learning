@@ -20,4 +20,5 @@
 * [Hack.lu CTF 2019](hack.lu-ctf-2019.md)
 * [SVATTT 2019 Qualification](svattt-2019-qualification.md)
 * [Cyber Sea Game 2018](cyber-jawara-2018.md)
+* [SVATTT ASEAN 2019 Final](svattt-asean-2019-final.md)
 
