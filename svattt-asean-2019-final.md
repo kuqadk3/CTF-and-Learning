@@ -90,7 +90,7 @@ Also 30 minutes later, organizer fixed the bot
 
 ![](.gitbook/assets/image%20%2853%29.png)
 
-So many bad things happened, but it's still okay, bot is suck, other team's services was down too. And the increasing points of our team per round is equal with the 2nd team \(thanks to @hung's backdoor again, 200IQ\) and we are nearly 120k points higher than them. But then organizer decided to lower time per round so other team have a chance to win us
+So many bad things happened, but it's still okay, bot is suck, other team's services was down too. And the increasing points of our team per round is equal with the 2nd team \(thanks to @hung's backdoor again, 200IQ\) and we are nearly 120k points higher than them. But then organizer decided to lower time per round so other teams have a chance at winning us
 
 ![](.gitbook/assets/image%20%2885%29.png)
 
