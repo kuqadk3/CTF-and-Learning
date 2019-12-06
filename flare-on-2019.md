@@ -8,7 +8,7 @@ description: 'I ended up at 67th this year, just two more until my favorite numb
 
 This blog post actually came from :
 
-![](.gitbook/assets/image%20%28188%29.png)
+![](.gitbook/assets/image%20%28190%29.png)
 
 So this post is actually more like summary of our discussion than a write up.
 
@@ -161,7 +161,7 @@ I grep the "@flare-on.com" string in Unicode, and found part of flag. Then guess
 
 Will edit this post when I receive the prize from FireEye
 
-![](.gitbook/assets/image%20%28115%29.png)
+![](.gitbook/assets/image%20%28116%29.png)
 
-
+![](.gitbook/assets/image%20%28268%29.png)
 

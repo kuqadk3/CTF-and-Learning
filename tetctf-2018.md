@@ -88,7 +88,7 @@ else
 
 In this challenge, you couldnt use rand\(\) anymore, so to get ".", i use localeconv\(\)
 
-![](.gitbook/assets/image%20%2895%29.png)
+![](.gitbook/assets/image%20%2896%29.png)
 
 With scandir\(\), i can print all file in current directory
 
@@ -107,7 +107,7 @@ $fl0wer="Flag not here! go to directory's parent directory";
 
 Checking parent folder ".." :
 
-![](.gitbook/assets/image%20%28152%29.png)
+![](.gitbook/assets/image%20%28153%29.png)
 
 Found flag, now i chdir\(\) to parent directory :
 
@@ -119,11 +119,11 @@ chdir\(\) successed, now i need create  '.' from 1. Here i use some math functio
 
 I use e^1 = 2.7x
 
-![](.gitbook/assets/image%20%28130%29.png)
+![](.gitbook/assets/image%20%28131%29.png)
 
 I use ord\('2'\) = 50
 
-![](.gitbook/assets/image%20%28161%29.png)
+![](.gitbook/assets/image%20%28162%29.png)
 
 I use sqrt\(50\) = 7.x
 
@@ -131,7 +131,7 @@ I use sqrt\(50\) = 7.x
 
 I use ceil\(7.x\) = 8
 
-![](.gitbook/assets/image%20%28260%29.png)
+![](.gitbook/assets/image%20%28262%29.png)
 
 ord\('8'\) = 56
 
@@ -204,11 +204,11 @@ saved: c2VlZD10cnVlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAmb
 
 Now i have hash, have saved, so i created request with Burpsuite 
 
-![](.gitbook/assets/image%20%28180%29.png)
+![](.gitbook/assets/image%20%28182%29.png)
 
 Finally
 
-![](.gitbook/assets/image%20%28215%29.png)
+![](.gitbook/assets/image%20%28217%29.png)
 
 ```text
 TetCTF{__Happy_new_Y3aR__!!_H3re_Your_Flower_}
@@ -220,7 +220,7 @@ I already meet this kind of challenge before in Matesctf 2018 round 2
 
 Tried dirsearch :
 
-![](.gitbook/assets/image%20%28111%29.png)
+![](.gitbook/assets/image%20%28112%29.png)
 
 Extract file /.DS\_Store with this tool
 
@@ -228,11 +228,11 @@ Extract file /.DS\_Store with this tool
 https://github.com/lijiejie/ds_store_exp
 ```
 
-![](.gitbook/assets/image%20%28229%29.png)
+![](.gitbook/assets/image%20%28231%29.png)
 
 Check h1ddenn
 
-![](.gitbook/assets/image%20%28223%29.png)
+![](.gitbook/assets/image%20%28225%29.png)
 
 {% code title="flag" %}
 ```text
@@ -248,7 +248,7 @@ My dream team! &lt;3
 
 
 
-![](.gitbook/assets/image%20%28212%29.png)
+![](.gitbook/assets/image%20%28214%29.png)
 
-![](.gitbook/assets/image%20%28243%29.png)
+![](.gitbook/assets/image%20%28245%29.png)
 

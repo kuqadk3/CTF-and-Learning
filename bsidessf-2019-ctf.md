@@ -99,7 +99,7 @@ Where hack.pgp is encrypted data
 
 Later we found the QR code in sender profile
 
-![](.gitbook/assets/image%20%28272%29.png)
+![](.gitbook/assets/image%20%28275%29.png)
 
 It was too small, so some online qr decoder fail, my experience for this is, if you cant decode with your computer software, use phone. Which successfully decoded it
 
@@ -127,7 +127,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 
 So there is lzip compressed data, let view it in hex
 
-![](.gitbook/assets/image%20%28236%29.png)
+![](.gitbook/assets/image%20%28238%29.png)
 
 So i assume first 11 bytes is trash, i delete it and export the file
 
@@ -193,7 +193,7 @@ Do decode as following
 binary-octal-decimal-hex-ascii
 ```
 
-![](.gitbook/assets/image%20%28268%29.png)
+![](.gitbook/assets/image%20%28271%29.png)
 
 We got base64 string
 
@@ -210,7 +210,7 @@ echo "Nlc/TyVBN11SY0ZDL2EuP1lzcSFCallwdERmMCEz" | base64 -d
 
 Which is ascii85 encode
 
-![](.gitbook/assets/image%20%28270%29.png)
+![](.gitbook/assets/image%20%28273%29.png)
 
 ```text
 CTF{delat_iz_muhi_slona}

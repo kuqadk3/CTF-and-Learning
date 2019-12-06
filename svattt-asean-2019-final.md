@@ -33,21 +33,21 @@ Since we have good beginning, I told my teammates what I found but since we are 
 
 Quickly after we solved vuln\_vm, ISITDTU captured our payload and start attacking other team
 
-![](.gitbook/assets/image%20%28116%29.png)
+![](.gitbook/assets/image%20%28117%29.png)
 
 ![](.gitbook/assets/image%20%2850%29.png)
 
 So I start filtering some signature in payload like "cat", "base64",...It worked for a while but then this shit happened
 
-![](.gitbook/assets/image%20%28232%29.png)
+![](.gitbook/assets/image%20%28234%29.png)
 
 I also notice there are other exploit that was used by other team, format string
 
-![](.gitbook/assets/image%20%28187%29.png)
+![](.gitbook/assets/image%20%28189%29.png)
 
 I also found out that someone have dropped backdoor on our service, and it's like dead end for us because if you have a backdoor on the service, you dont have to go through the proxy \(firewall\). I was freak out but then @hung told me that it's him...phew. Kudos to @hung
 
-![](.gitbook/assets/image%20%28248%29.png)
+![](.gitbook/assets/image%20%28250%29.png)
 
 Other problem that I noticed is that no other team's service ever down since contest started
 
@@ -63,11 +63,11 @@ So I just basically blocked all traffic...and IT WORKS!
 
 Later on, we got "ratio" solved, so basically "ratio" + "vuln\_vm" + perfect defending score == 70k points higher than top 2
 
-![](.gitbook/assets/image%20%28155%29.png)
+![](.gitbook/assets/image%20%28156%29.png)
 
 If I recall right, we keep perfect defending score until 4:30 PM, during that I have captured some weird things
 
-![](.gitbook/assets/image%20%28245%29.png)
+![](.gitbook/assets/image%20%28247%29.png)
 
 I  have discussed about this with my teammates, it looks like remcos rat traffic, which led us to 2 conclusions
 
@@ -84,7 +84,7 @@ At 4:30 PM, 2 hours before the contest ended, there is a team solved "HelloVietn
 
 ![](.gitbook/assets/image%20%2884%29.png)
 
-![](.gitbook/assets/image%20%28146%29.png)
+![](.gitbook/assets/image%20%28147%29.png)
 
 Also 30 minutes later, organizer fixed the bot
 
@@ -112,5 +112,5 @@ Thanks @Mai\_Trần for a nice picture
 
 Just ∫du It! 4+1 in 2020 incoming
 
-![](.gitbook/assets/image%20%28166%29.png)
+![](.gitbook/assets/image%20%28168%29.png)
 
