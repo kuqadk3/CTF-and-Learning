@@ -159,7 +159,7 @@ First, that's why loop where it xor your input\_string with "rootme" than compar
 
 Debug to find which byte array it compares with :
 
-![](.gitbook/assets/image%20%28264%29.png)
+![](.gitbook/assets/image%20%28265%29.png)
 
 {% code title="solver.py" %}
 ```python

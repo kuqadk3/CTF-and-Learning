@@ -227,7 +227,7 @@ The name "Higher" is a hint, basically load it in to Audacity -&gt; Effect -&gt;
 
 And convert to Spectrogram with maximum is 20k  :
 
-![](.gitbook/assets/image%20%28263%29.png)
+![](.gitbook/assets/image%20%28264%29.png)
 
 You can see a thin line \(represent 0\) and thick line \(represent 1\)
 

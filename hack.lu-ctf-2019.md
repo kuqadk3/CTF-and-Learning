@@ -108,7 +108,7 @@ s.close()
 And we finally got the flag  
 
 
-![](.gitbook/assets/image%20%28270%29.png)
+![](.gitbook/assets/image%20%28271%29.png)
 
 ```text
 flag{im_not_addicted_im_patient}

@@ -80,7 +80,7 @@ This base64 string later become your key, which will be submitted to the C&C via
 
 So,  i just debug it to get the C&C url :
 
-![](.gitbook/assets/image%20%28272%29.png)
+![](.gitbook/assets/image%20%28273%29.png)
 
 ```text
 https://docs.google.com/forms/d/e/1FAIpQLSd4VFZA8Cw7ednO-FzLqqesH6wd2z_bxs8-gg6L87kdVvKzkw/formResponse
@@ -136,7 +136,7 @@ And check to see if the file is one of these extensions :
 
 So i just create an folder with some file to test to see if it works
 
-![](.gitbook/assets/image%20%28269%29.png)
+![](.gitbook/assets/image%20%28270%29.png)
 
 ![](.gitbook/assets/image%20%2890%29.png)
 

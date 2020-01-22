@@ -131,7 +131,7 @@ I use sqrt\(50\) = 7.x
 
 I use ceil\(7.x\) = 8
 
-![](.gitbook/assets/image%20%28262%29.png)
+![](.gitbook/assets/image%20%28263%29.png)
 
 ord\('8'\) = 56
 
