@@ -8,7 +8,7 @@ Understanding what people have done in the past is important because it's not ju
 
 > Over the past 20 years numerous binary code similarity approaches have been proposed, but the research area has not yet been systematically analyzed.
 
-To give the reader a big-picture view of Binary Code Similarity, author have done a great job of systematizing 61 approaches by 5 characteristics. It's also worth noting that there is not only 61 approaches through 20 years of researching, but these 61 approaches are quite distinctive to others.
+To give the reader a big-picture view of Binary Code Similarity, author have done a great job of systematizing 61 approaches by 5 characteristics. It's also worth noting that there is not only 61 approaches through 20 years of researching, but these 61 approaches are quite distinctive to others. A deep explaination of these characteristics could be found in **VI** so I will not go any deeper, if you are curious, take a look at the original paper.
 
 > For example, the approach systematization includes, among others, the number of input pieces of binary code being compared \(e.g., one-to-one, one-to-many, many-to-many\); the granularity of the pieces of binary code analyzed \(e.g., basic blocks, functions, programs\); whether the comparison happens at the syntactical representation, the graph structure, or the code semantics; the type of analysis used \(e.g., static, dynamic, symbolic\), and the techniques used for scalability \(e.g., hashing, embedding, indexing\).
 
