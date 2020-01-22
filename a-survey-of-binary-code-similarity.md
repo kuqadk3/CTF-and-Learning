@@ -12,9 +12,9 @@ To give the reader a big-picture view of Binary Code Similarity, author have don
 
 > For example, the approach systematization includes, among others, the number of input pieces of binary code being compared \(e.g., one-to-one, one-to-many, many-to-many\); the granularity of the pieces of binary code analyzed \(e.g., basic blocks, functions, programs\); whether the comparison happens at the syntactical representation, the graph structure, or the code semantics; the type of analysis used \(e.g., static, dynamic, symbolic\), and the techniques used for scalability \(e.g., hashing, embedding, indexing\).
 
-They also differentiate these approaches by its application
+They also differentiate these approaches by its application. For people who care more about applications, you can take a look at chapter **IV**, where author talks about different application of Binary Code Similarity with link to multiple approaches for that application or just look at the below table.  That would be great starting point for people who just get into the field or just care about one or few applications of Binary Code Similarity. 
 
 ![](.gitbook/assets/image%20%28260%29.png)
 
-For people who care more about applications, you can take a look at chapter **IV**, where author talks about different application of Binary Code Similarity with link to multiple approaches for that application or just look at the above table.  That would be great starting point for people who just get into the field or just care about one or few applications of Binary Code Similarity. 
+
 
