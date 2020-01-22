@@ -16,5 +16,5 @@ They also differentiate these approaches by its application
 
 ![](.gitbook/assets/image%20%28260%29.png)
 
-For people who care more about applications, you can take a look at chapter **IV**, where author talks about different application of Binary Code Similarity with link to multiple approaches of Binary Code Similarity for that application.  That would be great starting point for people who just get into the field or just care about one or few applications of Binary Code Similarity. 
+For people who care more about applications, you can take a look at chapter **IV**, where author talks about different application of Binary Code Similarity with link to multiple approaches for that application or just look at the above table.  That would be great starting point for people who just get into the field or just care about one or few applications of Binary Code Similarity. 
 
