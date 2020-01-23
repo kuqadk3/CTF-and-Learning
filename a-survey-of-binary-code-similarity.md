@@ -8,6 +8,8 @@ description: 'https://arxiv.org/pdf/1909.11424.pdf - Authors : Ifran Ul Haq, Jua
 
 If I knew this paper from the beginning, my journey would be easier. But the struggling is worth it anyway, I have met a lot new friends and researchers that have same interests and the joy in discussing the problems and ideas is valuable.
 
+On the other hand, I will try my best go into details just enough to convice readers to read the paper but still left a lot of joy for readers to explore themself. 
+
 ### Binary Code Similarity
 
 > Binary code similarity approaches compare two or more pieces of binary code to identify their similarities and differences
