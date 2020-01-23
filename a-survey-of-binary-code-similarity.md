@@ -4,7 +4,9 @@ description: 'https://arxiv.org/pdf/1909.11424.pdf - Authors : Ifran Ul Haq, Jua
 
 # A Survey of Binary Code Similarity
 
-### 
+[https://arxiv.org/pdf/1909.11424.pdf](https://arxiv.org/pdf/1909.11424.pdf) - Authors : Ifran Ul Haq, Juan Caballero
+
+If I knew this paper from the beginning, my journey would be easier. But the struggling is worth it anyway, I have met a lot new friends and researchers that have same interests and the joy in discussing my problems and ideas is valuable.
 
 ### Binary Code Similarity
 
