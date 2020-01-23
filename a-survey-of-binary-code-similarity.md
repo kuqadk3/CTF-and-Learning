@@ -46,5 +46,7 @@ SPP is a simple algorithm which used the uniqeness of prime decompositions and t
 
 ![](.gitbook/assets/image%20%2864%29.png)
 
+Next, in last ten years from 2010 to 2019, we can see a huge change in scope and approaches in the fields with the growing of Internet Of Things and Machine Learning master race
 
+> The last decade \(2010-2019\) has seen a huge increase in the popularity of binary code similarity, with 52 approaches identified. The focus on this decade has been on binary code search approaches, with an emphasis since 2015 on its cross-architecture version \(16 approaches\), and in recent years on machine learning approaches.
 
