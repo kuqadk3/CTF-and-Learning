@@ -62,5 +62,11 @@ Next, in last ten years from 2010 to 2019, we can see a huge change in scope and
 
 > The last decade \(2010-2019\) has seen a huge increase in the popularity of binary code similarity, with 52 approaches identified. The focus on this decade has been on binary code search approaches, with an emphasis since 2015 on its cross-architecture version \(16 approaches\), and in recent years on machine learning approaches.
 
+Beside Static analysis and Dynamic Analysis, Dataflow Analysis is also another type of analysis with two well-known methods : taint analysis and symbolic execution
 
+> Dataflow analysis is a common type of analysis that examines how values propagate through the code.
+
+These two methods can be used separately or combined like in **IBINHUNT**
+
+> IBINHUNT uses both taint analysis and symbolic execution. It first uses taint analysis as a filter to find pieces of binary code that process the same user input, restricting the expensive subgraph isomorphism computation to those with the same taint label. And, it computes basic block similarity using symbolic formulas.
 
