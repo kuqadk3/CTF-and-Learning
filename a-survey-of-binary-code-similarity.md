@@ -4,6 +4,12 @@ description: 'https://arxiv.org/pdf/1909.11424.pdf - Authors : Ifran Ul Haq, Jua
 
 # A Survey of Binary Code Similarity
 
+### 
+
+### Binary Code Similarity
+
+> Binary code similarity approaches compare two or more pieces of binary code to identify their similarities and differences
+
 Understanding what people have done in the past is important because it's not just help you save your time but also expanding your knowledges about the research area, gaining information about the previous problems to know which problems are still left-over and to know if there is still room left for improvements on a working method. 
 
 > Over the past 20 years numerous binary code similarity approaches have been proposed, but the research area has not yet been systematically analyzed.
