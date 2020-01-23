@@ -22,5 +22,7 @@ But due to my personal interests, I care more about the history of this research
 
 > In 1991, Reichenberger proposed a diffing technique for generating patches between arbitrary binary files without any knowledge about the file structure
 
-Many others approaches have developed later on with the expansion of the scope from one-to-one to many-to-many and one-to-many.  But only until 2004,  the re-ordering problem was solved by Thomas Dullien with the introduction of the Small Primes Product \(SPP\) algorithm. SPP is a simple Local Sensitive Hashing algorithm but effective to solve re-ordering problem which was used in many tools these days. For example : diaphora and KOKA algorithm \(Koret-Karamitas\) which was used SPP to hash those features/characterestics that were extracted from AST tree
+Many others approaches have developed later on with the expansion of the scope from one-to-one to many-to-many and one-to-many.  But only until 2004,  the re-ordering problem was solved by Thomas Dullien with the introduction of the Small Primes Product \(SPP\) algorithm. SPP is a simple Local Sensitive Hashing algorithm but effective to solve re-ordering problem which was used in many tools these days. For example : diaphora and KOKA algorithm \(Koret-Karamitas\) which was used SPP to hash those features/characterestics that were extracted from AST tree.
+
+
 
