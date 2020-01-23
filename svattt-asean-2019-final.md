@@ -33,29 +33,29 @@ Since we have good beginning, I told my teammates what I found but since we are 
 
 Quickly after we solved vuln\_vm, ISITDTU captured our payload and start attacking other team
 
-![](.gitbook/assets/image%20%28122%29.png)
+![](.gitbook/assets/image%20%28123%29.png)
 
 ![](.gitbook/assets/image%20%2852%29.png)
 
 So I start filtering some signature in payload like "cat", "base64",...It worked for a while but then this shit happened
 
-![](.gitbook/assets/image%20%28239%29.png)
+![](.gitbook/assets/image%20%28240%29.png)
 
 I also notice there are other exploit that was used by other team, format string
 
-![](.gitbook/assets/image%20%28194%29.png)
+![](.gitbook/assets/image%20%28195%29.png)
 
 I also found out that someone have dropped backdoor on our service, and it's like dead end for us because if you have a backdoor on the service, you dont have to go through the proxy \(firewall\). I was freak out but then @hung told me that it's him...phew. Kudos to @hung
 
-![](.gitbook/assets/image%20%28255%29.png)
+![](.gitbook/assets/image%20%28256%29.png)
 
 Other problem that I noticed is that no other team's service ever down since contest started
 
-![](.gitbook/assets/image%20%2864%29.png)
+![](.gitbook/assets/image%20%2865%29.png)
 
 It led me to the conclusion that "BOT WAS DIED". I told my teammates about this and they told me it's okay to try my idea since our points is 40k points higher than top 2 team at that moment
 
-![](.gitbook/assets/image%20%2893%29.png)
+![](.gitbook/assets/image%20%2894%29.png)
 
 So I just basically blocked all traffic...and IT WORKS!
 
@@ -63,11 +63,11 @@ So I just basically blocked all traffic...and IT WORKS!
 
 Later on, we got "ratio" solved, so basically "ratio" + "vuln\_vm" + perfect defending score == 70k points higher than top 2
 
-![](.gitbook/assets/image%20%28161%29.png)
+![](.gitbook/assets/image%20%28162%29.png)
 
 If I recall right, we keep perfect defending score until 4:30 PM, during that I have captured some weird things
 
-![](.gitbook/assets/image%20%28252%29.png)
+![](.gitbook/assets/image%20%28253%29.png)
 
 I  have discussed about this with my teammates, it looks like remcos rat traffic, which led us to 2 conclusions
 
@@ -82,9 +82,9 @@ Some other teams was trying to use crontab to create backdoor on our service but
 
 At 4:30 PM, 2 hours before the contest ended, there is a team solved "HelloVietnam", and other team captured the payload and start spreading it around. There are atleast 5 teams got that payload at that moment, I captured that one too but some how it just not work for our team...
 
-![](.gitbook/assets/image%20%2886%29.png)
+![](.gitbook/assets/image%20%2887%29.png)
 
-![](.gitbook/assets/image%20%28152%29.png)
+![](.gitbook/assets/image%20%28153%29.png)
 
 Also 30 minutes later, organizer fixed the bot
 
@@ -92,7 +92,7 @@ Also 30 minutes later, organizer fixed the bot
 
 So many bad things happened, but it's still okay, bot is suck, other team's services was down too. And the increasing points of our team per round is equal with the 2nd team \(thanks to @hung's backdoor again, 200IQ\) and we are nearly 120k points higher than them. But then organizer decided to lower time per round so other teams have a chance at winning us
 
-![](.gitbook/assets/image%20%2887%29.png)
+![](.gitbook/assets/image%20%2888%29.png)
 
 There are so much pressure at that moment, but then @thach and @bien solved three\_o\_three. END GAME!
 
@@ -112,5 +112,5 @@ Thanks @Mai\_Trần for a nice picture
 
 Just ∫du It! 4+1 in 2020 incoming
 
-![](.gitbook/assets/image%20%28173%29.png)
+![](.gitbook/assets/image%20%28174%29.png)
 

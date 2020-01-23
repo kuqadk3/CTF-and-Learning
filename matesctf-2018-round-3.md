@@ -53,19 +53,19 @@ matesctf{0ld_sch00l_w1r3t4pp1n9}
 
 You just need to choose first 4 numbers, and spam with 3-4 tabs
 
-![](.gitbook/assets/image%20%28188%29.png)
+![](.gitbook/assets/image%20%28189%29.png)
 
 The generated numbers array will be the same
 
-![](.gitbook/assets/image%20%28119%29.png)
+![](.gitbook/assets/image%20%28120%29.png)
 
 And you will get flag with a little bit luck
 
-![](.gitbook/assets/image%20%28107%29.png)
+![](.gitbook/assets/image%20%28108%29.png)
 
 Double confirmed
 
-![](.gitbook/assets/image%20%28124%29.png)
+![](.gitbook/assets/image%20%28125%29.png)
 
 {% code title="solver.py" %}
 ```python
@@ -166,7 +166,7 @@ print hex(pow(c,d,p))[2:].decode('hex')
 
 ```
 
-![](.gitbook/assets/image%20%28106%29.png)
+![](.gitbook/assets/image%20%28107%29.png)
 
 {% code title="flag" %}
 ```text

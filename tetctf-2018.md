@@ -88,11 +88,11 @@ else
 
 In this challenge, you couldnt use rand\(\) anymore, so to get ".", i use localeconv\(\)
 
-![](.gitbook/assets/image%20%2899%29.png)
+![](.gitbook/assets/image%20%28100%29.png)
 
 With scandir\(\), i can print all file in current directory
 
-![](.gitbook/assets/image%20%2889%29.png)
+![](.gitbook/assets/image%20%2890%29.png)
 
 Checking content file well\_play\_but\_flag\_not\_here.php
 
@@ -107,11 +107,11 @@ $fl0wer="Flag not here! go to directory's parent directory";
 
 Checking parent folder ".." :
 
-![](.gitbook/assets/image%20%28158%29.png)
+![](.gitbook/assets/image%20%28159%29.png)
 
 Found flag, now i chdir\(\) to parent directory :
 
-![](.gitbook/assets/image%20%2866%29.png)
+![](.gitbook/assets/image%20%2867%29.png)
 
 chdir\(\) successed, now i need create  '.' from 1. Here i use some math functions in php like sqrt\(\), exp\(\), sin\(\), cos\(\),...
 
@@ -119,11 +119,11 @@ chdir\(\) successed, now i need create  '.' from 1. Here i use some math functio
 
 I use e^1 = 2.7x
 
-![](.gitbook/assets/image%20%28136%29.png)
+![](.gitbook/assets/image%20%28137%29.png)
 
 I use ord\('2'\) = 50
 
-![](.gitbook/assets/image%20%28167%29.png)
+![](.gitbook/assets/image%20%28168%29.png)
 
 I use sqrt\(50\) = 7.x
 
@@ -131,7 +131,7 @@ I use sqrt\(50\) = 7.x
 
 I use ceil\(7.x\) = 8
 
-![](.gitbook/assets/image%20%28268%29.png)
+![](.gitbook/assets/image%20%28269%29.png)
 
 ord\('8'\) = 56
 
@@ -139,7 +139,7 @@ ord\('8'\) = 56
 
 octdec\(56\) = 46
 
-![](.gitbook/assets/image%20%2870%29.png)
+![](.gitbook/assets/image%20%2871%29.png)
 
 chr\(46\) = '.' , so i got '.' huehuehuehue
 
@@ -193,7 +193,7 @@ This is a challenge about hash length extension, I used this tool below to calcu
 https://github.com/iagox86/hash_extender
 ```
 
-![](.gitbook/assets/image%20%2879%29.png)
+![](.gitbook/assets/image%20%2880%29.png)
 
 {% code title="payload" %}
 ```text
@@ -204,11 +204,11 @@ saved: c2VlZD10cnVlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAmb
 
 Now i have hash, have saved, so i created request with Burpsuite 
 
-![](.gitbook/assets/image%20%28187%29.png)
+![](.gitbook/assets/image%20%28188%29.png)
 
 Finally
 
-![](.gitbook/assets/image%20%28222%29.png)
+![](.gitbook/assets/image%20%28223%29.png)
 
 ```text
 TetCTF{__Happy_new_Y3aR__!!_H3re_Your_Flower_}
@@ -220,7 +220,7 @@ I already meet this kind of challenge before in Matesctf 2018 round 2
 
 Tried dirsearch :
 
-![](.gitbook/assets/image%20%28117%29.png)
+![](.gitbook/assets/image%20%28118%29.png)
 
 Extract file /.DS\_Store with this tool
 
@@ -228,11 +228,11 @@ Extract file /.DS\_Store with this tool
 https://github.com/lijiejie/ds_store_exp
 ```
 
-![](.gitbook/assets/image%20%28236%29.png)
+![](.gitbook/assets/image%20%28237%29.png)
 
 Check h1ddenn
 
-![](.gitbook/assets/image%20%28230%29.png)
+![](.gitbook/assets/image%20%28231%29.png)
 
 {% code title="flag" %}
 ```text
@@ -248,7 +248,7 @@ My dream team! &lt;3
 
 
 
-![](.gitbook/assets/image%20%28219%29.png)
+![](.gitbook/assets/image%20%28220%29.png)
 
-![](.gitbook/assets/image%20%28250%29.png)
+![](.gitbook/assets/image%20%28251%29.png)
 

@@ -92,5 +92,5 @@ if __name__ == "__main__": main()
 
 The task is quite trivial, after done all stage, you just need to convert all your answers to chr\(\) and decode base64.
 
-![pof.png](.gitbook/assets/image%20%28147%29.png)
+![pof.png](.gitbook/assets/image%20%28148%29.png)
 

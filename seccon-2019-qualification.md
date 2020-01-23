@@ -2,7 +2,7 @@
 
 ## PPKeyboard
 
-![](.gitbook/assets/image%20%28234%29.png)
+![](.gitbook/assets/image%20%28235%29.png)
 
 We were given two file, **PPKeyboard.exe** and **packets.pcapng**
 
@@ -14,7 +14,7 @@ Since the exe file's name is **PPKeyboard.exe**, we can guess it's a keyboard. A
 
 The **PPKeyboard.exe** first check if there is any available MIDI devices. If there is any, it will try to open the device
 
-![](.gitbook/assets/image%20%2891%29.png)
+![](.gitbook/assets/image%20%2892%29.png)
 
 Quick search on MSDN, we find out definition of **midiInOpen**
 
@@ -30,15 +30,15 @@ MMRESULT midiInOpen(
 
 What important here is callback function **sub\_7FF792A01070**
 
-![](.gitbook/assets/image%20%28178%29.png)
+![](.gitbook/assets/image%20%28179%29.png)
 
 Take a look at **sub\_7FF792A01070**, we easily realize it's parsing somewhat data in **a4**
 
-![](.gitbook/assets/image%20%28130%29.png)
+![](.gitbook/assets/image%20%28131%29.png)
 
 We take a quick look back at the pcapng file, and filter out those packets that contains data
 
-![](.gitbook/assets/image%20%28143%29.png)
+![](.gitbook/assets/image%20%28144%29.png)
 
 
 

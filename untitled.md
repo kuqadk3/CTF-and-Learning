@@ -323,7 +323,7 @@ https://github.com/kungfulon/matesctf-s3/tree/master/round2/re/MiniFactory
 
 ## Our Team
 
-![](.gitbook/assets/image%20%2882%29.png)
+![](.gitbook/assets/image%20%2883%29.png)
 
 
 
