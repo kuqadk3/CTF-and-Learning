@@ -32,7 +32,7 @@ But due to my personal interests, I care more about the history of this research
 
 > In 1991, Reichenberger proposed a diffing technique for generating patches between arbitrary binary files without any knowledge about the file structure
 
-Many others approaches have developed later on with the expansion of the scope from one-to-one to many-to-many and one-to-many.  But only until 2004,  the re-ordering problem was solved by Thomas Dullien with the introduction of the Small Primes Product \(SPP\) algorithm. SPP is a simple Local Sensitive Hashing algorithm but effective to solve re-ordering problem which was used in many tools these days. For example : diaphora and KOKA algorithm \(Koret-Karamitas\) which was used SPP to hash those features/characterestics that were extracted from AST tree.
+Many others approaches have developed later on with the expansion of the scope from one-to-one to many-to-many and one-to-many.  But only until 2004,  the re-ordering problem was solved by Thomas Dullien with the introduction of the Small Primes Product \(SPP\) algorithm. SPP is a simple Local Sensitive Hashing algorithm but effective to solve re-ordering problem which was used in many tools these days. For example : diaphora and [KOKA algorithm](http://joxeankoret.com/blog/2018/11/04/new-cfg-based-heuristic-diaphora/) \(Koret-Karamitas\) which was used SPP to hash those features/characterestics that were extracted from AST tree.
 
 Now, let take a deeper look at SPP and re-ordering problem.
 
@@ -49,4 +49,6 @@ SPP is a simple algorithm which used the uniqeness of prime decompositions and t
 Next, in last ten years from 2010 to 2019, we can see a huge change in scope and approaches in the fields with the growing of Internet Of Things and Machine Learning master race
 
 > The last decade \(2010-2019\) has seen a huge increase in the popularity of binary code similarity, with 52 approaches identified. The focus on this decade has been on binary code search approaches, with an emphasis since 2015 on its cross-architecture version \(16 approaches\), and in recent years on machine learning approaches.
+
+
 
