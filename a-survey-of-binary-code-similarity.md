@@ -22,7 +22,7 @@ To give the reader a big-picture view of Binary Code Similarity, author have don
 
 They also differentiate these approaches by its application. For people who care more about applications, you can take a look at chapter **IV**, where author talks about different application of Binary Code Similarity with link to multiple approaches for that application or just look at the below table.  That would be great starting point for people who just get into the field or just care about one or few applications of Binary Code Similarity. 
 
-![](.gitbook/assets/image%20%28260%29.png)
+![](.gitbook/assets/image%20%28265%29.png)
 
 But due to my personal interests, I care more about the history of this research area. It's amazing to know that the need of Binary Code Similarity is actually came from the need of updating binary in low bandwith communication networks and the limited resources in some devices
 
@@ -32,7 +32,11 @@ But due to my personal interests, I care more about the history of this research
 
 Many others approaches have developed later on with the expansion of the scope from one-to-one to many-to-many and one-to-many.  But only until 2004,  the re-ordering problem was solved by Thomas Dullien with the introduction of the Small Primes Product \(SPP\) algorithm. SPP is a simple Local Sensitive Hashing algorithm but effective to solve re-ordering problem which was used in many tools these days. For example : diaphora and KOKA algorithm \(Koret-Karamitas\) which was used SPP to hash those features/characterestics that were extracted from AST tree.
 
+Now, let take a deeper look at SPP and re-ordering problem.
 
+![](.gitbook/assets/image%20%2824%29.png)
+
+As you can see, those two mov instructions in two picture which represent the same function was swapped. Though it doesn't change the functionality of the function but if you hash the bytes of the function, you will identify these are two different functions.
 
 
 
