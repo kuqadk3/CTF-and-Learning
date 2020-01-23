@@ -24,7 +24,7 @@ https://webassembly.github.io/wabt/demo/wasm2wat/
 
 Disassemble the main.wasm, we got
 
-![](.gitbook/assets/image%20%28135%29.png)
+![](.gitbook/assets/image%20%28140%29.png)
 
 Take a quick look at the disassembled code, we realize there are 2 functions, p and q which basically work as following
 
@@ -51,7 +51,7 @@ def q(p0, p1):
 
 Later on, I realized the p\(\) function was took our input and passed it to q\(\) function to do the calculation, 2 chars each
 
-![](.gitbook/assets/image%20%28181%29.png)
+![](.gitbook/assets/image%20%28186%29.png)
 
 ```text
 Let's say:
@@ -99,7 +99,7 @@ while flag[len(flag) - 1] != "}":
 
 Later on, I realized there is tool that can convert wasm to C \([https://github.com/WebAssembly/wabt](https://github.com/WebAssembly/wabt)\). I tried some but all failed, this one worked
 
-![](.gitbook/assets/image%20%28104%29.png)
+![](.gitbook/assets/image%20%28109%29.png)
 
 ```text
 flag{w333b_ass3mbly_1s_s0_g0000d}

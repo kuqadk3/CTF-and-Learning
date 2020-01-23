@@ -2,19 +2,19 @@
 
 ## PPKeyboard
 
-![](.gitbook/assets/image%20%28229%29.png)
+![](.gitbook/assets/image%20%28234%29.png)
 
 We were given two file, **PPKeyboard.exe** and **packets.pcapng**
 
 Take a quick look at **packets.pcapng**, we realize there is device connected and communicated through USB
 
-![](.gitbook/assets/image%20%2859%29.png)
+![](.gitbook/assets/image%20%2861%29.png)
 
 Since the exe file's name is **PPKeyboard.exe**, we can guess it's a keyboard. Actually, it's MIDI keyboard. Actually, it's Electronic Piano keyboard. \(If you curious why, take a look at MIDI's message/protocol here [http://www.music-software-development.com/midi-tutorial.html](http://www.music-software-development.com/midi-tutorial.html) , though knowledge about MIDI message/protocol is not required to solve this challenge\)
 
 The **PPKeyboard.exe** first check if there is any available MIDI devices. If there is any, it will try to open the device
 
-![](.gitbook/assets/image%20%2889%29.png)
+![](.gitbook/assets/image%20%2891%29.png)
 
 Quick search on MSDN, we find out definition of **midiInOpen**
 
@@ -30,15 +30,15 @@ MMRESULT midiInOpen(
 
 What important here is callback function **sub\_7FF792A01070**
 
-![](.gitbook/assets/image%20%28173%29.png)
+![](.gitbook/assets/image%20%28178%29.png)
 
 Take a look at **sub\_7FF792A01070**, we easily realize it's parsing somewhat data in **a4**
 
-![](.gitbook/assets/image%20%28125%29.png)
+![](.gitbook/assets/image%20%28130%29.png)
 
 We take a quick look back at the pcapng file, and filter out those packets that contains data
 
-![](.gitbook/assets/image%20%28138%29.png)
+![](.gitbook/assets/image%20%28143%29.png)
 
 
 
