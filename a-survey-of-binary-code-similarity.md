@@ -8,7 +8,7 @@ description: 'https://arxiv.org/pdf/1909.11424.pdf - Authors : Ifran Ul Haq, Jua
 
 If I knew this paper from the beginning, my journey would be easier. But the struggling is worth it anyway, I have met a lot new friends and researchers that have same interests and the joy in discussing the problems and ideas is valuable.
 
-On the other hand, I will try my best go into details just enough to convice readers to read the paper but still left a lot of joy for readers to explore themself. 
+On the other hand, I will try my best go into details just enough to convince readers to read the paper but still left a lot of joy for readers to explore themself. 
 
 And, I know it's deficiency for not mentioning about "Graph-based Comparision" of Thomas Dullien and Rolf Rolles but I am keeping it for another post 😉 
 
@@ -48,7 +48,7 @@ SPP is a simple algorithm which used the uniqeness of prime decompositions and t
 
 ![](.gitbook/assets/image%20%2864%29.png)
 
-Next, in last ten years from 2010 to 2019, we can see a huge change in scope and approaches in the fields with the rapid growing of Internet Of Things and Machine Learning master race
+Next, in last ten years from 2010 to 2019, we can see a huge change in scope and approaches in the fields due to the rapid growing of Internet Of Things and Machine Learning master race
 
 > The last decade \(2010-2019\) has seen a huge increase in the popularity of binary code similarity, with 52 approaches identified. The focus on this decade has been on binary code search approaches, with an emphasis since 2015 on its cross-architecture version \(16 approaches\), and in recent years on machine learning approaches.
 
