@@ -22,7 +22,7 @@ To give the reader a big-picture view of Binary Code Similarity, author have don
 
 They also differentiate these approaches by its application. For people who care more about applications, you can take a look at chapter **IV**, where author talks about different application of Binary Code Similarity with link to multiple approaches for that application or just look at the below table.  That would be great starting point for people who just get into the field or just care about one or few applications of Binary Code Similarity. 
 
-![](.gitbook/assets/image%20%28265%29.png)
+![](.gitbook/assets/image%20%28266%29.png)
 
 But due to my personal interests, I care more about the history of this research area. It's amazing to know that the need of Binary Code Similarity is actually came from the need of updating binary in low bandwith communication networks and the limited resources in some devices
 
@@ -41,6 +41,8 @@ As you can see, those two mov instructions in two picture which represent the sa
 > In computer science, **locality-sensitive hashing** \(**LSH**\) is an algorithmic technique that hashes similar input items into the same "buckets" with high probability.[\[1\]](https://en.wikipedia.org/wiki/Locality-sensitive_hashing#cite_note-MOMD-1) \(The number of buckets are much smaller than the universe of possible input items.\)[\[1\]](https://en.wikipedia.org/wiki/Locality-sensitive_hashing#cite_note-MOMD-1) Since similar items end up in the same buckets, this technique can be used for [data clustering](https://en.wikipedia.org/wiki/Cluster_analysis) and [nearest neighbor search](https://en.wikipedia.org/wiki/Nearest_neighbor_search). It differs from [conventional hashing techniques](https://en.wikipedia.org/wiki/Hash_function) in that hash collisions are maximized, not minimized
 
 SPP is a simple algorithm which used the uniqeness of prime decompositions and the commutative of multiplication to solve the re-ordering problem
+
+![](.gitbook/assets/image%20%2864%29.png)
 
 
 
