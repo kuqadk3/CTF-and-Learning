@@ -8,7 +8,7 @@ description: 'https://arxiv.org/pdf/1909.11424.pdf - Authors : Ifran Ul Haq, Jua
 
 If I knew this paper from the beginning, my journey would be easier. But the struggling is worth it anyway, I have met a lot new friends and researchers that have the same interests.
 
-About this blog post, I will try my best go into details just enough to convince readers to read the paper but still left a lot of joy for readers to explore themself. 
+About this blog post, I will try my best write just enough detail to convince readers to read the paper but still left a lot of joy for readers to explore themself. 
 
 And, I know it's deficiency for not mentioning about "Graph-based Comparision" by Thomas Dullien and Rolf Rolles but I am keeping it for another post 😉 
 
