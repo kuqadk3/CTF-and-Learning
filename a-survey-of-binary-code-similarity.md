@@ -52,7 +52,7 @@ Now, let take a deeper look at SPP and re-ordering problem.
 
 As you can see, those two mov instructions in two pictures which represent the same function were swapped. Though it doesn't change the functionality of the function but if you do hash the bytes of the function, the result will identify these are two different functions, which is wrong. Now it's time for SPP, a Local Sensitive Hashing algorithm, join the game.
 
-> In computer science, **locality-sensitive hashing** \(**LSH**\) is an algorithmic technique that hashes similar input items into the same "buckets" with high probability.[\[1\]](https://en.wikipedia.org/wiki/Locality-sensitive_hashing#cite_note-MOMD-1) \(The number of buckets are much smaller than the universe of possible input items.\)[\[1\]](https://en.wikipedia.org/wiki/Locality-sensitive_hashing#cite_note-MOMD-1) Since similar items end up in the same buckets, this technique can be used for [data clustering](https://en.wikipedia.org/wiki/Cluster_analysis) and [nearest neighbor search](https://en.wikipedia.org/wiki/Nearest_neighbor_search). It differs from [conventional hashing techniques](https://en.wikipedia.org/wiki/Hash_function) in that hash collisions are maximized, not minimized
+> In computer science, **locality-sensitive hashing** \(**LSH**\) is an algorithmic technique that hashes similar input items into the same "buckets" with high probability.[\[1\]](https://en.wikipedia.org/wiki/Locality-sensitive_hashing#cite_note-MOMD-1) \(The number of buckets are much smaller than the universe of possible input items.\)[\[1\]](https://en.wikipedia.org/wiki/Locality-sensitive_hashing#cite_note-MOMD-1) Since similar items end up in the same buckets, this technique can be used for [data clustering](https://en.wikipedia.org/wiki/Cluster_analysis) and [nearest neighbor search](https://en.wikipedia.org/wiki/Nearest_neighbor_search). It differs from [conventional hashing techniques](https://en.wikipedia.org/wiki/Hash_function) in that **hash collisions are maximized, not minimized**
 
 SPP is a simple algorithm which used the uniqeness of prime decompositions and the commutative of multiplication to solve the re-ordering problem
 
@@ -62,7 +62,7 @@ Next, in last ten years from 2010 to 2019, we can see a huge change in scope and
 
 > The last decade \(2010-2019\) has seen a huge increase in the popularity of binary code similarity, with 52 approaches identified. The focus on this decade has been on binary code search approaches, with an emphasis since 2015 on its cross-architecture version \(16 approaches\), and in recent years on machine learning approaches.
 
-Beside Static analysis and Dynamic Analysis, Dataflow Analysis is also another common type of analysis which use methods like taint analysis and symbolic execution from Dynamic Analysis to track the data sources like registers,... 
+Beside Static analysis and Dynamic Analysis, [Dataflow Analysis](https://www.geeksforgeeks.org/data-flow-analysis-compiler/) is also another common type of analysis which use methods like taint analysis and symbolic execution from Dynamic Analysis to track the data sources like registers,... 
 
 > Dataflow analysis is a common type of analysis that examines how values propagate through the code.
 
