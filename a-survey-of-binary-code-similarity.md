@@ -6,7 +6,7 @@ description: 'https://arxiv.org/pdf/1909.11424.pdf - Authors : Ifran Ul Haq, Jua
 
 [https://arxiv.org/pdf/1909.11424.pdf](https://arxiv.org/pdf/1909.11424.pdf) - Authors : Ifran Ul Haq, Juan Caballero
 
-If I knew this paper from the beginning, my journey would be easier. But the struggling is worth it anyway, I have met a lot new friends and researchers that have the same interests. And after all, the joy in discussing the problems and ideas is valuable.
+If I knew this paper from the beginning, my journey would be easier. But the struggling is worth it anyway, I have met a lot new friends and researchers that have the same interests.
 
 About this blog post, I will try my best go into details just enough to convince readers to read the paper but still left a lot of joy for readers to explore themself. 
 
