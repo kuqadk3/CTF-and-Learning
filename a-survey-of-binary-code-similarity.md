@@ -34,7 +34,7 @@ To give the reader a big-picture view of Binary Code Similarity, author have don
 >
 > and the techniques used for scalability \(e.g., hashing, embedding, indexing\).
 
-They also differentiate these approaches by its application. For people who care more about applications, you can take a look at chapter **IV**, where author talks about different application of Binary Code Similarity with link to multiple approaches for that application or just look at the below table. That would be great starting point for people who just get into the field or just care about one or few applications of Binary Code Similarity. 
+They also differentiate these approaches by its application. For people who care more about applications, you can take a look at chapter **IV**, where author talks about different application of Binary Code Similarity with link to multiple approaches for  the corresponding application or just look at the below table. That would be great starting point for people who just get into the field or just care about one or few applications of Binary Code Similarity. 
 
 ![](.gitbook/assets/image%20%28266%29.png)
 
