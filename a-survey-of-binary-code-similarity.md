@@ -70,7 +70,7 @@ These two methods can be used separately or combined like in **IBINHUNT**
 
 > IBINHUNT uses both taint analysis and symbolic execution. It first uses taint analysis as a filter to find pieces of binary code that process the same user input, restricting the expensive subgraph isomorphism computation to those with the same taint label. And, it computes basic block similarity using symbolic formulas.
 
-Another interesting thing is **Operand Normalization** 
+Another interesting things are **Operand Normalization** 
 
 > A normalization used by 17 approaches is to replace instruction operands with symbols that capture the operand type such as REG for register, MEM for memory, and IMM for immediate values. For example, add %eax,%ebx and add %ecx,%edx would be both represented as add ****REG,REG, matching the instructions despite different register allocations used by the compiler.
 
