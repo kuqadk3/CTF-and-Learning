@@ -74,7 +74,7 @@ Another interesting thing is **Operand Normalization**
 
 > A normalization used by 17 approaches is to replace instruction operands with symbols that capture the operand type such as REG for register, MEM for memory, and IMM for immediate values. For example, add %eax,%ebx and add %ecx,%edx would be both represented as add ****REG,REG, matching the instructions despite different register allocations used by the compiler.
 
-So, instead of doing **Operand Removal** \(ex : mnemonic small primes product in [diaphora](https://github.com/joxeankoret/diaphora/)\), we can do **Operand Normalization** which doesn't cost much more computing resources but can increase the reliability of the results
+So, instead of doing **Operand Removal** \(ex : mnemonic small primes product in [diaphora](https://github.com/joxeankoret/diaphora/)\), Can we do **Operand Normalization** which doesn't cost much more computing resources but can increase the reliability of the results?
 
 Finally, I want to end this blog post with the note that author made when he was trying to compare these approaches. I think it's really hard to say which approach is better, so, what we can do when trying to do Binary Code Similarity is finding the righ tool for the job.
 
