@@ -78,7 +78,7 @@ And **Operand Removal**
 
 > A normalization used by nine approaches is to abstract an instruction only by its mnemonic or opcode, ignoring all operands. For example, add %eax, %ebx and add \[%ecx\], ****%edx would be both represented by add and considered similar, despite both using different operands.
 
-So, instead of doing **Operand Removal** \(ex : mnemonic small primes product in [diaphora](https://github.com/joxeankoret/diaphora/)\), Can we do **Operand Normalization** which doesn't cost much more computing resources but can increase the reliability of the results?
+So, instead of doing **Operand Removal** \(ex : mnemonic small primes product in [diaphora](https://github.com/joxeankoret/diaphora/)\), Should we better do **Operand Normalization** which doesn't cost much more computing resources but can increase the reliability of the results?
 
 Finally, I want to end this blog post with the note that author made when he was trying to compare these approaches by its accuracy. I think it's really hard to say which approach is better, or perfect, there are always edge cases, so, what we can do when trying to do Binary Code Similarity is **finding the righ tool for the job**.
 
