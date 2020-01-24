@@ -10,7 +10,7 @@ If I knew this paper from the beginning, my journey would be easier. But the str
 
 On the other hand, I will try my best go into details just enough to convince readers to read the paper but still left a lot of joy for readers to explore themself. 
 
-And, I know it's deficiency for not mentioning about "Graph-based Comparision" of Thomas Dullien and Rolf Rolles but I am keeping it for another post 😉 
+And, I know it's deficiency for not mentioning about "Graph-based Comparision" by Thomas Dullien and Rolf Rolles but I am keeping it for another post 😉 
 
 ### Binary Code Similarity
 
