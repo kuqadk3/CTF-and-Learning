@@ -62,7 +62,7 @@ Next, in last ten years from 2010 to 2019, we can see a huge change in scope and
 
 > The last decade \(2010-2019\) has seen a huge increase in the popularity of binary code similarity, with 52 approaches identified. The focus on this decade has been on binary code search approaches, with an emphasis since 2015 on its cross-architecture version \(16 approaches\), and in recent years on machine learning approaches.
 
-Beside Static analysis and Dynamic Analysis, Dataflow Analysis is also another type of analysis with two well-known methods : taint analysis and symbolic execution
+Beside Static analysis and Dynamic Analysis, Dataflow Analysis is also another common type of analysis which use techniques from Dynamic Analysis to track the data sources like registers,... 
 
 > Dataflow analysis is a common type of analysis that examines how values propagate through the code.
 
