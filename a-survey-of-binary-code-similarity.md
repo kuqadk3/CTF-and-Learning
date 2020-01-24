@@ -38,7 +38,7 @@ They also differentiate these approaches by its application. For people who care
 
 ![](.gitbook/assets/image%20%28266%29.png)
 
-But due to my personal interests, I care more about the history of this research area. It's amazing to know that the need of Binary Code Similarity is actually came from the need of updating binary in low bandwith communication networks and the limited resources in some devices
+But due to my personal interests, I care more about the history of this research area. It's surprising to know that the need of Binary Code Similarity is actually came from the need of updating binary in low bandwith communication networks and the limited resources in some devices
 
 > The increasing popularity of low bandwidth communication networks \(e.g., wireless\) and the limited resources in some devices, raised interest in techniques that would increase efficiency by transmitting a small patch that captured the differences between two versions of a binary, i.e., non-text, file, instead of transmitting the whole file
 
