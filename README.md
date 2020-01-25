@@ -1,5 +1,5 @@
 ---
-description: Research is what I’m doing when I don’t know what I am doing.
+description: I know nothing and I am willing to learn everything
 ---
 
 # \(。-ω-\)&gt;🍵 \(･ิᗜ ･ิ@\)
