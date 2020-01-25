@@ -1,5 +1,5 @@
 ---
-description: I know nothing and I am willing to learn everything
+description: Scio me nihil scire
 ---
 
 # \(。-ω-\)&gt;🍵 \(･ิᗜ ･ิ@\)
