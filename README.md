@@ -1,5 +1,5 @@
 ---
-description: Scio me nihil scire
+description: Research is what I'm doing when I don't know what I'm doing
 ---
 
 # \(。-ω-\)&gt;🍵 \(･ิᗜ ･ิ@\)
