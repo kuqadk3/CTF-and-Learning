@@ -1,5 +1,5 @@
 ---
-description: Research is what I'm doing when I don't know what I'm doing
+description: 'Vertrauen ist gut, Kontrolle ist besser!'
 ---
 
 # \(。-ω-\)&gt;🍵 \(･ิᗜ ･ิ@\)
