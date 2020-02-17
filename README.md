@@ -86,3 +86,7 @@ Got inspired by this article : [https://medium.com/s/story/6-life-lessons-from-m
 
 ![](.gitbook/assets/image%20%28173%29.png)
 
+## Global Security Camp V2.0, Tokyo, Japan
+
+![](.gitbook/assets/image%20%28229%29.png)
+

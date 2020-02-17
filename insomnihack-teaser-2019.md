@@ -206,7 +206,7 @@ https://github.com/php/php-src/blob/e219ec144ef6682b71e135fd18654ee1bb4676b4/ext
 
 With a little bit math calculation, we can get it done
 
-![](.gitbook/assets/image%20%28252%29.png)
+![](.gitbook/assets/image%20%28253%29.png)
 
 {% code title="poc.py" %}
 ```text

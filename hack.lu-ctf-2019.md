@@ -44,7 +44,7 @@ Firstly, the program try to bind to 127.0.0.1 at port 8080 and wait for incoming
 
 First, no matter what is your request method, it will always return an custom constant response header.
 
-![](.gitbook/assets/image%20%28260%29.png)
+![](.gitbook/assets/image%20%28261%29.png)
 
 Then it will check for request method, it only accept two method : **GET** and **POST**. If your request is a **GET** request, it will return a html page as above. If it's not **GET** method, then it gonna check if the request method is **POST.** If the method request is not **GET** or **POST**, it will return **"Error method not allowed..."** and call _begin\_panic\(\)_. If it's **POST** request, it will generate a random number by calling _rand::random\(\)_ and later on, this number will be compared with our input number 
 
@@ -108,7 +108,7 @@ s.close()
 And we finally got the flag  
 
 
-![](.gitbook/assets/image%20%28277%29.png)
+![](.gitbook/assets/image%20%28278%29.png)
 
 ```text
 flag{im_not_addicted_im_patient}

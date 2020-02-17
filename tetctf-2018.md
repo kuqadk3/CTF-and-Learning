@@ -131,7 +131,7 @@ I use sqrt\(50\) = 7.x
 
 I use ceil\(7.x\) = 8
 
-![](.gitbook/assets/image%20%28269%29.png)
+![](.gitbook/assets/image%20%28270%29.png)
 
 ord\('8'\) = 56
 
@@ -228,11 +228,11 @@ Extract file /.DS\_Store with this tool
 https://github.com/lijiejie/ds_store_exp
 ```
 
-![](.gitbook/assets/image%20%28237%29.png)
+![](.gitbook/assets/image%20%28238%29.png)
 
 Check h1ddenn
 
-![](.gitbook/assets/image%20%28231%29.png)
+![](.gitbook/assets/image%20%28232%29.png)
 
 {% code title="flag" %}
 ```text
@@ -250,5 +250,5 @@ My dream team! &lt;3
 
 ![](.gitbook/assets/image%20%28220%29.png)
 
-![](.gitbook/assets/image%20%28251%29.png)
+![](.gitbook/assets/image%20%28252%29.png)
 

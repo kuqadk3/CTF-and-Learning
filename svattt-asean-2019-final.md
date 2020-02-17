@@ -39,7 +39,7 @@ Quickly after we solved vuln\_vm, ISITDTU captured our payload and start attacki
 
 So I start filtering some signature in payload like "cat", "base64",...It worked for a while but then this shit happened
 
-![](.gitbook/assets/image%20%28240%29.png)
+![](.gitbook/assets/image%20%28241%29.png)
 
 I also notice there are other exploit that was used by other team, format string
 
@@ -47,7 +47,7 @@ I also notice there are other exploit that was used by other team, format string
 
 I also found out that someone have dropped backdoor on our service, and it's like dead end for us because if you have a backdoor on the service, you dont have to go through the proxy \(firewall\). I was freak out but then @hung told me that it's him...phew. Kudos to @hung
 
-![](.gitbook/assets/image%20%28256%29.png)
+![](.gitbook/assets/image%20%28257%29.png)
 
 Other problem that I noticed is that no other team's service ever down since contest started
 
@@ -67,7 +67,7 @@ Later on, we got "ratio" solved, so basically "ratio" + "vuln\_vm" + perfect def
 
 If I recall right, we keep perfect defending score until 4:30 PM, during that I have captured some weird things
 
-![](.gitbook/assets/image%20%28253%29.png)
+![](.gitbook/assets/image%20%28254%29.png)
 
 I  have discussed about this with my teammates, it looks like remcos rat traffic, which led us to 2 conclusions
 

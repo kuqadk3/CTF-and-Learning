@@ -16,7 +16,7 @@ https://t.co/ITaYx2kIVP
 
 And a cute picture too
 
-![](.gitbook/assets/image%20%28268%29.png)
+![](.gitbook/assets/image%20%28269%29.png)
 
 ## Problems
 
@@ -90,7 +90,7 @@ fmt.Println -> not.Println
 
 And IDA will show you wrong function's name 😉 
 
-![](.gitbook/assets/image%20%28263%29.png)
+![](.gitbook/assets/image%20%28264%29.png)
 
 This is old trick though, but problem is that tool like IDAGolangHelper can still easily recover the function's name even if we modified .STRTAB. To answer why, we need to look deeper at the tool's code.
 
@@ -195,7 +195,7 @@ type _func struct {
 
 So from my point of view, the function's name seems like it only be used to show user about the name of function where crash happened. And it's exactly where tools like IDAGolangHelper got function's name from. Then, it was came to my mind that why dont we modify this name if it may not cause any trouble in program :
 
-![what\_gopclntab\_looks\_like.png](.gitbook/assets/image%20%28273%29.png)
+![what\_gopclntab\_looks\_like.png](.gitbook/assets/image%20%28274%29.png)
 
 I modified :
 

@@ -145,7 +145,7 @@ cantrunmiiiiiiiiips
 
 Config IDA :
 
-![](.gitbook/assets/image%20%28233%29.png)
+![](.gitbook/assets/image%20%28234%29.png)
 
 Thanks god this is not stripped binary :
 
@@ -153,13 +153,13 @@ Thanks god this is not stripped binary :
 
 Find main\_main\(\) : 
 
-![](.gitbook/assets/image%20%28250%29.png)
+![](.gitbook/assets/image%20%28251%29.png)
 
 First, that's why loop where it xor your input\_string with "rootme" than compares with an hardcoded byte array
 
 Debug to find which byte array it compares with :
 
-![](.gitbook/assets/image%20%28271%29.png)
+![](.gitbook/assets/image%20%28272%29.png)
 
 {% code title="solver.py" %}
 ```python
@@ -198,7 +198,7 @@ Basically, this is the game where you can move : RIGHT, LEFT, UP, DOWN. And hit 
 
 Let's load it into IDA \(IDA &gt; CPU = Zilog Z80 &gt; Press C to force disassemble\) :
 
-![](.gitbook/assets/image%20%28239%29.png)
+![](.gitbook/assets/image%20%28240%29.png)
 
 Since i dont know where to start, so i start with string, trying to find its xref
 

@@ -227,7 +227,7 @@ The name "Higher" is a hint, basically load it in to Audacity -&gt; Effect -&gt;
 
 And convert to Spectrogram with maximum is 20k  :
 
-![](.gitbook/assets/image%20%28270%29.png)
+![](.gitbook/assets/image%20%28271%29.png)
 
 You can see a thin line \(represent 0\) and thick line \(represent 1\)
 
@@ -251,7 +251,7 @@ We found an .sql file, and it's quite interesting that someone/admin was actuall
 
 It's quite trivial that this is AutoBinding vuln, and we can pass param "Balance" as Object and control its value :
 
-![](.gitbook/assets/image%20%28238%29.png)
+![](.gitbook/assets/image%20%28239%29.png)
 
 And we need a POST request to change the Balance and buy Flag at the same time, using Burp Suite, we have : 
 
@@ -259,7 +259,7 @@ And we need a POST request to change the Balance and buy Flag at the same time, 
 
 Huehuehuehue :
 
-![](.gitbook/assets/image%20%28245%29.png)
+![](.gitbook/assets/image%20%28246%29.png)
 
 {% code title="flag" %}
 ```text
@@ -273,7 +273,7 @@ VolgaCTF{c6bc0c68f0d0dac189aa9031f8607dba}
 
 It's pretty much same though, we can find the .war file by checking robots.txt :
 
-![](.gitbook/assets/image%20%28254%29.png)
+![](.gitbook/assets/image%20%28255%29.png)
 
 Download and decompile .war file, we realize that no matter how much money we have, we just cant buy flag :
 

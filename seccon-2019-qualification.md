@@ -2,7 +2,7 @@
 
 ## PPKeyboard
 
-![](.gitbook/assets/image%20%28235%29.png)
+![](.gitbook/assets/image%20%28236%29.png)
 
 We were given two file, **PPKeyboard.exe** and **packets.pcapng**
 
