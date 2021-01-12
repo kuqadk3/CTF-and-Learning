@@ -27,7 +27,7 @@ _Mỗi headline bên dưới \(ngoại trừ phần kết\) sẽ tương ứng m
 
 ## About Me
 
-Đây là phần để bạn giới thiệu bản thân với Mentor để hộ hiểu hơn về bạn, còn Google thì chắc lúc duyệt hồ sơ họ cũng không care lắm đâu 🤣 Thường thì phần này sẽ bao gồm những thông tin sau :
+Đây là phần để bạn giới thiệu bản thân với Mentor để họ hiểu hơn về bạn, còn Google thì chắc lúc duyệt hồ sơ họ cũng không care lắm đâu 🤣 Thường thì phần này sẽ bao gồm những thông tin sau :
 
 * Your name
 * IRC, Telegram, Jabber name \(or similar\)
