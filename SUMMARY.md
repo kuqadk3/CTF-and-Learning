@@ -22,3 +22,7 @@
 * [Cyber Sea Game 2018](cyber-jawara-2018.md)
 * [SVATTT ASEAN 2019 Final](svattt-asean-2019-final.md)
 
+## Vietnamese
+
+* [Google Summer Of Code : Hướng Dẫn Viết Proposal GSoC Đúng Chuẩn Người Chơi Hệ Phóng](vietnamese/google-summer-of-code-huong-dan-viet-proposal-gsoc-dung-chuan-nguoi-choi-he-phong.md)
+

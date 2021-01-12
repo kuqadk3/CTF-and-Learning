@@ -18,13 +18,13 @@ After solved re50, i jump directly to re300 because i was re Golang binary once 
 
 So, basically, the challenges give us two files 
 
-![](.gitbook/assets/image%20%28200%29.png)
+![](.gitbook/assets/image%20%28206%29.png)
 
 One file is encrypted
 
 The other is an ransomware, ELF binary
 
-![](.gitbook/assets/image%20%28204%29.png)
+![](.gitbook/assets/image%20%2827%29.png)
 
 ## Stripped Golang Binary
 
@@ -37,7 +37,7 @@ goldfish-ransomware-sample.exe: ELF 64-bit LSB executable, x86-64, version 1 (SY
 
 So it's stripped binary, which means : 
 
-![](.gitbook/assets/image%20%28223%29.png)
+![](.gitbook/assets/image%20%28230%29.png)
 
 And golang binary contains tons of functions from tons of library, which now we dont even know any of thoses name
 
@@ -58,11 +58,11 @@ https://github.com/sibears/IDAGolangHelper
 
 Install, run and choose "Rename Functions" :
 
-![](.gitbook/assets/image%20%2866%29.png)
+![](.gitbook/assets/image%20%2869%29.png)
 
 Result is pretty neat :
 
-![](.gitbook/assets/image%20%28236%29.png)
+![](.gitbook/assets/image%20%28243%29.png)
 
 ## Analysis
 
@@ -72,15 +72,15 @@ So, if you havent analyse an golang binary before, then, main\(\) function is in
 
 So, firstly, the ransomware generate 24 random bytes from an hard coded bytes array and encode it by base64
 
-![](.gitbook/assets/image%20%28252%29.png)
+![](.gitbook/assets/image%20%28259%29.png)
 
 This base64 string later become your key, which will be submitted to the C&C via POST request
 
-![](.gitbook/assets/image%20%28123%29.png)
+![](.gitbook/assets/image%20%28129%29.png)
 
 So,  i just debug it to get the C&C url :
 
-![](.gitbook/assets/image%20%28272%29.png)
+![](.gitbook/assets/image%20%28280%29.png)
 
 ```text
 https://docs.google.com/forms/d/e/1FAIpQLSd4VFZA8Cw7ednO-FzLqqesH6wd2z_bxs8-gg6L87kdVvKzkw/formResponse
@@ -88,7 +88,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSd4VFZA8Cw7ednO-FzLqqesH6wd2z_bxs8-gg6L
 
 The google forms was closed
 
-![](.gitbook/assets/image%20%28133%29.png)
+![](.gitbook/assets/image%20%28139%29.png)
 
 So if you was reading blogs about those malwares that use google forms as C&C server, or, played around with google forms a bit, you may know that you just need to change url to :
 
@@ -98,13 +98,13 @@ https://docs.google.com/forms/d/e/1FAIpQLSd4VFZA8Cw7ednO-FzLqqesH6wd2z_bxs8-gg6L
 
 To see all requests/analytics
 
-![](.gitbook/assets/image%20%2841%29.png)
+![](.gitbook/assets/image%20%2843%29.png)
 
 So, we can assume that one of those key is the key that encrypted our file, next we need to find an cipher that was used
 
 The ransomware after sent an key to C&C, it will scan the directory
 
-![](.gitbook/assets/image%20%28184%29.png)
+![](.gitbook/assets/image%20%28190%29.png)
 
 Where
 
@@ -120,31 +120,31 @@ But the golang is not terminate string by NULL byte like in C, and there is othe
 
 Then it check extension of file
 
-![](.gitbook/assets/image%20%28150%29.png)
+![](.gitbook/assets/image%20%28156%29.png)
 
 By clicking to a1, we can see something like this
 
-![](.gitbook/assets/image%20%28196%29.png)
+![](.gitbook/assets/image%20%28202%29.png)
 
 But it's actually an memory address, which is 0x68255b, which is lstat :
 
-![](.gitbook/assets/image%20%2869%29.png)
+![](.gitbook/assets/image%20%2872%29.png)
 
 And check to see if the file is one of these extensions :
 
-![](.gitbook/assets/image%20%2886%29.png)
+![](.gitbook/assets/image%20%2889%29.png)
 
 So i just create an folder with some file to test to see if it works
 
-![](.gitbook/assets/image%20%28269%29.png)
+![](.gitbook/assets/image%20%28277%29.png)
 
-![](.gitbook/assets/image%20%2890%29.png)
+![](.gitbook/assets/image%20%2893%29.png)
 
 ## Triple DES - CFB mode
 
 This part actually cost a lot of time...
 
-![](.gitbook/assets/image%20%28105%29.png)
+![](.gitbook/assets/image%20%28111%29.png)
 
 We can easily realize it use Triple DES - CFB mode to encrypt the file, we have the key, problem is i cannot find where it calculate the IV
 
@@ -158,11 +158,11 @@ Me and some friends in @ota was tried but no luck...golang sucks!
 
 This is all in my notes that time
 
-![](.gitbook/assets/image%20%28251%29.png)
+![](.gitbook/assets/image%20%28258%29.png)
 
 So i was trying to connect the dots, and this idea just pop out
 
-![](.gitbook/assets/image%20%28228%29.png)
+![](.gitbook/assets/image%20%28235%29.png)
 
 By playing around with some triple des code above, i have an sense that the key will be first 8 chars of key
 
@@ -238,7 +238,7 @@ for key in s:
 
 ```
 
-![](.gitbook/assets/image%20%28163%29.png)
+![](.gitbook/assets/image%20%28169%29.png)
 
 No luck...At that moment, i thought that i was missing something when read code, so next 7-8 hours, i was trying to find the IV in code...but no one got any progress...the Go code is really sucks, flow, calling convention...was too much for my little brain...i was even tried something like :
 
@@ -266,7 +266,7 @@ So what's next?
 
 Python is not working, so easiest way is to use the language created challenge to solve the challenge
 
-![](.gitbook/assets/image%20%28130%29.png)
+![](.gitbook/assets/image%20%28136%29.png)
 
 Actually, golang is not that bad, and pretty easy to learn, like python
 
@@ -366,7 +366,7 @@ for key in s:
 
 And finally we got flag
 
-![](.gitbook/assets/image%20%2846%29.png)
+![](.gitbook/assets/image%20%2848%29.png)
 
 ![](.gitbook/assets/out18.png)
 
@@ -382,5 +382,5 @@ MCA{stop_ransomware_save_cats}
 
 DES CFB mode use first block as IV
 
-![](.gitbook/assets/image%20%28106%29.png)
+![](.gitbook/assets/image%20%28112%29.png)
 

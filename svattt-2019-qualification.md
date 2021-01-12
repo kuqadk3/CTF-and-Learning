@@ -256,9 +256,9 @@ SVATTT{In_Wiener_we_trust}
 
 Playing CTF is fun, playing CTF with friends is even better
 
-![](.gitbook/assets/image%20%28159%29.png)
+![](.gitbook/assets/image%20%28165%29.png)
 
-![](.gitbook/assets/image%20%28210%29.png)
+![](.gitbook/assets/image%20%28216%29.png)
 
 
 

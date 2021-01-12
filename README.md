@@ -46,7 +46,7 @@ Got inspired by this article : [https://medium.com/s/story/6-life-lessons-from-m
 
 ![](https://raw.githubusercontent.com/kuqadk3/CTF-and-Learning/master/ota_rw_final.jpg)
 
-![](.gitbook/assets/image%20%2821%29.png)
+![](.gitbook/assets/image%20%2822%29.png)
 
 ## Winter \(third year\), play with UET - Just Fucking Do It in SVATTT2018 Quals :  <a id="winter-third-year-play-with-uet---just-fucking-do-it-in-svattt2018-quals-"></a>
 
@@ -58,35 +58,35 @@ Got inspired by this article : [https://medium.com/s/story/6-life-lessons-from-m
 
 ##  Insomni hack Final 2019, Geneva, Switzerland with ISITDTU
 
-![](.gitbook/assets/image%20%28111%29.png)
+![](.gitbook/assets/image%20%28117%29.png)
 
-![](.gitbook/assets/image%20%2854%29.png)
+![](.gitbook/assets/image%20%2856%29.png)
 
 
 
 ## MatesCTF 2019, Hanoi, Vietnam
 
-![](.gitbook/assets/image%20%28176%29.png)
+![](.gitbook/assets/image%20%28182%29.png)
 
 
 
 ## VolgaCTF 2019, Xamara, Russia
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](.gitbook/assets/image%20%2819%29.png)
 
 ## SVATTT 2019, Hanoi, Vietnam
 
-![](.gitbook/assets/image%20%28209%29%20%281%29.png)
+![](.gitbook/assets/image%20%28172%29.png)
 
 ## Cyber Sea Game 2019, Bangkok, Thailand
 
-![](.gitbook/assets/image%20%2895%29.png)
+![](.gitbook/assets/image%20%2899%29.png)
 
 ## SVATTT 2019 Final, Hanoi, Vietnam
 
-![](.gitbook/assets/image%20%28167%29.png)
+![](.gitbook/assets/image%20%28173%29.png)
 
 ## Global Security Camp V2.0, Tokyo, Japan
 
-![](.gitbook/assets/image%20%28229%29%20%281%29.png)
+![](.gitbook/assets/image%20%28229%29.png)
 
