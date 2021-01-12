@@ -36,7 +36,7 @@ To give the reader a big-picture view of Binary Code Similarity, author have don
 
 They also differentiate these approaches by its application. For people who care more about applications, you can take a look at chapter **IV**, where author talks about different application of Binary Code Similarity with link to multiple approaches for  the corresponding application or just look at the below table. That would be great starting point for people who just get into the field or just care about one or few applications of Binary Code Similarity. 
 
-![](.gitbook/assets/image%20%28267%29.png)
+![](.gitbook/assets/image%20%28266%29.png)
 
 But due to my personal interests, I care more about the history of this research area. It's surprising to know that the need of Binary Code Similarity is actually came from the need of updating binary in low bandwith communication networks and the limited resources in some devices
 
