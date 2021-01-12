@@ -131,7 +131,7 @@ Một tip khác ở đây là mình sẽ cố gắng break cái **Major Goals** 
 
 ## Micro-Tasks and Contributions
 
-Phần này thì mình khuyên là các bạn nên có 1-2 commits cho project khi viết proposal. Vì tay không bắt giặc thì khó lắm 🤣 Vì proposal hay profile bạn đẹp tới đâu mà không có gì thực tế chứng minh thì cũng hơi khó. Cụ thể như nào thì mình sẽ đề cấp tới trong 2 bài còn lại của series sau
+Phần này thì mình khuyên là các bạn nên có 1-2 commits cho project khi viết proposal. Vì tay không bắt giặc thì khó lắm 🤣 Vì proposal hay profile bạn đẹp tới đâu mà không có gì thực tế chứng minh thì cũng hơi khó. Cụ thể như nào thì mình sẽ đề cập tới trong 2 bài còn lại của series sau
 
 ## GSoC experience
 
