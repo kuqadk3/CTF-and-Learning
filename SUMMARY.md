@@ -24,5 +24,6 @@
 
 ## Vietnamese
 
+* [Tôi đã làm giàu bằng Bitcoin như thế nào](vietnamese/toi-da-lam-giau-bang-bitcoin-nhu-the-nao.md)
 * [Hướng Dẫn Viết Proposal Google Summer Of Code Đúng Chuẩn Người Chơi Hệ Phóng](vietnamese/google-summer-of-code-huong-dan-viet-proposal-gsoc-dung-chuan-nguoi-choi-he-phong.md)
 
