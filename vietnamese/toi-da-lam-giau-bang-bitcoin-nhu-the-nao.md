@@ -6,5 +6,7 @@ description: >-
 
 # Tôi đã làm giàu bằng Bitcoin như thế nào
 
-[https://www.youtube.com/watch?v=zJALPu5aMwg](https://www.youtube.com/watch?v=zJALPu5aMwg)
+{% embed url="https://www.youtube.com/watch?v=zJALPu5aMwg" %}
+
+
 
