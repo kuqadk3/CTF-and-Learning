@@ -27,5 +27,5 @@ The output of each regress will look like this
 
 Using this method, I have gathered a large set of PoCs/Regression tests with related information, ordered by committed time and divided by year, from 2016 to 2021. See [V8 Harvest](https://github.com/star-sg/V8Harvest).
 
-**Note: Big thank to Jacob for helping me with porting it to python3**
+**Note: Big thank to Jacob for helping me with cleaning my clumsy code and porting it to python3**
 
